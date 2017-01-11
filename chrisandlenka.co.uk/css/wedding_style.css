@@ -1,0 +1,3291 @@
+@font-face {
+	font-family: hensa;
+	src: url(../fonts/hensa/hensa-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/hensa/hensa-webfont.woff2) format("woff2"), url(../fonts/hensa/hensa-webfont.woff) format("woff"), url(../fonts/hensa/hensa-webfont.ttf) format("truetype"), url(../fonts/hensa/hensa-webfont.svg#hensaregular) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.mobile .mbYTP_wrapper {
+	display: none;
+}
+.tablet .mbYTP_wrapper {
+	display: none;
+}
+.mobile body.wed_vid_bg {
+	background-image: url("../images/paper_bg.png"); background-size: cover; -webkit-background-size: cover;
+}
+.tablet body.wed_vid_bg {
+	background-image: url("../images/paper_bg.png"); background-size: cover; -webkit-background-size: cover;
+}
+.mb_YTPBar .buttonBar {
+	pointer-events: none;
+}
+body {
+	font: 400 16px/25px Lato, Arial, sans-serif; margin: 0px; padding: 0px; color: rgb(51, 51, 51); min-height: 100%; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+.body_no_height {
+	height: auto;
+}
+.body_no_height .wed_slider {
+	height: 100vh;
+}
+.wed_agency .wed_slider {
+	height: 50vh;
+}
+.wed_agency.wed_agency_full .wed_slider {
+	height: 100vh;
+}
+a {
+	color: rgb(111, 111, 111);
+}
+a:hover {
+	color: rgb(111, 111, 111);
+}
+a:focus {
+	color: rgb(111, 111, 111);
+}
+a:active {
+	color: rgb(111, 111, 111);
+}
+html {
+	height: 100%; min-height: 100%;
+}
+.clear {
+	clear: both;
+}
+.wed_page {
+	left: 0px; height: 100%; position: relative; min-height: 100%;
+}
+.wed_large_text {
+	font: 400 18px/30px hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_over {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1;
+}
+.wed_over.wed_bg_over {
+	position: relative; z-index: 2;
+}
+.wed_image_bck {
+	background-size: cover; -webkit-background-size: cover;
+}
+.wed_top_menu_mobile_link {
+	display: none;
+}
+.mobile .jqueryFireFly {
+	display: none;
+}
+.mobile .wed_firefly {
+	display: none;
+}
+.wed_wht_txt {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt h2::after {
+	margin: 13px 0px 60px; width: 414px; height: 26px; display: block; content: ""; background-image: url("../images/arrows_wht_bottom_400.png"); background-repeat: no-repeat;
+}
+.wed_agency .wed_wht_txt h2::after {
+	margin: 13px 0px 0px; width: 414px; height: 26px; display: block; content: ""; background-image: url("../images/arrows_wht_bottom_400.png"); background-repeat: no-repeat;
+}
+.wed_agency .text-center h2::after {
+	margin-right: auto; margin-left: auto;
+}
+.wed_agency h2.text-center::after {
+	margin-right: auto; margin-left: auto;
+}
+.wed_wht_txt .wed_small_arrow h2::after {
+	margin: 13px 0px 40px; width: 290px; height: 19px; display: block; content: ""; background-image: url("../images/arrows_wht_bottom_290.png"); background-repeat: no-repeat;
+}
+.text-center .wed_wht_txt h3 {
+	margin-right: auto; margin-left: auto; max-width: 40%;
+}
+footer.wed_wht_txt h3 {
+	max-width: 100%;
+}
+.wed_wht_txt .wed_icon_box_content {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_icon_box h4 {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt a {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt a i {
+	color: rgb(255, 255, 255);
+}
+h3.wed_form_txt {
+	color: rgb(152, 107, 235);
+}
+h2.wed_form_txt {
+	
+}
+h1.wed_h1_title {
+	font: 900 72px/1.125 hensa, Arial; margin-top: 0px; font-size-adjust: none; font-stretch: normal;
+}
+h2 {
+	font: 400 24px/1.125 hensa, Arial; margin-top: 0px; margin-bottom: 30px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_great_titles h2 {
+	font: 900 90px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_middle_titles h2 {
+	font: 900 72px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_thin_titles h2 {
+	font: 300 44px/normal hensa, Arial; margin-top: 60px; font-size-adjust: none; font-stretch: normal;
+}
+h2::after {
+	margin: 13px 0px 60px; transition:width 2s; width: 414px; height: 26px; display: block; content: ""; background-image: url("../images/arrows_bottom_400.png"); background-repeat: no-repeat; -webkit-transition: width 2s; -o-transition: width 2s;
+}
+.wed_plans h2 {
+	font: 400 48px/normal hensa, Arial; margin-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_plans h2::after {
+	margin: 15px 0px 0px; transition:width 2s; width: 250px; height: 26px; display: block; content: ""; background-image: url("../images/arrows_bottom_250.png"); background-repeat: no-repeat; -webkit-transition: width 2s; -o-transition: width 2s;
+}
+.text-center h2::after {
+	margin-right: auto; margin-left: auto;
+}
+h2.text-center::after {
+	margin-right: auto; margin-left: auto;
+}
+.text-right h2::after {
+	margin-right: 0px; margin-left: auto;
+}
+h2.text-right::after {
+	margin-right: 0px; margin-left: auto;
+}
+h2.noactive::after {
+	width: 5%;
+}
+h2.active::after {
+	width: 100%;
+}
+h2.wed_hensa_slider {
+	font: 300 100px/normal hensa, Arial; text-transform: none; font-size-adjust: none; font-stretch: normal;
+}
+h2.wed_hensa_slider::after {
+	display: none;
+}
+h2.wed_agency_hensa_slider {
+	font: 300 130px/normal hensa, Arial; text-transform: none; margin-bottom: -20px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_wht_txt h2.wed_agency_hensa_slider::after {
+	display: none;
+}
+.wed_wht_txt h2.wed_hensa_slider::after {
+	display: none;
+}
+h3 {
+	font: 400 46px/48px Bree Serif, Arial; text-transform: uppercase; margin-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_content .text-center h3 {
+	margin-right: auto; margin-left: auto; max-width: 700px;
+}
+.wed_content img {
+	max-width: 100%;
+}
+h4 {
+	margin: 20px 0px; font-size: 28px;
+}
+.wed_test_cont h4 {
+	margin: 20px 0px 4px;
+}
+h5 {
+	text-transform: uppercase; font-size: 16px; margin-top: 33px;
+}
+h6 {
+	font: 400 46px/52px hensa, Arial; margin-top: 33px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_text_center {
+	text-align: center;
+}
+.text-center .wed_icon_box .ti {
+	margin-left: 0px; float: none; position: relative;
+}
+.text-center .wed_icon_box .wed_icon_box_content {
+	padding-left: 10px;
+}
+.text-center h4::after {
+	margin-right: auto; margin-left: auto;
+}
+blockquote footer {
+	padding: 40px 0px 0px;
+}
+.checkbox {
+	display: inline-block;
+}
+.radio {
+	display: inline-block;
+}
+.method {
+	display: inline-block;
+}
+.checkout .box {
+	background: rgb(238, 238, 238); padding: 30px;
+}
+.cart .box {
+	background: rgb(238, 238, 238); padding: 30px;
+}
+.cart-total-item .price {
+	float: right;
+}
+.cart-total-item {
+	padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.method p {
+	margin: 0px;
+}
+p.wed_wht_txt {
+	color: rgb(255, 255, 255);
+}
+.container-full {
+	width: 100%;
+}
+.panel-default > .panel-heading {
+	background: rgb(242, 242, 242); padding: 20px; border-radius: 0px;
+}
+.panel-title a::before {
+	font-family: themify; font-size: 12px; margin-right: 10px; display: inline-block; content: "\e622";
+}
+.panel-title a.collapsed::before {
+	content: "\e61a";
+}
+.panel-group .panel {
+	border-radius: 0px;
+}
+.wed_simple_block {
+	padding: 100px; position: relative; z-index: 1;
+}
+.wed_simple_block_mini {
+	padding: 50px;
+}
+.wed_block_middle_cente {
+	left: 50%; top: 50%; position: absolute; transform: translateX(-50%) translateY(-50%);
+}
+.wed_block_middle_top {
+	left: 50%; top: 10%; position: absolute; transform: translateX(-50%);
+}
+.wed_block_middle_bottom {
+	left: 50%; bottom: 10%; position: absolute; transform: translateX(-50%);
+}
+.wed_block_right_cente {
+	top: 50%; right: 10%; position: absolute; transform: translateY(-50%);
+}
+.wed_block_right_top {
+	top: 10%; right: 10%; position: absolute;
+}
+.wed_block_right_bottom {
+	right: 10%; bottom: 10%; position: absolute;
+}
+.wed_row_padding {
+	padding-bottom: 80px;
+}
+:last-child.wed_row_padding {
+	padding-bottom: 0px;
+}
+.wed_simple_block_great {
+	padding: 180px 100px; position: relative; z-index: 1;
+}
+.wed_simple_block_mini {
+	padding: 40px 50px; position: relative; z-index: 1;
+}
+.background-position {
+	background-position: 50% 0px;
+}
+.container-mini {
+	margin-right: auto; margin-left: auto; max-width: 600px;
+}
+.text-center p {
+	margin-right: auto; margin-left: auto; max-width: 500px;
+}
+.form-control {
+	padding: 10px 20px; border-radius: 0px; border: 2px solid rgb(182, 133, 255); border-image: none; height: 50px; margin-bottom: 30px; box-shadow: none;
+}
+.wed_floral .form-control {
+	border: 2px solid rgb(33, 211, 229); border-image: none;
+}
+.wed_vid_bg .form-control {
+	border: 2px solid rgb(207, 180, 133); border-image: none;
+}
+.form-control.error {
+	border: 1px solid red; border-image: none;
+}
+label.error {
+	left: 0px; top: 81px; width: 100%; font-size: 11px; position: absolute;
+}
+b {
+	font-weight: 900;
+}
+p {
+	margin-bottom: 30px;
+}
+textarea.form-control {
+	padding: 20px; height: 150px;
+}
+.btn_popup {
+	left: 50%; top: 50%; text-align: center; position: absolute !important; opacity: 0; transform: translateY(-50%) translateX(-50%);
+}
+.wed_vid_bg .btn_new {
+	background: rgba(192, 158, 96, 1);
+}
+.wed_vid_bg .wed_wht_txt .btn {
+	background: rgba(192, 158, 96, 1);
+}
+.wed_vid_bg .btn_new::before {
+	background: rgba(110, 88, 48, 1);
+}
+.wed_vid_bg .wed_wht_txt .btn::before {
+	background: rgba(110, 88, 48, 1);
+}
+.wed_vid_bg .btn_new:hover {
+	background: rgba(110, 88, 48, 1);
+}
+.wed_vid_bg .wed_wht_txt .btn:hover {
+	background: rgba(110, 88, 48, 1);
+}
+.btn_new {
+	background: rgba(179, 129, 247, 1); padding: 15px; border-radius: 0px; border: 0px currentColor; transition:0.3s; border-image: none; color: rgb(255, 255, 255); position: relative; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.btn_new::before {
+	background: rgba(100, 3, 232, 1); left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -2; content: ""; opacity: 0;
+}
+.btn_new::after {
+	background-position: center; transition:1s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: ""; opacity: 0; background-image: url("../images/coun_heart.png"); background-repeat: no-repeat; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.btn_new:hover::before {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn_new:focus::before {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn_new:active::before {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn_new:hover::after {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn_new:focus::after {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn_new:active::after {
+	animation:pulse2 1.5s infinite both; opacity: 1;
+}
+.btn {
+	background: rgba(179, 129, 247, 1); padding: 15px; border-radius: 0px; border: 0px currentColor; transition:1.5s; border-image: none; color: rgb(255, 255, 255); z-index: 2; -webkit-transition: all 1.5s; -o-transition: all 1.5s;
+}
+.btn:hover {
+	background: rgba(100, 3, 232, 1); transition:0.5s; color: rgb(255, 255, 255);
+}
+.wed_wht_txt .btn {
+	background: rgba(179, 129, 247, 1); color: rgb(255, 255, 255);
+}
+.wed_wht_txt .btn:hover {
+	background: rgba(100, 3, 232, 1); transition:0.5s;
+}
+.wed_btn_margbot {
+	margin-bottom: 30px;
+}
+.wed_floral .wed_wht_txt .btn {
+	background: rgba(148, 224, 198, 1); color: rgb(255, 255, 255);
+}
+.wed_floral .wed_wht_txt .btn:hover {
+	background: rgb(99, 236, 189); transition:0.5s;
+}
+.wed_floral .btn_new {
+	background: rgba(148, 224, 198, 1);
+}
+.wed_floral .btn_new:hover {
+	background: rgba(99, 236, 189, 1);
+}
+.wed_floral .btn_new::before {
+	background: rgba(99, 236, 189, 1);
+}
+.wed_floral .btn_new::after {
+	background-position: center; transition:1s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: ""; opacity: 0; background-image: none; background-repeat: no-repeat; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.wed_vid_bg .btn_new::after {
+	background-position: center; transition:1s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: ""; opacity: 0; background-image: none; background-repeat: no-repeat; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.col-md-12 .twitter-feed {
+	margin: 50px auto 0px; max-width: 600px;
+}
+.twitter-feed ul {
+	list-style: none; padding: 0px;
+}
+.twitter-feed ul li {
+	margin-bottom: 20px; border-bottom-color: rgba(255, 255, 255, 0.3); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.twitter-feed .interact {
+	display: none;
+}
+.twitter-feed ul li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.twitter-feed .user {
+	display: none;
+}
+.twitter-feed .timePosted {
+	display: none;
+}
+.eng_big_icon i {
+	font-size: 40px;
+}
+.row_no_pd .col-lg-1 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-10 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-11 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-12 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-2 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-3 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-4 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-5 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-6 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-7 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-8 {
+	padding: 0px;
+}
+.row_no_pd .col-lg-9 {
+	padding: 0px;
+}
+.row_no_pd .col-md-1 {
+	padding: 0px;
+}
+.row_no_pd .col-md-10 {
+	padding: 0px;
+}
+.row_no_pd .col-md-11 {
+	padding: 0px;
+}
+.row_no_pd .col-md-12 {
+	padding: 0px;
+}
+.row_no_pd .col-md-2 {
+	padding: 0px;
+}
+.row_no_pd .col-md-3 {
+	padding: 0px;
+}
+.row_no_pd .col-md-4 {
+	padding: 0px;
+}
+.row_no_pd .col-md-5 {
+	padding: 0px;
+}
+.row_no_pd .col-md-6 {
+	padding: 0px;
+}
+.row_no_pd .col-md-7 {
+	padding: 0px;
+}
+.row_no_pd .col-md-8 {
+	padding: 0px;
+}
+.row_no_pd .col-md-9 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-1 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-10 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-11 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-12 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-2 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-3 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-4 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-5 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-6 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-7 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-8 {
+	padding: 0px;
+}
+.row_no_pd .col-sm-9 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-1 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-10 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-11 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-12 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-2 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-3 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-4 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-5 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-6 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-7 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-8 {
+	padding: 0px;
+}
+.row_no_pd .col-xs-9 {
+	padding: 0px;
+}
+.tab-pane {
+	padding: 25px 0px;
+}
+.great-tabs li a {
+	
+}
+.great-tabs li a:hover {
+	
+}
+.great-tabs li.active a {
+	
+}
+.great-tabs li.active a:hover {
+	
+}
+.great-tabs {
+	
+}
+.great-tabs li a {
+	margin: 0px 10px; padding: 20px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 160px; height: 110px; text-align: center;
+}
+.great-tabs li a i {
+	font-size: 40px; margin-right: auto; margin-bottom: 10px; margin-left: auto; display: block;
+}
+.nav-tabs > li > a {
+	border-radius: 0px; border: 0px currentColor; border-image: none;
+}
+.nav-tabs > li > a:hover {
+	background: none;
+}
+.nav-tabs > li.active > a {
+	background: none; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(111, 111, 111); border-image: none;
+}
+.nav-tabs > li.active > a:focus {
+	background: none; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(111, 111, 111); border-image: none;
+}
+.nav-tabs > li.active > a:hover {
+	background: none; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(111, 111, 111); border-image: none;
+}
+.nav-tabs {
+	border: 0px currentColor; border-image: none;
+}
+.btn.large {
+	padding: 20px; font-weight: bold;
+}
+.btn-lg {
+	padding: 20px; font-weight: bold;
+}
+.btn.medium {
+	padding: 15px; font-weight: 500;
+}
+.btn-sm {
+	padding: 15px; font-weight: 500;
+}
+.btn.small {
+	padding: 10px; font-size: 10px;
+}
+.btn-xs {
+	padding: 10px; font-size: 10px;
+}
+.btn.yellow {
+	background: yellow;
+}
+.btn.gray {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+.btn.gray-light {
+	background: rgb(238, 238, 238);
+}
+.btn.cyan {
+	background: cyan; color: rgb(255, 255, 255);
+}
+.btn.blue {
+	background: blue; color: rgb(255, 255, 255);
+}
+.btn.teal {
+	background: teal; color: rgb(255, 255, 255);
+}
+.btn.green {
+	background: green; color: rgb(255, 255, 255);
+}
+.btn.lime {
+	background: lime; color: rgb(255, 255, 255);
+}
+.btn.deeporange {
+	background: orange; color: rgb(255, 255, 255);
+}
+.btn.yellow:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.gray:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.gray-light:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.cyan:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.blue:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.teal:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.green:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.lime:hover {
+	background: rgb(41, 41, 41);
+}
+.btn.deeporange:hover {
+	background: rgb(41, 41, 41);
+}
+.btn span {
+	margin: 0px 0px 0px 5px; display: inline-block;
+}
+.btn span.ti-left {
+	margin-right: 5px; margin-left: 0px;
+}
+.btn {
+	text-shadow: none;
+}
+.btn-primary {
+	background: rgb(51, 122, 183); color: rgb(255, 255, 255);
+}
+.btn-success {
+	background: rgb(92, 184, 92); color: rgb(255, 255, 255);
+}
+.btn-info {
+	background: rgb(91, 192, 222); color: rgb(255, 255, 255);
+}
+.btn-warning {
+	background: rgb(238, 162, 54); color: rgb(255, 255, 255);
+}
+.btn-danger {
+	background: rgb(217, 83, 79); color: rgb(255, 255, 255);
+}
+.btn-link {
+	background: none; padding: 0px 10px;
+}
+.btn-link:hover {
+	background: none; color: rgb(51, 51, 51);
+}
+.btn.btn_border {
+	background: rgba(255, 255, 255, 0.5); border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(51, 51, 51);
+}
+.wed_wht_txt .btn.btn_border {
+	background: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-image: none; color: rgb(255, 255, 255);
+}
+.wed_wht_txt .btn.btn_border:hover {
+	border: 1px solid rgba(255, 255, 255, 1); border-image: none; color: rgb(255, 255, 255);
+}
+.btn.btn_border.yellow {
+	border: 1px solid yellow; border-image: none;
+}
+.btn.btn_border.gray {
+	border: 1px solid gray; border-image: none;
+}
+.btn.btn_border.gray-light {
+	border: 1px solid rgb(238, 238, 238); border-image: none;
+}
+.btn.btn_border.cyan {
+	border: 1px solid cyan; border-image: none;
+}
+.btn.btn_border.blue {
+	border: 1px solid blue; border-image: none;
+}
+.btn.btn_border.teal {
+	border: 1px solid teal; border-image: none;
+}
+.btn.btn_border.green {
+	border: 1px solid green; border-image: none;
+}
+.btn.btn_border.lime {
+	border: 1px solid lime; border-image: none;
+}
+.btn.btn_border.deeporange {
+	border: 1px solid orange; border-image: none;
+}
+.btn.btn_border:hover {
+	background: none; border: 1px solid rgb(51, 51, 51); border-image: none; color: rgb(0, 0, 0);
+}
+.label {
+	padding: 10px; border-radius: 0px;
+}
+h5 .label {
+	padding: 5px;
+}
+h6 .label {
+	padding: 5px;
+}
+.alert {
+	border-radius: 0px; border: 0px currentColor; border-image: none; box-shadow: none;
+}
+.alert-success {
+	background: rgb(223, 240, 216); border: 1px solid rgb(214, 233, 198); border-image: none;
+}
+.alert-info {
+	background: rgb(217, 237, 247); border: 1px solid rgb(188, 232, 241); border-image: none;
+}
+.alert-warning {
+	background: rgb(252, 248, 227); border: 1px solid rgb(250, 235, 204); border-image: none;
+}
+.alert-danger {
+	background: rgb(242, 222, 222); border: 1px solid rgb(235, 204, 209); border-image: none;
+}
+.wed_port_titles_lg_icons .wed_port_icons {
+	margin-top: 0px;
+}
+.wed_port_titles_lg_icons {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.wed_port_titles_lg_icons .wed_port_icons {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.wed_port_titles_lg_icons .wed_port_icons a {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.pagination li a {
+	border-radius: 0px;
+}
+.pagination-lg li a {
+	border-radius: 0px;
+}
+.pagination > li:first-child > a {
+	border-radius: 0px;
+}
+.pagination > li:last-child > a {
+	border-radius: 0px;
+}
+.pager li > a {
+	border-radius: 0px;
+}
+.pager li > span {
+	border-radius: 0px;
+}
+.wed_blog_pag .pagination li a {
+	margin: 0px 3px; padding: 10px 15px; border: 0px currentColor; border-image: none; color: rgb(41, 41, 41);
+}
+.wed_blog_pag .pagination li.active a {
+	background: rgb(179, 129, 247); border: 0px currentColor; border-image: none; color: rgb(255, 255, 255);
+}
+.pager a span {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.pager .previous a:hover span {
+	margin-right: 10px;
+}
+.pager .next a:hover span {
+	margin-left: 10px;
+}
+.skill-bar {
+	background: rgb(242, 242, 242); height: 40px; margin-bottom: 20px; position: relative;
+}
+.skill-bar-thin {
+	background: none; height: 40px; padding-top: 25px;
+}
+.skill-bar-thin::after {
+	background: rgb(242, 242, 242); width: 100%; height: 5px; margin-top: -5px; display: block; position: absolute; z-index: 0; content: "";
+}
+.skill-bar-thin .skill-bar-content {
+	height: 5px; position: relative; z-index: 1;
+}
+.skill-bar-thin .skill-perc {
+	right: 0px; color: rgb(51, 51, 51); margin-top: -30px; position: absolute;
+}
+.skill-bar-thin .skill-title {
+	padding: 0px; color: rgb(51, 51, 51); margin-top: -30px; position: absolute;
+}
+.skill-bar-content {
+	background: rgb(41, 41, 41); transition:1s; height: 40px; text-indent: -10000px; position: absolute; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.noactive .skill-bar-content {
+	width: 0px !important; opacity: 0;
+}
+.active .skill-bar-content {
+	opacity: 1;
+}
+.skill-title {
+	padding: 8px 10px; color: rgb(255, 255, 255); position: absolute;
+}
+.wed_wht_txt .skill-title {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .skill-perc {
+	color: rgb(255, 255, 255);
+}
+.wed_page_loader {
+	background: rgb(254, 254, 254); left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: fixed; z-index: 100000;
+}
+.wed_loader {
+	background-position: center; left: 50%; top: 50%; width: 100px; height: 100px; margin-top: -30px; margin-left: -30px; position: absolute; background-image: url("../images/small_people/small_couple.png"); background-repeat: no-repeat;
+}
+label.error {
+	display: none !important;
+}
+.ui-datepicker {
+	background: rgb(255, 255, 255);
+}
+.ui-datepicker td a {
+	padding: 3px 10px;
+}
+.ui-datepicker th {
+	padding: 3px 10px;
+}
+.ui-datepicker td a {
+	text-align: center; display: block;
+}
+.ui-datepicker td a:hover {
+	background: rgb(204, 204, 204); text-decoration: none;
+}
+.ui-datepicker table {
+	margin: 10px 5px;
+}
+.ui-datepicker-title {
+	font-size: 18px;
+}
+.ui-datepicker-next {
+	float: right;
+}
+.ui-datepicker-next {
+	cursor: pointer;
+}
+.ui-datepicker-prev {
+	cursor: pointer;
+}
+.ui-datepicker-header {
+	padding: 15px;
+}
+.wed_content {
+	position: relative;
+}
+.container {
+	position: relative; z-index: 2;
+}
+.wed_main_sidebar h2::after {
+	display: none;
+}
+.wed_main_sidebar h2 {
+	margin-bottom: 20px;
+}
+.wed_section_outter {
+	overflow: hidden; position: relative;
+}
+.wed_section_inner {
+	overflow: hidden; position: relative;
+}
+.wed_section_innerpage {
+	overflow: hidden; position: relative;
+}
+.wed_section_outter .container {
+	padding-top: 80px; padding-bottom: 80px !important;
+}
+.wed_section_outter .container-fluid {
+	padding-top: 80px; padding-bottom: 80px !important;
+}
+.wed_section_inner .container {
+	padding-top: 140px; padding-bottom: 130px;
+}
+.wed_section_inner .container-full {
+	padding-top: 8px;
+}
+.wed_section_innerpage .container {
+	padding-top: 100px; padding-bottom: 40px;
+}
+.wed_section_innerpage .container-fluid {
+	padding-top: 100px; padding-bottom: 40px;
+}
+.wed_section_outter .container-fluid {
+	padding: 0px; position: relative; z-index: 1;
+}
+.wed_section_inner .container-fluid {
+	padding: 0px; position: relative; z-index: 1;
+}
+.wed_section_sml_padding .container {
+	padding-top: 50px; padding-bottom: 46px;
+}
+.container {
+	position: relative;
+}
+.wed_inside_map {
+	overflow: hidden; position: relative;
+}
+header {
+	top: 0px; width: 100%; height: 60px; position: fixed; z-index: 10;
+}
+.wed_logo {
+	font: bold 24px/18px Bree Serif, Arial; transition:0.3s; left: 70px; top: 22px; color: rgb(51, 51, 51); text-transform: uppercase; position: absolute; font-size-adjust: none; font-stretch: normal; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_logo:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.wed_logo b {
+	font: 500 12px/18px Josefin Slab, Arial; transition:0.2s; left: 0px; display: block; position: relative; font-size-adjust: none; font-stretch: normal; opacity: 1; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+.enhance_logo .char2 {
+	background: url("../images/enhance_logo_n.png") no-repeat 0px 1px / cover; margin: 0px 4px; width: 7px; height: 18px; text-indent: -10000px; display: inline-block; -webkit-background-size: cover;
+}
+.wed_logo span {
+	transition:1s; display: inline-block; position: relative; min-width: 5px;
+}
+.wed_logo_rotate_y {
+	transform: rotateY(0deg);
+}
+.wed_logo_rotate_y:hover span {
+	transform: rotateY(360deg);
+}
+.active.wed_logo_rotate_y span {
+	transform: rotateY(360deg);
+}
+.wed_logo_rotate_x {
+	transform: rotateX(0deg);
+}
+.wed_logo_rotate_x:hover span {
+	transform: rotateX(360deg);
+}
+.active.wed_logo_rotate_x span {
+	transform: rotateX(360deg);
+}
+.wed_logo_rotate_z {
+	transform: rotateZ(0deg);
+}
+.wed_logo_rotate_z:hover span {
+	transform: rotateZ(360deg);
+}
+.active.wed_logo_rotate_z span {
+	transform: rotateZ(360deg);
+}
+.wed_logo span:nth-child() {
+	background: rgb(51, 51, 51); margin: 0px 2px; padding: 0px 7px; color: rgb(255, 255, 255); display: inline-block;
+}
+.wed_couple_header.wed_white_couple {
+	transition:0.5s; top: 18px; height: 40px; position: absolute; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_first_step .wed_couple_header.wed_white_couple {
+	display: none; z-index: -999;
+}
+.wed_second_step .wed_couple_header.wed_white_couple {
+	display: none; z-index: -999;
+}
+.wed_couple_header.wed_kissing_couple {
+	position: absolute; opacity: 0;
+}
+.wed_first_step .wed_couple_header.wed_kissing_couple {
+	transition:0.5s; top: 20px; height: 40px; opacity: 1; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_second_step .wed_couple_header.wed_kissing_couple {
+	transition:0.5s; top: 7px; height: 30px; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_couple_header:hover {
+	animation:swing 0.6s linear;
+}
+.animated {
+	animation-duration: 1s; animation-fill-mode: both; -webkit-animation-duration: 1s; -webkit-animation-fill-mode: both;
+}
+.swing {
+	transform-origin: center top; animation-name: swing; -webkit-transform-origin: top center; -webkit-animation-name: swing;
+}
+.wed_logo img {
+	width: auto; max-height: 20px;
+}
+header nav {
+	background: rgba(255, 255, 255, 0.3); transition:0.3s; width: 100%; height: 83px; border-bottom-color: rgba(0, 0, 0, 0.1); border-bottom-width: 1px; border-bottom-style: solid; position: relative; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+header nav.wed_light_nav {
+	background: rgba(255, 255, 255, 0.8);
+}
+header .container {
+	margin-top: 0px; margin-bottom: 0px;
+}
+header nav.wed_transp_nav {
+	background: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-bottom-color: rgba(255, 255, 255, 0.05); border-bottom-width: 1px; border-bottom-style: solid;
+}
+header nav.wed_transp_nav a {
+	color: rgb(255, 255, 255);
+}
+.wed_first_step header nav.wed_transp_nav {
+	background: rgba(255, 255, 255, 0.9); color: rgb(51, 51, 51); box-shadow: 0px 0px 7px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+.wed_first_step header nav.wed_transp_nav a {
+	color: rgb(51, 51, 51);
+}
+header nav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.wed_top_menu_cont {
+	position: relative;
+}
+.wed_top_menu {
+	margin-right: -35px; float: right; position: relative;
+}
+.wed_top_menu a {
+	font: 900 13px/24px Lato, Arial; transition:0.3s; text-transform: uppercase; text-decoration: none; position: relative; font-size-adjust: none; font-stretch: normal; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_top_menu a::before {
+	left: 50%; top: 40%; width: 80px; height: 10px; margin-top: 28px; display: block; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-image: url("../images/arrow_wht.png");
+}
+.wed_top_menu ul a::before {
+	display: none !important;
+}
+.wed_first_step .wed_transp_nav a::before {
+	left: 50%; top: 48%; width: 80px; height: 12px; margin-top: 22px; display: inline-block; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-image: url("../images/arrow_80.png");
+}
+.wed_second_step .wed_light_nav.wed_transp_nav a::before {
+	left: 50%; top: 40%; width: 50px; height: 6px; margin-top: 19px; display: inline-block; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-image: url("../images/arrow.png");
+}
+.wed_top_menu li:hover a::before {
+	opacity: 1;
+}
+.wed_first_step .wed_transp_nav li:hover a::before {
+	opacity: 1;
+}
+.wed_second_step .wed_light_nav.wed_transp_nav li:hover a::before {
+	opacity: 1;
+}
+.wed_top_menu ul a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.wed_top_menu ul {
+	background: rgba(120, 56, 204, 1); padding: 20px; width: 250px; display: none; position: absolute;
+}
+.wed_top_menu li.current::before {
+	width: 80px; height: 10px; margin-top: 57px; opacity: 1; background-image: url("../images/arrow_wht.png");
+}
+.wed_first_step .wed_top_menu li.current::before {
+	width: 80px; height: 12px; margin-top: 57px; opacity: 1; background-image: url("../images/arrow_80.png");
+}
+.wed_second_step .wed_top_menu li.current::before {
+	width: 50px; height: 6px; margin-top: 37px; opacity: 1; background-image: url("../images/arrow.png");
+}
+.wed_top_menu li::before {
+	transition:0.6s; left: 50%; top: 5%; display: inline-block; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-repeat: no-repeat; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_top_menu ul ul {
+	background: none; padding: 0px; margin-bottom: 20px;
+}
+.wed_top_menu ul ul:last-child {
+	margin-bottom: 0px;
+}
+:last-child.wed_parent ul {
+	right: 0px;
+}
+.wed_top_menu ul li {
+	float: none;
+}
+.wed_top_menu ul a {
+	padding: 10px 20px; height: auto; color: rgb(255, 255, 255);
+}
+.wed_top_menu ul li:hover > a {
+	color: rgb(255, 255, 255); margin-left: 10px;
+}
+.wed_top_menu ul li:hover > a::after {
+	display: none;
+}
+header nav ul li {
+	height: 100%; float: left; position: relative;
+}
+header nav ul li a {
+	padding: 29px 20px; transition:0.3s; height: 82px; color: rgb(0, 0, 0); display: block; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+ul.mega-menu {
+	background: rgba(0, 0, 0, 0.9); left: 0px; width: 100%; white-space: nowrap;
+}
+ul.mega-menu::after {
+	clear: both; display: block; content: "";
+}
+.wed_top_menu ul .mega-menu-column {
+	background: none; margin: 0px; padding: 0px; vertical-align: top; display: inline-block;
+}
+.mega-menu-column ul {
+	width: 100%; position: relative;
+}
+.mega-menu-column ul li {
+	background: none;
+}
+.wed_parent ul a {
+	font: 400 11px/18px Lato, Arial; padding: 5px 10px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_parent > a::after {
+	font-family: themify; font-size: 12px; margin-left: 10px; display: inline-block; content: "\e64b";
+}
+.wed_second_step header nav.wed_mobile_menu_hor_padding .wed_parent ul a {
+	padding: 5px 10px; height: auto;
+}
+header nav.wed_mobile_menu_hor_padding .wed_parent ul a {
+	padding: 5px 10px; height: auto;
+}
+.wed_parent a i {
+	margin-right: 10px;
+}
+.mega-menu-column b {
+	color: rgb(255, 255, 255); margin-bottom: 20px; margin-left: 10px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block;
+}
+.wed_first_step header nav .wed_top_menu ul a {
+	color: rgb(255, 255, 255);
+}
+.wed_first_step header nav .wed_top_menu ul b {
+	color: rgb(255, 255, 255);
+}
+.wed_mobile_menu_hor_padding {
+	background: rgb(255, 255, 255); transition:0.3s; left: 44px; top: 44px; width: auto; height: 52px; right: 44px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; position: fixed; opacity: 0; pointer-events: none; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.tablet.landscape .wed_mobile_menu_hor .wed_logo {
+	margin-left: 50px;
+}
+.desktop .wed_mobile_menu_hor .wed_logo {
+	margin-left: 50px;
+}
+.wed_mobile_menu_hor_padding .wed_top_menu {
+	right: auto;
+}
+.wed_mobile_menu .ti-close {
+	transition:0.3s; left: -10px; position: absolute; opacity: 0; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_mobile_menu.active .ti-close {
+	left: 10px; opacity: 1;
+}
+.wed_mobile_menu .ti-menu {
+	transition:0.3s; left: 10px; position: absolute; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_mobile_menu.active .ti-menu {
+	left: 20px; opacity: 0;
+}
+.wed_mobile_menu_hor .wed_top_menu li:hover > a::before {
+	top: 38px;
+}
+.wed_mobile_menu_hor_padding.active {
+	right: 44px; opacity: 1; pointer-events: auto;
+}
+.wed_first_step header nav.wed_mobile_menu_hor_padding {
+	background: rgb(255, 255, 255); height: 52px;
+}
+header nav.wed_mobile_menu_hor_padding ul li a {
+	padding: 14px 20px; height: 52px;
+}
+.wed_second_step header nav.wed_mobile_menu_hor_padding ul li a {
+	padding: 14px 20px; height: 52px;
+}
+.wed_mobile_menu_hor .wed_logo {
+	top: 17px;
+}
+.wed_second_step .wed_mobile_menu_hor .wed_logo {
+	top: 17px;
+}
+.wed_header_lang ul {
+	list-style: none; padding: 0px;
+}
+.wed_header_lang .wed_parent ul {
+	list-style: none; padding: 7px 0px 0px; width: 100px; right: 0px; display: none; position: absolute; z-index: 20;
+}
+.wed_header_lang span::after {
+	font-family: themify; font-size: 12px; margin-left: 10px; display: inline-block; content: "\e64b";
+}
+.wed_header_lang .wed_parent ul li {
+	background: rgba(0, 0, 0, 0.7);
+}
+.wed_header_lang .wed_parent ul a {
+	padding: 10px; transition:0.3s; text-align: right; color: rgb(255, 255, 255); display: block; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_header_lang .wed_parent ul a:hover {
+	padding-right: 15px; text-decoration: none;
+}
+.wed_header_lang {
+	right: 0px; position: absolute;
+}
+.wed_header_lang .wed_parent span {
+	cursor: pointer;
+}
+.wed_mobile_menu {
+	background: rgb(229, 229, 229); left: 44px; top: 44px; width: 46px; height: 52px; text-align: center; color: rgb(111, 111, 111); padding-top: 13px; font-size: 24px; position: absolute; z-index: 3; cursor: pointer;
+}
+.wed_mobile_menu_content {
+	background: rgba(196, 196, 196, 0.85); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed;
+}
+.wed_mobile_menu_content ul {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 50px; top: 120px; width: 200px; position: absolute;
+}
+.wed_mobile_menu_content ul li {
+	position: relative;
+}
+.wed_mobile_menu_content ul ul {
+	padding: 20px 0px 20px 20px; top: 0px; display: none; position: relative; transform: translateY(0px);
+}
+.wed_mobile_menu_content ul a {
+	font-size: 20px;
+}
+.wed_first_step header nav {
+	background: rgba(255, 255, 255, 0.9);
+}
+.wed_second_step header nav {
+	background: rgba(255, 255, 255, 0.7); height: 52px;
+}
+.wed_second_step .wed_top_menu > li > a {
+	padding: 13px 20px; height: 52px; text-decoration: none;
+}
+.wed_second_step .wed_logo {
+	top: 17px;
+}
+.wed_logo_und {
+	transition:0.3s; left: 70px; top: 41px; text-transform: uppercase; font-weight: 900; position: absolute; opacity: 1; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_second_step .wed_logo_und {
+	left: 15px; top: 30px; opacity: 0;
+}
+.wed_header_tech {
+	background: rgba(0, 0, 0, 0.7); padding: 7px 0px; transition:0.3s; width: 100%; height: 40px; color: rgba(255, 255, 255, 0.3); position: relative; z-index: 3; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_header_tech.wed_wht_txt {
+	color: rgb(255, 255, 255);
+}
+.wed_first_step .wed_header_tech {
+	padding: 0px; height: 0px; overflow: hidden; z-index: 0;
+}
+.wed_header_address {
+	left: 0px; top: 0px; margin-left: -5px; position: absolute;
+}
+.wed_phone::before {
+	font-family: themify; margin-right: 10px; display: inline-block; content: "\e621";
+}
+.wed_phone {
+	margin: 0px 20px;
+}
+.wed_location::before {
+	font-family: themify; margin-right: 10px; display: inline-block; content: "\e693";
+}
+.wed_header_search {
+	float: right;
+}
+.wed_header_search_cont {
+	background: rgba(0, 0, 0, 0.8); padding: 20px; width: 300px; right: 0px; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+.wed_header_basket_cont {
+	background: rgba(0, 0, 0, 0.8); padding: 20px; width: 300px; right: 0px; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+.wed_second_step .wed_header_basket span {
+	padding: 16px 0px 16px 50px;
+}
+.wed_header_basket span {
+	padding: 30px 0px 30px 50px;
+}
+.wed_mobile_menu_hor .wed_header_basket span {
+	padding: 16px 0px 16px 50px;
+}
+.wed_bask_block_item {
+	color: rgb(255, 255, 255) !important; padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgba(255, 255, 255, 0.5); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.wed_bask_block_item img {
+	width: 50px; height: auto; margin-right: 10px;
+}
+.wed_bask_btns .total {
+	padding: 15px 0px 0px; float: right;
+}
+.wed_header_login {
+	padding: 16px 0px; margin-left: 40px; float: right; position: relative;
+}
+.wed_second_step .wed_header_login {
+	padding: 12px 0px;
+}
+.wed_second_step .wed_header_login .btn {
+	padding: 5px 15px;
+}
+.wed_second_step .wed_header_search span {
+	padding: 16px 0px 16px 60px;
+}
+.wed_header_search span {
+	padding: 30px 0px 30px 60px; transition:0.3s; display: block; cursor: pointer; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_header_search a:hover {
+	text-decoration: none;
+}
+.wed_header_search_cont {
+	background: rgba(179, 129, 247, 0.8); padding: 10px; width: 300px; right: 0px; display: none; position: absolute;
+}
+.form-control:focus {
+	background-color: rgb(255, 255, 255);
+}
+.wed_second_step .wed_header_search_cont {
+	margin-top: -3px;
+}
+.wed_mobile_menu_hor .wed_header_search span {
+	padding: 16px 0px 16px 60px;
+}
+.wed_mobile_menu_hor .wed_header_search_cont {
+	margin-top: -5px;
+}
+.wed_header_search_cont .btn {
+	background: none; top: 20px; right: 20px; text-indent: -10000px; position: absolute; z-index: 2;
+}
+.wed_header_search_cont::after {
+	top: 25px; right: 36px; color: rgb(41, 41, 41); font-family: themify; display: block; position: absolute; content: "\e610";
+}
+.wed_header_search_cont input {
+	margin-bottom: 0px;
+}
+.wed_slider_carousel {
+	height: 100vh;
+}
+.wed_slider_carousel.wed_wht_txt .owl-buttons i {
+	color: rgb(255, 255, 255);
+}
+.wed_slider_carousel .owl-buttons {
+	top: 50vh; width: 100%; position: absolute;
+}
+.wed_slider_carousel.owl-theme .owl-controls .owl-buttons div {
+	position: absolute; opacity: 1; transform: scale(2);
+}
+.wed_slider_carousel.owl-theme .owl-controls .owl-buttons div:hover {
+	transform: scale(3);
+}
+.wed_slider_carousel .owl-prev {
+	left: 40px;
+}
+.wed_slider_carousel .owl-next {
+	right: 40px;
+}
+.wed_slider_carousel .owl-pagination {
+	width: 100%; bottom: 0px; position: absolute;
+}
+.wed_slider_carousel .wed_slide_txt {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_slider_carousel .active .wed_slide_txt {
+	
+}
+.wed_slider {
+	background-position: center !important; width: 100%; height: 100vh; position: relative; background-size: cover; -webkit-background-size: cover;
+}
+.wed_slider_bottom {
+	width: 100%; bottom: 100px; position: absolute;
+}
+.wed_slider_bottom h3 {
+	margin: 0px;
+}
+.wed_slider_bottom .breadcrumbs {
+	padding-top: 30px;
+}
+.wed_slider_copyright {
+	transform-origin: 0% 0%; left: -5px; bottom: 100px; position: absolute; transform: rotate(-90deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -o-transform-origin: 0 0;
+}
+.wed_auto_height .wed_slider_copyright {
+	left: 100px; bottom: 100px;
+}
+.wed_slider_copyright_right {
+	transform-origin: 100% 0% 0px; left: auto; right: 0px; transform: rotate(90deg); -webkit-transform-origin: 100% 0 0; -moz-transform-origin: 100% 0 0; -o-transform-origin: 100% 0 0;
+}
+.wed_slide_txt {
+	width: 50%; position: absolute;
+}
+.wed_slide_txt.wed_slide_center_middle {
+	width: 70%;
+}
+.wed_slide_txt.wed_slide_center_top {
+	width: 70%;
+}
+.wed_slide_txt.wed_slide_center_bottom {
+	width: 70%;
+}
+.wed_slide_txt img {
+	max-width: 100%;
+}
+.wed_slide_left_bottom {
+	left: 15px; bottom: 120px;
+}
+.wed_slide_left_middle {
+	left: 15px; top: 50%; transform: translateY(-50%);
+}
+.wed_slide_left_top {
+	left: 15px; top: 140px;
+}
+.wed_slide_right_bottom {
+	right: 15px; bottom: 120px;
+}
+.wed_slide_right_bottom_img_left {
+	left: 0px; top: 10%; position: absolute;
+}
+.wed_slide_right_bottom_img_right {
+	top: 10%; right: 0px; position: absolute;
+}
+.wed_slide_right_bottom_txt_right {
+	top: 25%; width: 45%; right: 0px; position: absolute; z-index: 9;
+}
+.wed_slide_left_bottom_txt_left {
+	left: 0px; top: 25%; width: 45%; position: absolute; z-index: 9;
+}
+.wed_slide_right_middle {
+	left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%);
+}
+.wed_slide_right_top {
+	top: 140px; right: 15px;
+}
+.wed_slide_right {
+	top: 50%; right: 0%; transform: translateY(-50%);
+}
+.wed_slide_center_bottom {
+	left: 50%; bottom: 60px; transform: translateX(-50%);
+}
+.wed_agency_full .wed_slide_center_bottom {
+	left: 50%; bottom: 100px; transform: translateX(-50%);
+}
+.wed_slide_center_middle {
+	left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%);
+}
+.wed_slide_center_top {
+	left: 50%; top: 140px; transform: translateX(-50%);
+}
+.wed_slider .container {
+	height: 100%; position: relative;
+}
+.wed_slide_title {
+	font: 900 44px/1.0625 Josefin Slab, Arial; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_title_great {
+	font: 900 86px/1.0625 Libre Baskerville, Arial; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_title_middle {
+	font: 900 56px/1.0625 josefin Slab, Arial; text-transform: uppercase; margin-bottom: 25px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_subtitle {
+	font: 700 20px/1.125 Josefin Slab, Arial; margin: 20px 0px; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_desq {
+	font: 400 24px/1.3541 Josefin Slab, Arial; margin: 30px 0px; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_desq_great {
+	font: 500 24px/normal Josefin Slab, Arial; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_title_great::after {
+	background: rgba(0, 0, 0, 0.4); margin: 30px 0px; width: 112px; height: 1px; display: block; content: "";
+}
+.text-center .wed_slide_title_great::after {
+	margin: 30px auto;
+}
+.text-right .wed_slide_title_great::after {
+	margin: 30px 0px 30px auto;
+}
+.wed_wht_txt .wed_slide_title_great::after {
+	background: rgba(255, 255, 255, 0.4);
+}
+.wed_slide_desq_btns {
+	margin-top: 20px;
+}
+.wed_scroll_down {
+	font: 12px/18px Josefin Slab, Arial; left: 50%; width: 40px; text-align: center; bottom: 40px; color: rgb(51, 51, 51); text-decoration: none; margin-left: -20px; position: absolute; z-index: 2; font-size-adjust: none; font-stretch: normal;
+}
+.wed_wht_txt .wed_scroll_down b {
+	border: 2px solid rgb(255, 255, 255); border-image: none;
+}
+.wed_wht_txt .wed_scroll_down {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_scroll_down:hover {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_scroll_down b::before {
+	background: rgb(255, 255, 255);
+}
+.wed_scroll_down:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.wed_scroll_down b {
+	border-radius: 15px; border: 2px solid rgb(51, 51, 51); border-image: none; width: 25px; height: 40px; display: inline-block; position: relative;
+}
+.wed_scroll_down b::before {
+	background: rgb(51, 51, 51); animation:mouse-down 2s infinite; left: 10px; top: 8px; width: 2px; height: 4px; display: block; position: absolute; content: ""; -webkit-animation: 2s ease 0s normal none infinite mouse-down;
+}
+.wed_image_bottom {
+	bottom: 0px; position: absolute;
+}
+.wed_event_hours i {
+	font: 300 24px/48px Lato, Arial; width: 100%; display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_event_hours p {
+	padding: 0px 40px 0px 0px;
+}
+.wed_event_hours h3 {
+	padding-bottom: 10px;
+}
+.wed_event h3 {
+	padding-bottom: 18px;
+}
+.wed_about_social a i {
+	padding-right: 10px; font-size: 18px;
+}
+.wed_about_social a:hover {
+	color: rgb(0, 0, 0);
+}
+.wed_about_social a {
+	transition:0.6s; text-decoration: none; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_map iframe {
+	width: 100%; margin-top: -48px;
+}
+.wed_slider_ornament {
+	left: 50%; top: 44%; position: absolute; opacity: 1 !important; transform: translateY(-50%) translateX(-50%);
+}
+.mobile .mbYTP_wrapper {
+	display: none;
+}
+.tablet .mbYTP_wrapper {
+	display: none;
+}
+.mobile .wed_video {
+	display: none;
+}
+.tablet .wed_video {
+	display: none;
+}
+h2.wed_without_after::after {
+	display: none;
+}
+h2.wed_without_after {
+	margin-bottom: 120px;
+}
+.wed_topstory_titile p {
+	margin-bottom: 90px;
+}
+.wed_story_center {
+	width: 100%; height: 400px; z-index: 99;
+}
+.wed_story_content {
+	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: rgb(228, 212, 251);
+}
+.wed_blue .wed_story_content {
+	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: rgb(188, 223, 255);
+}
+.wed_red .wed_story_content {
+	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: rgb(255, 203, 203);
+}
+.wed_vid_bg .wed_story_content {
+	background-color: rgb(255, 255, 255);
+}
+.wed_floral .wed_story_content {
+	background-color: rgb(213, 251, 255);
+}
+.wed_month_year {
+	font: 300 26px/32px hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_story_small_img img {
+	height: 60px;
+}
+img.wed_small_img {
+	height: 100px;
+}
+.wed_slider_fixed {
+	width: 100%; height: 100vh; position: fixed;
+}
+.wed_slider_fixed .owl-item.active {
+	z-index: 10;
+}
+.wed_slider_fixed .owl-item {
+	position: relative; z-index: 0;
+}
+.wed_slider_fixed .owl-wrapper-outer {
+	width: 100%; height: 100%;
+}
+.wed_slider_fixed .owl-wrapper {
+	width: 100%; height: 100%;
+}
+.wed_slider_fixed .owl-item {
+	width: 100%; height: 100%;
+}
+.wed_slider_fixed .owl-controls {
+	display: none !important;
+}
+.wed_slider_img {
+	transition:20s; width: 100%; height: 100%; position: absolute; z-index: 0; transform: scale(1); -webkit-transition: all 20s; -o-transition: all 20s;
+}
+.owl-item.active .wed_slider_img {
+	overflow: hidden; transform: scale(1.2);
+}
+.wed_music_content {
+	left: 10px; width: 60px; height: 52px; bottom: 15px; position: fixed; z-index: 99; transform: rotateZ(25deg) !important;
+}
+.wed_music_container {
+	background-position: center; padding: 26px 18px 18px; transition:0.6s; animation:pulse2 3.5s infinite both; text-align: center; background-image: url("../images/music_new_container.png"); background-repeat: no-repeat; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_music_container i {
+	color: rgb(236, 214, 255); font-weight: bold; display: inline-block;
+}
+.wed_floral .wed_music_container {
+	background-image: url("../images/border_music.png");
+}
+.wed_floral .wed_music_container i {
+	color: rgb(188, 248, 235);
+}
+.wed_vid_bg .wed_music_container {
+	background-image: url("../images/border_music_video.png");
+}
+.wed_vid_bg .wed_music_container i {
+	color: rgb(207, 180, 133);
+}
+.wed_iframe {
+	transition:0.6s; left: 0px; width: 200px; height: 200px; bottom: 0px; position: fixed; z-index: 98; opacity: 0; transform: perspective(500px) translate3d(-100px, 0px, 0px); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_iframe.active {
+	opacity: 1; transform: perspective(500px) translate3d(0px, 0px, 0px);
+}
+.wed_iframe iframe {
+	width: 100%; height: 100%; scrolling: no; frameborder: no;
+}
+.wed_music_over {
+	pointer-events: none;
+}
+.wed_groom {
+	margin-bottom: 80px;
+}
+img.wed_img_height {
+	min-height: 400px; min-width: 500px; object-fit: cover; object-position: -31px -5px;
+}
+.wed_portfolio_item.wed_story_img {
+	width: 100%; height: 100%;
+}
+.wed_story_txt {
+	width: 100%; margin-top: 30px;
+}
+.wed_portfolio_item_cont.wed_story_cont {
+	border: 4px solid rgb(228, 212, 251); border-image: none; width: 100%; height: 400px; overflow: hidden;
+}
+.wed_second_border {
+	border: 4px solid rgb(228, 212, 251); transition:0.7s; border-image: none; top: -23px; width: 94%; height: 100%; right: 38px; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
+}
+.wed_second_border_right {
+	border: 4px solid rgb(228, 212, 251); transition:0.7s; border-image: none; left: 38px; top: -23px; width: 94%; height: 100%; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
+}
+.wed_vid_bg .wed_second_border {
+	border: 4px solid rgb(255, 255, 255); border-image: none;
+}
+.wed_vid_bg .wed_second_border_right {
+	border: 4px solid rgb(255, 255, 255); border-image: none;
+}
+.wed_vid_bg .wed_portfolio_item_cont.wed_story_cont {
+	border: 4px solid rgb(255, 255, 255); border-image: none;
+}
+.wed_floral .wed_second_border_right {
+	border: 4px solid rgb(198, 229, 232); border-image: none;
+}
+.wed_floral .wed_second_border {
+	border: 4px solid rgb(198, 229, 232); border-image: none;
+}
+.wed_floral .wed_portfolio_item_cont.wed_story_cont {
+	border: 4px solid rgb(198, 229, 232); border-image: none;
+}
+.wed_bd:hover .wed_second_border {
+	top: 0px; right: 15px;
+}
+.wed_bd:hover .wed_second_border_right {
+	left: 14px; top: 0px;
+}
+.wed_portfolio_item.wed_story_img {
+	padding: 0px;
+}
+.wed_story_row {
+	padding: 72px 0px; position: relative;
+}
+.wed_vertical_line {
+	margin: auto; left: 0px; top: 0px; width: 1px; height: 100%; right: 0px; bottom: 0px; border-left-color: rgb(228, 212, 251); border-left-width: 1px; border-left-style: dotted; position: absolute; z-index: -1;
+}
+.wed_floral .wed_vertical_line {
+	border-left-color: rgb(213, 251, 255); border-left-width: 1px; border-left-style: dotted;
+}
+.wed_floral .wed_vertical_line.wed_line_top::before {
+	background-color: rgb(213, 251, 255);
+}
+.wed_floral .wed_vertical_line.wed_line_bottom::after {
+	background-color: rgb(213, 251, 255);
+}
+.wed_vid_bg .wed_vertical_line {
+	border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: dotted;
+}
+.wed_vid_bg .wed_vertical_line.wed_line_top::before {
+	background-color: rgb(255, 255, 255);
+}
+.wed_vid_bg .wed_vertical_line.wed_line_bottom::after {
+	background-color: rgb(255, 255, 255);
+}
+.wed_vertical_line.wed_line_top::before {
+	border-radius: 50%; top: -9px; width: 9px; height: 9px; right: -4px; position: absolute; content: ""; background-color: rgb(228, 212, 251);
+}
+.wed_vertical_line.wed_line_bottom::after {
+	border-radius: 50%; width: 9px; height: 9px; right: -4px; bottom: -9px; position: absolute; content: ""; background-color: rgb(228, 212, 251);
+}
+.countdown-row {
+	text-align: center; display: block;
+}
+.countdown-row::after {
+	clear: both; display: block; content: "";
+}
+.countdown-section {
+	padding: 60px 0px 0px; width: 25%; float: left; display: block; position: relative; z-index: 1;
+}
+.countdown-section::before {
+	border-radius: 50%; left: 13px; top: 15px; right: 13px; bottom: 15px; display: block; position: absolute; z-index: 2; content: "";
+}
+.wed_countdown .countdown-amount {
+	color: rgba(255, 255, 255, 0.6); font-size: 106px; font-weight: 900; display: block; position: relative; z-index: 2;
+}
+.wed_fixed_bcg .wed_countdown .countdown-amount {
+	color: rgba(0, 0, 0, 0.6); font-size: 106px; font-weight: 900; display: block; position: relative; z-index: 2;
+}
+.wed_countdown .countdown-period {
+	color: rgb(255, 255, 255); font-size: 24px; font-weight: 400; margin-top: 50px; display: block; position: relative; z-index: 2;
+}
+.wed_fixed_bcg .wed_countdown .countdown-period {
+	color: rgb(0, 0, 0); font-size: 24px; font-weight: 400; margin-top: 50px; display: block; position: relative; z-index: 2;
+}
+.wed_portfolio_poloroid {
+	margin: 100px auto 232px; left: 26px; width: 800px; height: 1205px; position: relative;
+}
+.wed_portfolio_poloroid .wed_portfolio_item_poloroid {
+	padding: 10px 10px 30px; transition:0.3s; width: auto; text-align: center; float: left; display: inline; position: absolute; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); background-color: rgba(255, 255, 255, 0.9); -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); -webkit-transition: all .30s; -o-transition: all .30s; -moz-transition: all .30s; -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.wed_portfolio_poloroid .wed_portfolio_item_poloroid:hover {
+	z-index: 100;
+}
+.wed_portfolio_poloroid .wed_portfolio_item_cont img {
+	display: block;
+}
+.wed_portfolio_item_cont::after {
+	content: attr(title);
+}
+.wed_portfolio_poloroid :nth-child(n).wed_portfolio_item_poloroid {
+	left: 50%; top: 0%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(2n).wed_portfolio_item_poloroid {
+	left: 46%; top: 40%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(3n).wed_portfolio_item_poloroid {
+	left: -10%; top: 50%; transform: rotate(40deg) scale(0.7); -webkit-transform: rotate(40deg) scale(0.7, 0.7); -moz-transform: rotate(40deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(4n).wed_portfolio_item_poloroid {
+	left: -10%; top: 0%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(5n).wed_portfolio_item_poloroid {
+	left: 12%; top: 50%; z-index: 3; transform: rotate(-20deg) scale(0.8); -webkit-transform: rotate(-20deg) scale(0.8, 0.8); -moz-transform: rotate(-20deg) scale(0.8, 0.8);
+}
+.wed_portfolio_poloroid :nth-child(6n).wed_portfolio_item_poloroid {
+	left: 40%; top: 70%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(7n).wed_portfolio_item_poloroid {
+	left: 15%; top: 0%; transform: rotate(10deg) scale(0.7); -webkit-transform: rotate(10deg) scale(0.7, 0.7); -moz-transform: rotate(10deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(n).wed_portfolio_item_poloroid:hover {
+	transform: rotate(0deg) scale(1); -webkit-transform: rotate(0deg) scale(1, 1); -moz-transform: rotate(0deg) scale(1, 1);
+}
+.wed_portfolio_item_poloroid:hover img {
+	transform: scale(1.1);
+}
+.wed_portfolio_item_poloroid:hover .wed_port_titles {
+	opacity: 1; transform: translateY(-50%);
+}
+.wed_portfolio_item_poloroid:hover .wed_port_icons {
+	margin-top: 20px; opacity: 1;
+}
+.wed_portfolio_item_poloroid:hover {
+	background-position: 0px -36px;
+}
+.wed_mate_border {
+	position: relative;
+}
+.wed_mate_border::before {
+	background: url("../images/white_edge_3.png") repeat-x center; left: 0px; top: -317px; height: 318px; right: 0px; display: block; position: absolute; z-index: 4; content: "";
+}
+.wed_slider_border::before {
+	background: url("../images/white_edge_2.png") repeat-x center; left: 0px; top: -317px; height: 318px; right: 0px; display: block; position: absolute; z-index: 12; content: "";
+}
+.wed_slider_border_zi4::before {
+	background: url("../images/white_edge_2.png") repeat-x center; left: 0px; top: -317px; height: 318px; right: 0px; display: block; position: absolute; z-index: 4; content: "";
+}
+.wed_water_border::before {
+	background: url("../images/white_rough_edge_top.png") repeat-x center; left: 0px; top: 48px; height: 100px; right: 0px; display: block; position: relative; z-index: 4; content: "";
+}
+.wed_fixed_bcg .wed_water_border::before {
+	background: url("../images/white_rough_edge_bottom.png") repeat-x center; left: 0px; top: 48px; height: 100px; right: 0px; display: block; position: relative; z-index: 4; content: "";
+}
+.wed_water_border::after {
+	background: url("../images/white_edge_3.png") repeat-x center; left: 0px; height: 317px; right: 0px; bottom: -14px; display: block; position: absolute; z-index: 4; content: ""; pointer-events: none;
+}
+.wed_water_border {
+	margin: 0px; padding: 0px; position: relative;
+}
+.wed_vid_bg .wed_water_border {
+	padding-bottom: 30px;
+}
+.wed_white_inner_border::after {
+	background: url("../images/white_rough_edge_bottom.png") repeat-x center; left: 0px; top: -25px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_white_inner_border::before {
+	background: url("../images/white_rough_edge_top.png") repeat-x center; left: 0px; top: 26px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_mt {
+	margin-top: -47px;
+}
+.wed_white_hapcouple_border::after {
+	background: url("../images/white_rough_edge_bottom.png") repeat-x center; left: 0px; top: -25px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_fixed_bcg .wed_white_inner_border::after {
+	background: url("../images/white_rough_edge_top.png") repeat-x center; left: 0px; top: -25px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_fixed_bcg .wed_white_inner_border::before {
+	background: url("../images/white_rough_edge_bottom.png") repeat-x center; left: 0px; top: 29px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_white_outter_border::before {
+	background: url("../images/white_rough_edge_bottom.png") repeat-x center; left: 0px; top: 29px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.wed_white_outter_border::after {
+	background: url("../images/white_rough_edge_top.png") repeat-x center; left: 0px; top: -25px; height: 50px; right: 0px; display: block; position: relative; z-index: 6; content: "";
+}
+.outter_border {
+	top: 73%; width: 100%; position: absolute; z-index: 1;
+}
+.outter_border img {
+	height: 858px;
+}
+.mobile .petals_mobile .wed_flowers {
+	display: none;
+}
+.wed_vid_bg.wed_third_step .wed_flowers {
+	z-index: 0;
+}
+.wed_flowers {
+	width: 100%; height: 100%; overflow: hidden; position: absolute; z-index: 14; pointer-events: none;
+}
+.wed_fl {
+	transition:3s; position: absolute; transform: scale(1);
+}
+.wed_fl_1 {
+	top: 260px; transform: scale(0.7);
+}
+.wed_fl_2 {
+	left: 4%; top: 210px; transform: scale(0.7);
+}
+.wed_fl_3 {
+	left: 15%; top: 210px; transform: scale(1);
+}
+.wed_fl_4 {
+	left: 7%; top: 650px;
+}
+.wed_fl_5 {
+	left: 10%; top: 50px; transform: scale(0.6);
+}
+.wed_fl_6 {
+	left: 3%; top: 490px;
+}
+.wed_fl_7 {
+	top: 260px; right: 12%;
+}
+.wed_fl_8 {
+	top: 490px; right: 84px;
+}
+.wed_fl_9 {
+	left: 19%; top: 110px;
+}
+.wed_fl_12 {
+	top: 360px; right: 8%;
+}
+.wed_fl_10 {
+	top: 650px; right: 138px;
+}
+.wed_fl_11 {
+	top: 260px; right: 8px; transform: scale(0.7);
+}
+.wed_fl_13 {
+	left: 4%; top: 360px;
+}
+.wed_fl_14 {
+	left: 9%; top: 300px;
+}
+.wed_agency .wed_fl_14 {
+	left: 0%; top: 300px;
+}
+.wed_fl_15 {
+	left: 11%; top: 140px;
+}
+.wed_fl_16 {
+	top: 110px; right: 21%;
+}
+.wed_fl_17 {
+	top: 140px; right: 13%;
+}
+.wed_fl_18 {
+	top: 210px; right: 5%; transform: scale(0.7);
+}
+.wed_fl_19 {
+	top: 210px; right: 18%; transform: scale(1);
+}
+.wed_fl_20 {
+	top: 50px; right: 16%; transform: scale(0.6);
+}
+.wed_particles {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%; height: 100%; overflow: hidden; vertical-align: baseline; position: fixed;
+}
+.wed_firefly {
+	width: 100%; height: 100vh; overflow: hidden; position: fixed; z-index: 999; pointer-events: none;
+}
+.jqueryFireFly {
+	background: rgb(255, 255, 255); border-radius: 50% !important; box-shadow: 45px 165px 8px #fff;
+}
+:nth-child(3n).jqueryFireFly {
+	animation:firefly 2000ms linear infinite; -webkit-animation: firefly 2000ms infinite linear; -o-animation: firefly 2000ms infinite linear; -moz-animation: firefly 2000ms infinite linear;
+}
+:nth-child(4n).jqueryFireFly {
+	animation:firefly 6000ms linear infinite; -webkit-animation: firefly 6000ms infinite linear; -o-animation: firefly 6000ms infinite linear; -moz-animation: firefly 6000ms infinite linear;
+}
+:nth-child(5n).jqueryFireFly {
+	animation:firefly 3000ms linear infinite; -webkit-animation: firefly 3000ms infinite linear; -o-animation: firefly 3000ms infinite linear; -moz-animation: firefly 3000ms infinite linear;
+}
+.wed_gold_folia .wed_firefly {
+	width: 100%; height: 100vh; overflow: hidden; position: fixed; z-index: 2; pointer-events: none;
+}
+.wed_gold_folia .jqueryFireFly {
+	background: url("../images/gold_folia.png") !important; box-shadow: 40px 60px 60px #fff;
+}
+.wed_gold_folia :nth-child(3n).jqueryFireFly {
+	animation:firefly2 2000ms linear infinite; -webkit-animation: firefly2 2000ms infinite linear; -o-animation: firefly2 2000ms infinite linear; -moz-animation: firefly2 2000ms infinite linear;
+}
+.wed_gold_folia :nth-child(4n).jqueryFireFly {
+	animation:firefly2 6000ms linear infinite; -webkit-animation: firefly2 6000ms infinite linear; -o-animation: firefly2 6000ms infinite linear; -moz-animation: firefly2 6000ms infinite linear;
+}
+.wed_gold_folia :nth-child(5n).jqueryFireFly {
+	animation:firefly2 3000ms linear infinite; -webkit-animation: firefly2 3000ms infinite linear; -o-animation: firefly2 3000ms infinite linear; -moz-animation: firefly2 3000ms infinite linear;
+}
+.wed_gold_folia :nth-child(6n).jqueryFireFly {
+	animation:firefly2 7000ms linear infinite; -webkit-animation: firefly2 7000ms infinite linear; -o-animation: firefly2 7000ms infinite linear; -moz-animation: firefly2 7000ms infinite linear;
+}
+.wed_firefly_only .jqueryFireFly {
+	box-shadow: 0px 0px 100px #fff;
+}
+#container {
+	width: 40px; margin-right: auto; margin-left: auto; position: absolute;
+}
+.noactive .wed_icon_box {
+	top: 30px; opacity: 0;
+}
+.noactive .wed_anim_box {
+	top: 30px; opacity: 0;
+}
+.active .wed_icon_box {
+	top: 0px; opacity: 1;
+}
+.active .wed_anim_box {
+	top: 0px; opacity: 1;
+}
+.wed_small_arrow {
+	transition:1s;
+}
+.noactive .wed_small_arrow {
+	animation:couple 1s ease-in both; opacity: 0; transform: scale(0);
+}
+.active .wed_small_arrow {
+	animation:couple 1s ease-in both; opacity: 1; transform: scale(1);
+}
+.active .wed_bd {
+	opacity: 1; transform: perspective(900px) rotateY(0deg) translate3d(0px, 0px, 0px);
+}
+.noactive .wed_bd {
+	opacity: 0; transform: perspective(900px) rotateY(-80deg) translate3d(0px, 0px, -110px);
+}
+.noactive .wed_story_row {
+	opacity: 0.8; transform: perspective(1000px) scale(0.8) translate3d(0px, -100px, 0px);
+}
+.active .wed_story_row {
+	opacity: 1; transform: perspective(1000px) scale(1) translate3d(0px, 0px, 0px);
+}
+.wed_story_row {
+	transition:0.9s;
+}
+.wed_bd {
+	transition:1s;
+}
+.wed_story_txt {
+	transition:0.8s;
+}
+.active .wed_story_txt {
+	opacity: 1; transform: perspective(900px) rotateY(0deg) translate3d(0px, 0px, 0px);
+}
+.noactive .wed_story_txt {
+	opacity: 0; transform: perspective(900px) rotateY(80deg) translate3d(0px, 0px, -110px);
+}
+.wed_heart_container {
+	top: 39%; width: 100%; position: absolute;
+}
+.wed_story_content img {
+	min-height: auto;
+}
+.wed_heart_1 {
+	animation:pulse2 2.4s infinite both; top: 29%; height: 13px !important; right: 75%; position: absolute; -webkit-animation: pulse2 2.4s both infinite; -o-animation: pulse2 2.4s both infinite; -moz-animation: pulse2 2.4s both infinite;
+}
+.wed_heart_2 {
+	animation:pulse2 2.4s infinite both; height: 10px !important; right: 9%; position: relative; -webkit-animation: pulse2 2.4s both infinite; -o-animation: pulse2 2.4s both infinite; -moz-animation: pulse2 2.4s both infinite;
+}
+.wed_heart_container_row_2 {
+	position: relative;
+}
+.wed_heart_container_row_3 {
+	position: relative;
+}
+.wed_heart_container_row_4 {
+	position: relative;
+}
+.wed_heart_container_row_2 .wed_second_heart_1 {
+	animation:heart1 6.6s infinite both; left: -18%; height: 10px; position: absolute; -webkit-animation: heart1 6.6s both infinite; -o-animation: heart1 6.6s both infinite; -moz-animation: heart1 6.6s both infinite;
+}
+.wed_heart_container_row_2 .wed_second_heart_2 {
+	animation:heart1 9.9s infinite both; left: 16%; height: 10px; position: absolute; -webkit-animation: heart1 9.9s both infinite; -o-animation: heart1 9.9s both infinite; -moz-animation: heart1 9.9s both infinite;
+}
+.wed_heart_container_row_2 .wed_second_heart_3 {
+	animation:heart1 4.4s infinite both; left: 10%; height: 8px; position: absolute; -webkit-animation: heart1 4.4s both infinite; -o-animation: heart1 4.4s both infinite; -moz-animation: heart1 4.4s both infinite;
+}
+.wed_heart_container_row_3 .wed_third_heart_1 {
+	animation:pulse2 2.4s infinite both; left: 21%; height: 18px; margin-top: 32%; position: absolute; -webkit-animation: pulse2 2.4s both infinite; -o-animation: pulse2 2.4s both infinite; -moz-animation: pulse2 2.4s both infinite;
+}
+.wed_heart_container_row_4 .wed_fourth_heart_1 {
+	animation:heart2 9.9s infinite both; left: 23%; height: 10px; position: absolute; -webkit-animation: heart2 9.9s both infinite; -o-animation: heart2 9.9s both infinite; -moz-animation: heart2 9.9s both infinite;
+}
+.wed_heart_container_row_4 .wed_fourth_heart_2 {
+	animation:heart2 6.9s infinite both; left: 23%; height: 10px; position: absolute; -webkit-animation: heart2 6.9s both infinite; -o-animation: heart2 6.9s both infinite; -moz-animation: heart2 6.9s both infinite;
+}
+.wed_heart_container_row_4 .wed_fourth_heart_3 {
+	animation:heart2 4.9s infinite both; left: 23%; height: 10px; position: absolute; -webkit-animation: heart2 4.9s both infinite; -o-animation: heart2 4.9s both infinite; -moz-animation: heart2 4.9s both infinite;
+}
+.active .wed_news_block {
+	top: 0px; opacity: 1;
+}
+.noactive .wed_news_block {
+	top: 30px; opacity: 0; transition-delay: 0s !important; -webkit-transition-delay: 0s; -o-transition-delay: 0s; -webkit-filter: blur(5px);
+}
+.wed_news_block {
+	transition:1s;
+}
+.noactive .wed_portfolio_item_cont {
+	opacity: 0;
+}
+.active .wed_portfolio_item_cont {
+	opacity: 1;
+}
+.wed_portfolio_item_cont {
+	transition:2.5s;
+}
+.wed_browser_img {
+	transition:bottom 1s; width: 770px; height: 400px; bottom: 0px; position: absolute; -webkit-transition: bottom 1s; -o-transition: bottom 1s;
+}
+.wed_browser_mobile {
+	left: 0px; width: 250px; bottom: -141px; z-index: 4;
+}
+.wed_browser_tablet {
+	width: 500px; right: 0px; bottom: -121px; z-index: 4;
+}
+.wed_browser_desktop {
+	left: 50%; bottom: -82px; margin-left: -425px; z-index: 5;
+}
+.wed_browser_desktop::before {
+	background: url("../images/wed_desktop.png") 0% 0% / cover; border-radius: 5px 5px 0px 0px; width: 100%; height: 32px; margin-top: -32px; display: block; position: absolute; z-index: 2; content: "";
+}
+.wed_browser_mobile::before {
+	background: url("../images/wed_mobile_header.png") 0% 0% / cover; border-radius: 5px 5px 0px 0px; width: 100%; height: 42px; margin-top: -42px; display: block; position: absolute; z-index: 2; content: "";
+}
+.wed_browser_tablet::before {
+	background: url("../images/wed_tablet_header.png") 0% 0% / cover; border-radius: 5px 5px 0px 0px; width: 100%; height: 41px; margin-top: -41px; display: block; position: absolute; z-index: 2; content: "";
+}
+.wed_browsers {
+	height: 300px; bottom: -128px; position: relative;
+}
+.wed_browsers .active .wed_browser_desktop {
+	bottom: -32px;
+}
+.wed_browsers .active .wed_browser_mobile {
+	bottom: -202px;
+}
+.wed_browsers .active .wed_browser_tablet {
+	bottom: -141px;
+}
+.wed_icon_box_photo {
+	transition:1s; height: 400px; overflow: hidden; position: relative; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.wed_team_box h4 b {
+	font: 900 26px/38px Lato, Arial; margin: 8px 0px; display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_team_box {
+	transition:0.5s; margin-bottom: 0px; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_icon_box_photo::after {
+	background: rgb(201, 201, 201); transition:1.5s; width: 100%; height: 1px; bottom: 0px; display: block; position: absolute; content: ""; opacity: 1; -webkit-transition: all 1.5s; -o-transition: all 1.5s;
+}
+.wed_icon_box_photo img {
+	transition:0.5s; width: auto; height: 110%; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_icon_box:hover .wed_icon_box_photo img {
+	transition:0.5s; height: 100%; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_item_social a i {
+	font-size: 14px;
+}
+.wed_item_social a {
+	margin: 0px 5px; transition:0.5s linear; text-decoration: none; display: inline-block; -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear; -moz-transition: all 0.5s linear;
+}
+.wed_item_social a:hover {
+	transform: scaleX(-1); -webkit-transform: scaleX(-1); -o-transform: scaleX(-1); -moz-transform: scaleX(-1);
+}
+.wed_item_social {
+	background: rgba(255, 255, 255, 0.8); padding: 10px 0px; transition:0.5s; left: 10px; right: 10px; margin-top: -29px; position: absolute; z-index: 0; opacity: 0; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_icon_box:hover .wed_item_social {
+	transition:1s; opacity: 1; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.wed_icon_box:hover .wed_item_social {
+	
+}
+.wed_icon_box:hover .wed_icon_box_photo::after {
+	transition:0.3s linear; opacity: 0; -webkit-transition: all 0.3s linear; -o-transition: all 0.3s linear;
+}
+.owl-theme .owl-controls .owl-page span {
+	margin: 15px 3px; border: currentColor; border-image: none; width: 14px; height: 13px; background-image: url("../images/pagination_heart.png");
+}
+.wed_team_slider_sepia .wed_team_box img {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s; -webkit-filter: sepia(100%); -o-filter: sepia(100%);
+}
+.wed_team_slider_sepia .wed_team_box:hover img {
+	-webkit-filter: sepia(0%); -o-filter: sepia(0%);
+}
+.wed_team_slider_bw .wed_team_box img {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s; -webkit-filter: grayscale(100%); -o-filter: grayscale(100%);
+}
+.wed_team_slider_bw .wed_news_img img {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s; -webkit-filter: grayscale(100%); -o-filter: grayscale(100%);
+}
+.wed_team_slider_bw .wed_team_box:hover img {
+	-webkit-filter: grayscale(0%); -o-filter: grayscale(0%);
+}
+.wed_team_slider_bw .wed_news_img:hover img {
+	-webkit-filter: grayscale(0%); -o-filter: grayscale(0%);
+}
+.wed_team_slider .owl-prev {
+	left: 0px; z-index: 2; opacity: 0.5;
+}
+.wed_team_slider .owl-next {
+	right: 0px; z-index: 2; opacity: 0.5;
+}
+.wed_team_slider .owl-buttons {
+	width: 100%; bottom: 50%; display: none; position: absolute;
+}
+.wed_news_block {
+	text-align: left; display: block;
+}
+.wed_news_block.text-center {
+	text-align: center;
+}
+.wed_floral .wed_news_block img {
+	border: 4px solid rgb(198, 229, 232); border-image: none;
+}
+.wed_vid_bg .wed_news_block img {
+	border: 4px solid rgb(255, 255, 255); border-image: none;
+}
+.wed_news_block img {
+	border: 4px solid rgb(228, 212, 251); transition:0.3s; border-image: none; width: 100%; height: 100%; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_news_block:hover img {
+	transform: scale(1.1);
+}
+.wed_news_img {
+	width: 100%; height: 240px; overflow: hidden; margin-bottom: 20px; display: block; position: relative;
+}
+.wed_gifts_img img {
+	padding: 10px; height: auto; margin-bottom: 0px; max-width: 100%; -webkit-transition: all .5; -o-transition: all .5;
+}
+.wed_gifts_img img:hover {
+	ansform: scale(1.1);
+}
+.wed_news_img_lh {
+	height: 400px;
+}
+.wed_news_block:hover .wed_news_img_lh img {
+	transform: scale(1.1);
+}
+.wed_news_block:hover {
+	text-decoration: none;
+}
+.wed_news_title {
+	font: 400 24px/32px Lato, Arial; margin-bottom: 10px; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_news_author {
+	margin: 5px 0px 20px; display: block; opacity: 0.6;
+}
+.wed_team_slider_single .wed_news_block {
+	width: 340px; margin-right: auto; margin-left: auto;
+}
+.wed_team_slider_single .wed_news_block.text-left {
+	width: auto;
+}
+.wed_icon_boxes {
+	margin-top: 80px;
+}
+.wed_icon_box {
+	padding: 0px 10px; transition:0.6s; color: rgb(102, 102, 102); margin-bottom: 50px; -webkit-transition: all 0.6s; -o-transition: all 0.6s;
+}
+.wed_anim_box {
+	padding: 0px 10px; transition:0.6s; color: rgb(102, 102, 102); margin-bottom: 50px; -webkit-transition: all 0.6s; -o-transition: all 0.6s;
+}
+.wed_icon_box h4 {
+	font: 500 16px/1.225 Lato, Arial; color: rgb(51, 51, 51); text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_wht_txt .wed_icon_box h4::after {
+	background: rgb(255, 255, 255); opacity: 0.5;
+}
+.text-right .wed_icon_box h4::after {
+	margin-right: 0px;
+}
+.text-left .wed_icon_box h4::after {
+	margin-left: 0px;
+}
+.wed_icon_box:hover h4::after {
+	width: 150px;
+}
+.wed_fixed_bcg .wed_icon_box:hover h4 {
+	color: rgb(51, 51, 51);
+}
+.wed_icon_box h4 b {
+	margin: 0px 0px 4px; font-size: 20px; display: block;
+}
+.wed_icon_box h4 b::after {
+	display: block;
+}
+.wed_icon_box h4 strong {
+	font: 700 60px/60px Lato, Arial; margin-bottom: 20px; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_icon_box i {
+	margin: 10px 0px 0px 5px; transition:0.3s; font-size: 40px; position: absolute; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_icon_box:hover i {
+	color: rgb(0, 0, 0);
+}
+.wed_wht_txt .wed_icon_box i {
+	color: rgb(255, 255, 255);
+}
+.wed_fixed_bcg .wed_icon_box i {
+	color: rgb(0, 0, 0);
+}
+.wed_icon_box_content {
+	padding: 0px 10px 0px 65px; overflow: hidden; position: relative;
+}
+.wed_testimonials {
+	background: rgba(255, 255, 255, 1); padding: 36px 40px 45px; transition:0.5s; left: 50%; top: 190px; width: 100%; position: absolute; z-index: 2; opacity: 0; transform: translateX(-50%); -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_fixed_bcg .wed_testimonials {
+	background: rgba(255, 255, 255, 1); padding: 36px 40px 45px; transition:0.5s; left: 50%; top: 190px; width: 95%; position: absolute; z-index: 2; opacity: 0; transform: translateX(-50%); -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+.wed_icon_box:hover .wed_testimonials {
+	top: 200px; opacity: 1;
+}
+.wed_test_cont:hover {
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+.wed_testimonials b {
+	margin-bottom: 10px; display: block;
+}
+.wed_test_cont:hover h4.wed_test_name {
+	transition:0.5s; opacity: 0; transform: translateY(-50px); -webkit-transition: all .5s; -o-transition: all .5s;
+}
+.wed_test_cont:hover .wed_test_name b {
+	transition:0.5s; opacity: 0; transform: translateY(-50px); -webkit-transition: all .5s; -o-transition: all .5s;
+}
+.wed_icon_box_photo {
+	transition:0.4s; width: 100%; height: 300px; overflow: hidden; position: relative; -webkit-transition: all 0.4s; -o-transition: all 0.4s;
+}
+.wed_icon_box_photo_testimonials {
+	transition:0.4s; width: 100%; height: 300px; overflow: hidden; position: relative; -webkit-transition: all 0.4s; -o-transition: all 0.4s;
+}
+.wed_icon_box_photo img {
+	transition:0.3s linear; width: 100%; overflow: hidden; position: relative; min-height: 300px; transform: scale(1); -webkit-transition: all 0.3s; -o-transition: all 0.3s; object-fit: cover;
+}
+.wed_icon_box_photo_testimonials img {
+	transition:0.3s linear; width: 100%; overflow: hidden; position: relative; min-height: 300px; transform: scale(1); -webkit-transition: all 0.3s; -o-transition: all 0.3s; object-fit: cover;
+}
+.wed_icon_box:hover .wed_icon_box_photo img {
+	transform: scale(1.1);
+}
+.wed_icon_box:hover .wed_icon_box_photo_testimonials img {
+	transform: scale(1.1);
+}
+.wed_around_bl {
+	margin-bottom: 50px; position: relative;
+}
+.wed_around_bl b {
+	margin: 10px 0px; line-height: 1.8; font-size: 20px; display: block;
+}
+.wed_around_bl i {
+	margin: 0px; line-height: 1.8; font-size: 18px; font-style: normal; display: block; position: relative;
+}
+.wed_price_bl {
+	padding: 50px 20px; border: 1px solid rgb(204, 204, 204); transition:0.3s; border-image: none; box-shadow: 0px 0px 6px rgb(146,68,252); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_price_bl:hover {
+	box-shadow: 0px 0px 20px rgb(146,68,252);
+}
+.wed_price_bl h4 {
+	font-size: 30px;
+}
+.wed_price_bl ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.wed_price_bl li {
+	margin-bottom: 10px;
+}
+.wed_price_pr {
+	margin: 30px 0px; color: rgb(0, 0, 0);
+}
+.wed_wht_txt .wed_price_pr {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_price_pr span {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_price_bl {
+	color: rgb(255, 255, 255);
+}
+.wed_wht_txt .wed_price_bl:hover {
+	background: rgba(255, 255, 255, 0.1); box-shadow: none;
+}
+.wed_wht_txt .wed_price_bl {
+	border: 1px solid rgba(255, 255, 255, 0.2); border-image: none;
+}
+.wed_price_pr i {
+	margin: 0px; font-size: 20px; font-style: normal; display: block; position: relative;
+}
+.wed_price_pr span {
+	text-align: left; color: rgb(51, 51, 51); line-height: 14px; font-size: 8px; font-style: normal; display: inline-block; position: relative;
+}
+.wed_price_pr b {
+	font-size: 35px; font-weight: normal; margin-right: 5px; vertical-align: top; display: inline-block;
+}
+.wed_service_block {
+	height: 300px; display: block;
+}
+.wed_service_block i {
+	font-size: 40px;
+}
+.wed_service_block h4 {
+	font: 900 30px/30px Lato, Arial; margin: 15px 0px 0px; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_service_block .wed_simple_block {
+	padding: 0px; transition:0.3s; left: 50%; top: 50%; position: absolute; transform: translateX(-50%) translateY(-50%) scale(1); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_service_block:hover .wed_simple_block {
+	opacity: 0; transform: translateX(-50%) translateY(-50%) scale(1.2);
+}
+.wed_service_block .wed_over {
+	transition:opacity 0.3s; -webkit-transition: opacity 0.3s; -o-transition: opacity 0.3s;
+}
+.wed_service_block:hover .wed_over {
+	opacity: 0 !important;
+}
+.wed_service_block:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+footer {
+	padding-top: 87px; padding-bottom: 84px;
+}
+.wed_footer_social {
+	height: 50px;
+}
+.wed_footer_social a {
+	transition:0.2s; width: 40px; text-align: center; font-size: 18px; text-decoration: none; vertical-align: top; display: inline-block; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+.wed_footer_social a:hover {
+	color: rgb(41, 41, 41); font-size: 24px;
+}
+.wed_footer_social a i {
+	position: relative;
+}
+footer ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+footer ul li a::before {
+	transition:0.3s; margin-right: 10px; display: inline-block; content: "-"; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+footer ul li a:hover::before {
+	margin-right: 15px;
+}
+footer h4::after {
+	background: rgb(51, 51, 51); margin: 10px 0px 20px; width: 70px; height: 1px; display: block; position: relative; content: ""; opacity: 0.5;
+}
+footer.wed_wht_txt h4::after {
+	background: rgb(255, 255, 255);
+}
+footer a {
+	color: rgb(51, 51, 51);
+}
+.wed_block {
+	margin: 20px 0px;
+}
+.wed_footer_txt {
+	margin: 40px 0px 120px;
+}
+.wed_top {
+	padding: 8px; transition:0.3s; left: 50%; width: 50px; height: 50px; bottom: -38px; color: rgb(180, 124, 255); font-size: 22px; position: absolute; z-index: 10; opacity: 1; transform: translateY(-50%) translateX(-50%); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_top_grey.wed_top {
+	color: rgb(90, 90, 90);
+}
+.wed_vid_bg .wed_top {
+	color: rgb(202, 163, 92);
+}
+.wed_vid_bg .wed_top:hover {
+	color: rgb(0, 0, 0);
+}
+.wed_floral .wed_top {
+	color: rgb(33, 211, 229);
+}
+.wed_floral .wed_top:hover {
+	color: rgb(11, 234, 158);
+}
+.body_no_height .wed_top {
+	background: rgb(229, 229, 229);
+}
+.body_no_height .wed_top:hover {
+	background: rgb(229, 229, 229); color: rgb(0, 0, 0);
+}
+.wed_top:hover {
+	color: rgb(80, 84, 199); text-decoration: none;
+}
+.wed_top:focus {
+	text-decoration: none;
+}
+.wed_top:active {
+	text-decoration: none;
+}
+.wed_map_over.wed_wht_map {
+	background: rgba(255, 255, 255, 0.9);
+}
+.wed_map_over {
+	background: rgba(151, 124, 245, 0.7); transition:0.3s; width: 100%; height: 100%; text-align: center; color: rgb(255, 255, 255); position: absolute; cursor: pointer; opacity: 1; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_vid_bg .wed_map_over {
+	background: rgb(255, 255, 255);
+}
+.wed_map_over i {
+	font-size: 40px; margin-bottom: 20px; display: block;
+}
+.wed_map_txt {
+	transition:0.3s; top: 50%; position: relative; z-index: 99; transform: translateY(-50%); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.active_map .wed_map_over {
+	height: 0px;
+}
+.active_map .wed_map_over .wed_icon_box {
+	opacity: 0;
+}
+.active_map .wed_over {
+	opacity: 0 !important; pointer-events: none;
+}
+.wed_map {
+	width: 100%; height: 350px;
+}
+.container-fluid .wed_portfolio_item {
+	
+}
+.grid-sizer {
+	width: 33.33%;
+}
+.wed_portfolio_item {
+	padding: 15px; overflow: hidden; display: block; position: relative;
+}
+.wed_portfolio_item_cont {
+	overflow: hidden; display: block; position: relative;
+}
+.wed_portfolio_padding {
+	margin: 15px -15px;
+}
+.wed_portfolio_no_padding {
+	margin: 0px;
+}
+.wed_portfolio_no_padding .wed_portfolio_item {
+	padding: 0px;
+}
+.wed_portfolio_item img {
+	transition:1s; width: 100%; height: auto; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.wed_portfolio_item:hover img {
+	transform: scale(1.1);
+}
+.wed_portfolio_slide_item:hover img {
+	transform: scale(1.1);
+}
+.wed_port_titles {
+	padding: 20px; transition:0.3s; left: 0px; top: 50%; width: 100%; color: rgb(255, 255, 255); text-decoration: none; position: absolute; z-index: 2; opacity: 0; transform: translateY(0%); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_portfolio_item:hover .wed_port_titles {
+	text-align: center; opacity: 1; transform: translateY(-50%);
+}
+.wed_portfolio_slide_item:hover .wed_port_titles {
+	text-align: center; opacity: 1; transform: translateY(-50%);
+}
+.wed_portfolio_item_cont::after {
+	background: rgba(228, 212, 251, 0.9); transition:0.3s; top: 0px; width: 100%; height: 100%; display: block; position: absolute; content: ""; opacity: 0; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_floral .wed_portfolio_item_cont::after {
+	background: rgba(198, 229, 232, 0.9);
+}
+.wed_vid_bg .wed_portfolio_item_cont::after {
+	background: rgba(213, 174, 127, 0.8);
+}
+.wed_demo_page .wed_portfolio_item_cont::after {
+	background: rgba(0, 0, 0, 0.65);
+}
+.wed_demo_page {
+	margin: 15px 10px;
+}
+.wed_portfolio_white .wed_portfolio_item_cont::after {
+	background: rgba(255, 255, 255, 0.8);
+}
+.wed_portfolio_white .wed_port_icons a {
+	color: rgb(51, 51, 51);
+}
+.wed_portfolio_white .wed_port_titles {
+	color: rgb(51, 51, 51);
+}
+.wed_port_title {
+	font: 400 24px/28px Lato, Arial, sans-serif; width: 100%; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_port_subtitle {
+	font: 400 18px/28px Lato, Arial, sans-serif; width: 100%; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.wed_port_icons {
+	padding: 0px 20px; transition:1s; left: 0px; width: 100%; margin-top: 40px; display: block; position: absolute; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s;
+}
+.wed_port_icons a {
+	color: rgb(255, 255, 255); font-size: 20px; display: inline-block;
+}
+.wed_port_icons a:first-child::after {
+	margin: 0px 10px; font-weight: 100; display: inline-block; content: "";
+}
+.wed_port_icons a:hover {
+	text-decoration: none;
+}
+.wed_portfolio_item:hover .wed_port_icons {
+	margin-top: 20px; opacity: 1;
+}
+.wed_portfolio_slide_item:hover .wed_port_icons {
+	margin-top: 20px; opacity: 1;
+}
+.wed_portfolio_item_cont:hover::after {
+	opacity: 1;
+}
+.wed_portfolio_item:hover {
+	background-position: 0px -36px;
+}
+.wed_port_img {
+	transition:0.6s; left: 0px; top: 0px; width: 120%; height: 120%; position: absolute; -webkit-transition: all 0.6s; -o-transition: all 0.6s;
+}
+.wed_portfolio_item:hover .wed_port_img {
+	top: -20%;
+}
+.filter-button-group a {
+	text-decoration: none; margin-right: 20px; position: relative; cursor: pointer;
+}
+.container-fluid .filter-button-group {
+	margin: 50px 0px 40px;
+}
+.container-fluid h2 {
+	margin-top: 90px;
+}
+.wed_inside_pages .container-fluid h2 {
+	margin-top: 0px;
+}
+.filter-button-group {
+	margin-bottom: 40px; position: relative;
+}
+.filter-button-group a::after {
+	transition:0.6s; left: 50%; top: 140%; width: 50px; height: 6px; bottom: 0px; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-image: url("../images/arrow.png"); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_white .filter-button-group a::after {
+	transition:0.6s; left: 50%; top: 140%; width: 50px; height: 6px; bottom: 0px; position: absolute; content: ""; opacity: 0; transform: translateY(-50%) translateX(-50%); background-image: url("../images/arrow_white.png"); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.filter-button-group a:hover {
+	color: rgb(146, 131, 231);
+}
+.wed_vid_bg .filter-button-group a:hover {
+	color: rgb(192, 158, 96);
+}
+.filter-button-group a.active::after {
+	transition:0.6s; opacity: 1; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_portfolio_slide_item {
+	margin-bottom: 30px;
+}
+.wed_portfolio_slide_item img {
+	transition:0.6s; width: 100%; height: 400px; -webkit-transition: all .6s; -o-transition: all .6s; object-fit: cover; -o-object-fit: cover;
+}
+.wed_page_title {
+	padding-top: 147px; padding-bottom: 65px; position: relative;
+}
+.wed_page_title_sm {
+	padding-top: 147px; padding-bottom: 58px;
+}
+.wed_page_title_white {
+	background: rgb(255, 255, 255); border-bottom-color: rgba(0, 0, 0, 0.1); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wed_page_title_dark {
+	background: rgb(41, 41, 41); color: rgb(255, 255, 255);
+}
+.wed_page_title_dark a {
+	color: rgb(242, 242, 242);
+}
+.wed_page_title_dark .breadcrumbs a:hover {
+	color: rgb(255, 255, 255);
+}
+.wed_page_title h3 {
+	margin: 0px;
+}
+.wed_page_title_great {
+	padding-top: 257px; padding-bottom: 95px;
+}
+.wed_pad_txt {
+	padding: 10px 20px 0px;
+}
+.breadcrumbs {
+	text-align: right; text-transform: uppercase; font-size: 13px;
+}
+.wed_page_title .breadcrumbs {
+	padding-top: 100px;
+}
+.wed_page_title_sm .breadcrumbs {
+	padding-top: 12px;
+}
+.breadcrumbs a {
+	transition:color 0.3s; display: inline-block; -webkit-transition: color 0.3s; -o-transition: color 0.3s;
+}
+.breadcrumbs a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.breadcrumbs a::after {
+	margin: 0px 10px; display: inline-block; content: "/";
+}
+.end_demo_grid {
+	background: rgb(238, 238, 238); padding: 5px 20px; text-align: center; display: block;
+}
+.wed_nav_sidebar {
+	transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.sticky_block .wed_nav_sidebar {
+	top: 80px; position: fixed;
+}
+.hide_sticky_block .wed_nav_sidebar {
+	top: 80px; position: fixed; opacity: 0; pointer-events: none;
+}
+.wed_nav_sidebar ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.wed_nav_sidebar ul a {
+	margin-bottom: 10px; display: block;
+}
+.wed_nav_sidebar ul a::before {
+	transition:margin 0.3s; font-family: themify; font-size: 10px; margin-right: 10px; display: inline-block; content: "\e649"; -webkit-transition: margin 0.3s; -o-transition: margin 0.3s;
+}
+.wed_nav_sidebar ul a:hover {
+	text-decoration: none;
+}
+.wed_nav_sidebar ul a:focus {
+	text-decoration: none;
+}
+.wed_nav_sidebar ul a:active {
+	text-decoration: none;
+}
+.wed_nav_sidebar ul a:hover::before {
+	margin-right: 15px;
+}
+.wed_nav_sidebar .current a::before {
+	margin-right: 15px;
+}
+.wed_nav_sidebar .current a {
+	font-weight: bold;
+}
+.wed_post_item {
+	margin-bottom: 80px;
+}
+.wed_post_item a {
+	transition:color 0.3s; -webkit-transition: color 0.3s; -o-transition: color 0.3s;
+}
+.wed_post_item .wed_post_title a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_post_item .wed_post_info a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_post_item .wed_post_more_link:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_post_item .wed_post_more_link:focus {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_post_item p {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wed_post_img .lightbox::after {
+	transition:opacity 0.3s; left: 50%; top: 50%; color: rgb(0, 0, 0); font-family: themify; font-size: 140px; display: block; position: absolute; z-index: 1; content: "\e610"; opacity: 0; transform: translateX(-50%) translateY(-50%); -webkit-transition: opacity .3s; -o-transition: opacity .3s;
+}
+.wed_post_img .lightbox:hover::after {
+	opacity: 1;
+}
+.wed_post_img .owl-controls {
+	top: -40px; width: 100%; position: absolute;
+}
+.wed_post_img img {
+	max-height: 300px; object-fit: cover;
+}
+.wed_post_journal_img img {
+	max-height: 700px; min-width: 100%; object-fit: cover;
+}
+.wed_post_title h3 {
+	font: 600 18px/32px Lato, Arial; margin: 0px; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.wed_post_img {
+	margin-bottom: 30px;
+}
+.wed_post_img a {
+	transition:opacity 0.3s; display: block; position: relative; -webkit-transition: opacity 0.3s; -o-transition: opacity 0.3s;
+}
+.wed_post_img a:hover {
+	opacity: 0.5;
+}
+.wed_post_info {
+	color: rgb(153, 153, 153);
+}
+.wed_post_info a {
+	color: rgb(153, 153, 153);
+}
+.wed_post_info {
+	text-transform: uppercase; margin-bottom: 20px;
+}
+.wed_post_more_link:hover {
+	text-decoration: none;
+}
+.wed_post_more {
+	position: relative;
+}
+.wed_post_more_link span {
+	margin: 0px 15px 0px 5px;
+}
+.wed_post_more_social_menu li {
+	display: inline-block;
+}
+.dropdown-menu.wed_post_more_social_menu {
+	padding: 15px; border-radius: 0px; margin-top: -10px;
+}
+.dropdown-menu > li > a:hover {
+	background: none; color: rgb(0, 0, 0);
+}
+.widget {
+	margin-bottom: 40px;
+}
+.widget .form-control {
+	margin-bottom: 20px;
+}
+.widget h6 {
+	font: 600 18px/28px Lato, Arial; text-transform: uppercase; margin-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+.list-unstyled li {
+	
+}
+.list-unstyled .date {
+	margin-bottom: 20px; display: block;
+}
+.img-comments {
+	width: 90px; height: auto; margin-right: 30px; float: left;
+}
+.name-cmt {
+	font-size: 20px; display: block;
+}
+.date-cmt {
+	margin-bottom: 20px; display: block;
+}
+.content-cmt {
+	overflow: hidden;
+}
+.answer {
+	padding-bottom: 40px; margin-bottom: 40px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.reply {
+	padding-bottom: 40px; margin-bottom: 40px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.reply {
+	padding-left: 110px;
+}
+.form-comment {
+	background: rgb(247, 246, 255); padding: 40px;
+}
+.content-reply {
+	margin: 0px; padding: 0px;
+}
+.masonry::after {
+	background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) 0px 0px rgba(0, 0, 0, 0); width: 100%; height: 200px; bottom: 0px; display: block; position: absolute; content: ""; pointer-events: none;
+}
+.wed_portfolio_footer_white::after {
+	background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) 0px 0px rgba(0, 0, 0, 0); width: 100%; height: 200px; bottom: 0px; display: block; position: absolute; content: ""; pointer-events: none;
+}
+.wed_portfolio_footer_grey::after {
+	background: linear-gradient(to top, rgba(242, 242, 242, 1) 0%, rgba(242, 242, 242, 0) 100%) 0px 0px rgba(0, 0, 0, 0); width: 100%; height: 200px; bottom: 0px; display: block; position: absolute; content: ""; pointer-events: none;
+}
+.masonry {
+	margin-bottom: -50px;
+}
+.wed_project_attribute {
+	margin: 0px 0px 5px;
+}
+.wed_project_label {
+	width: 90px; font-weight: bold; display: inline-block;
+}
+.wed_project_soc a {
+	margin: 0px 10px 0px 0px; transition:0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_project_soc a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_project_slider {
+	margin: 80px 0px;
+}
+.wed_shop_row {
+	padding-bottom: 60px;
+}
+.wed_shop_slider {
+	
+}
+.wed_shop_slider .owl-buttons {
+	display: none;
+}
+.wed_shop_slider_img {
+	max-height: 200px; min-width: 300px; object-fit: cover;
+}
+.wed_slider_txt_animation .owl-item img {
+	transition:0.5s linear; opacity: 0; transform: scale(0.9); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item.active img {
+	transition:0.5s linear; opacity: 1; transform: scale(1); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item h3 {
+	transition:0.5s linear; transform: translate3d(-50px, 0px, 0px); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item.active h3 {
+	transition:0.5s linear; transform: translate3d(0px, 0px, 0px); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item p {
+	transition:0.5s linear; transform: translate3d(0px, 30px, 0px); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item.active p {
+	transition:0.5s linear; transform: translate3d(0px, 0px, 0px); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item .wed_shop_btn {
+	transition:0.6s linear; transform: translate3d(-100px, 0px, 0px); -webkit-transition: all 0.6s linear; -o-transition: all 0.6s linear;
+}
+.wed_slider_txt_animation .owl-item.active .wed_shop_btn {
+	transition:0.6s linear; transform: translate3d(0px, 0px, 0px); -webkit-transition: all 0.6s linear; -o-transition: all 0.6s linear;
+}
+.wed_slider_txt_animation .owl-item.active h2.wed_agency_hensa_slider {
+	transition:0.5s linear; opacity: 1; transform: scale(1); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_slider_txt_animation .owl-item h2.wed_agency_hensa_slider {
+	transition:0.5s linear; opacity: 0; transform: scale(0.8); -webkit-transition: all 0.5s linear; -o-transition: all 0.5s linear;
+}
+.wed_shop_btn {
+	margin-top: 20px;
+}
+.wed_shop_block {
+	height: 500px; display: block;
+}
+.wed_shop_item {
+	margin: 0px 0px 40px; width: 100%; display: block; position: relative;
+}
+.wed_shop_item img {
+	width: 100%;
+}
+.wed_shop_item_slider .owl-item img {
+	transition:0.3s; min-height: 400px; max-height: 400px; -webkit-transition: all 0.3s; -o-transition: all 0.3s; object-fit: cover;
+}
+.wed_shop_small_img .wed_shop_item_slider img {
+	transition:0.3s; min-height: 200px; max-height: 400px; -webkit-transition: all 0.3s; -o-transition: all 0.3s; object-fit: cover;
+}
+.wed_shop_small_img .wed_shop_item_sale {
+	background: rgb(41, 41, 41); padding: 5px 12px; left: 0px; top: -2px; color: rgb(255, 255, 255); position: absolute; z-index: 2;
+}
+.wed_shop_item_slider .active img {
+	
+}
+.wed_shop_item_slider a {
+	display: block;
+}
+.wed_shop_item_slider .owl-pagination {
+	top: -40px; width: 100%; position: absolute; z-index: 2;
+}
+.wed_shop_item_slider .owl-controls {
+	top: 0px; width: 100%; height: 100%; position: absolute; z-index: 3;
+}
+.wed_shop_item_slider .owl-buttons {
+	top: 50%; width: 100%; position: absolute; transform: translateY(-50%);
+}
+.owl-theme .owl-controls .owl-buttons div {
+	border: 0px currentColor; transition:0.3s; border-image: none; text-align: center; display: block; position: absolute; transform: scale(2); -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.owl-theme .owl-controls .owl-buttons div .ti {
+	margin: 0px; font-size: 14px; position: relative;
+}
+.owl-next {
+	right: -20px; opacity: 0;
+}
+.owl-prev {
+	left: -20px; opacity: 0;
+}
+.wed_shop_item_slider:hover .owl-controls .owl-buttons .owl-next {
+	right: 10px; opacity: 1; transform: scale(1);
+}
+.wed_shop_item_slider:hover .owl-controls .owl-buttons .owl-prev {
+	left: 10px; opacity: 1; transform: scale(1);
+}
+.wed_shop_item_title {
+	margin: 20px 40px 0px 0px; transition:0.3s; height: 100px; display: block; position: relative; z-index: 3; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_shop_item_title:hover {
+	color: rgb(0, 0, 0);
+}
+.wed_shop_item_title b {
+	color: rgb(0, 0, 0); display: block;
+}
+.wed_shop_item_title s {
+	color: rgb(153, 153, 153);
+}
+.wed_shop_item_title:hover {
+	text-decoration: none;
+}
+.wed_shop_item_links {
+	margin: 0px; width: 100%; text-align: right; position: absolute; z-index: 3;
+}
+.wed_shop_item_links a {
+	padding: 22px 0px; transition:0.3s; width: 50px; font-size: 20px; display: inline-block; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_shop_item_links i {
+	margin: 0px; font-size: 20px; position: relative;
+}
+.wed_icon_box:hover .wed_shop_item_links i {
+	color: rgb(111, 111, 111);
+}
+.wed_shop_item_links a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.wed_shop_item_sale {
+	background: rgb(41, 41, 41); padding: 5px 20px; left: 0px; top: 20px; color: rgb(255, 255, 255); position: absolute; z-index: 2;
+}
+.wed_shop_header {
+	margin: 0px 0px 80px;
+}
+.rating-box {
+	margin-bottom: 20px;
+}
+h3.title {
+	font-size: 31px;
+}
+.wed_tags a {
+	margin: 5px 10px 5px 0px; padding: 5px 10px; border: 1px solid rgb(204, 204, 204); transition:0.3s; border-image: none; display: inline-block; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_tags a:hover {
+	background: rgb(41, 41, 41); color: rgb(255, 255, 255); text-decoration: none;
+}
+.wed_product_thumbnail img {
+	margin: 0px 0px 0px 20px; width: 80px; float: right;
+}
+.wed_products_recent li {
+	margin: 0px 0px 20px; padding: 0px 0px 20px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wed_products_recent li:last-child {
+	margin: 0px 0px 20px; padding: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.wed_product_price {
+	display: block;
+}
+.wed_product_price s {
+	color: rgb(153, 153, 153);
+}
+.wed_product_close {
+	background: rgb(41, 41, 41); margin: 0px 5px 0px 0px; padding: 5px; height: 15px; color: rgb(255, 255, 255); line-height: 8px; font-size: 5px; display: inline-block;
+}
+.wed_product_close a:hover {
+	text-decoration: none;
+}
+.checkout-row {
+	margin-bottom: 40px;
+}
+.table_head {
+	font: 600 18px/28px Lato, Arial; margin: 10px 0px 20px; text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.cart-table .row {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.product-info a {
+	font-size: 18px;
+}
+.product_item_line .wed_product_thumbnail img {
+	margin: 0px 20px 0px 0px; float: left;
+}
+.cart-price {
+	font-size: 18px;
+}
+.increase-qty {
+	margin: 3px 0px 0px; top: 2px; height: 15px; right: 8px; overflow: hidden; font-size: 16px; position: absolute; z-index: 3; cursor: pointer;
+}
+.decrease-qty {
+	margin: 7px 0px 0px; right: 8px; bottom: 2px; font-size: 16px; position: absolute; cursor: pointer;
+}
+.add-to-cart {
+	position: relative; max-width: 100px;
+}
+.add-to-box {
+	margin-bottom: 20px;
+}
+.product_inside {
+	margin-bottom: 40px;
+}
+.special-price {
+	font-size: 40px;
+}
+.price-box {
+	margin-bottom: 40px;
+}
+.product_inside .wed_shop_item_slider img {
+	max-width: 100%;
+}
+.product_inside .wed_shop_item_slider {
+	position: relative;
+}
+.wed_shop_divider {
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+img.wed_fullwidth {
+	width: 100%;
+}
+.wed_nopadding {
+	padding: 0px;
+}
+.wed_couple {
+	text-align: center;
+}
+.wed_couple_frame {
+	text-align: center;
+}
+.wed_couple_frame .container {
+	padding-bottom: 444px;
+}
+.wed_couple .btn {
+	margin: 10px 0px 40px;
+}
+.wed_img_1 {
+	background-position: center; margin: 30px 0px 0px; border-radius: 50%; transition:0.6s; left: 0px; width: 302px; height: 302px; position: absolute; background-size: cover; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_img_2 {
+	background-position: center; margin: 30px 0px 0px; border-radius: 50%; transition:0.6s; width: 302px; height: 302px; right: 0px; position: absolute; background-size: cover; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_floral .wed_img_1::before {
+	background-position: -31px -19px; border-radius: 0px; border: currentColor; border-image: none; width: 380px; height: 340px; display: block; position: absolute; content: ""; background-image: url("../images/floral_frame.png"); background-repeat: no-repeat;
+}
+.wed_floral .wed_img_2::before {
+	background-position: -31px -19px; border-radius: 0px; border: currentColor; border-image: none; width: 380px; height: 340px; display: block; position: absolute; content: ""; background-image: url("../images/floral_frame.png"); background-repeat: no-repeat;
+}
+.wed_vid_bg .wed_img_1::before {
+	background-position: -31px -19px; border-radius: 0px; border: currentColor; border-image: none; width: 380px; height: 340px; display: block; position: absolute; content: ""; background-image: url("../images/floral_frame_white.png"); background-repeat: no-repeat;
+}
+.wed_vid_bg .wed_img_2::before {
+	background-position: -31px -19px; border-radius: 0px; border: currentColor; border-image: none; width: 380px; height: 340px; display: block; position: absolute; content: ""; background-image: url("../images/floral_frame_white.png"); background-repeat: no-repeat;
+}
+.wed_img_1::before {
+	border-radius: 50%; border: 15px solid rgba(134, 48, 252, 0.6); border-image: none; width: 302px; height: 302px; display: block; position: absolute; content: "";
+}
+.wed_img_2::before {
+	border-radius: 50%; border: 15px solid rgba(134, 48, 252, 0.6); border-image: none; width: 302px; height: 302px; display: block; position: absolute; content: "";
+}
+.wed_white .wed_img_1::before {
+	border-radius: 50%; border: 15px solid rgba(255, 255, 255, 0.6); border-image: none; width: 302px; height: 302px; display: block; position: absolute; content: "";
+}
+.wed_white .wed_img_2::before {
+	border-radius: 50%; border: 15px solid rgba(255, 255, 255, 0.6); border-image: none; width: 302px; height: 302px; display: block; position: absolute; content: "";
+}
+.wed_heart_img_1::before {
+	width: 446px; height: 429px; bottom: 40px; display: block; position: absolute; z-index: 1; content: ""; background-image: url("../images/frame_heart.png");
+}
+.wed_heart_img_2::before {
+	width: 446px; height: 429px; bottom: 40px; display: block; position: absolute; z-index: 1; content: ""; background-image: url("../images/frame_heart.png");
+}
+.wed_heart_img_1::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(166, 125, 220, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_heart_img_2::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(166, 125, 220, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_heart_img_1:hover::after {
+	opacity: 1;
+}
+.wed_heart_img_2:hover::after {
+	opacity: 1;
+}
+.wed_blue .wed_heart_img_1::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(25, 142, 249, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_blue .wed_heart_img_2::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(25, 142, 249, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_blue .wed_heart_img_1:hover::after {
+	opacity: 1;
+}
+.wed_blue .wed_heart_img_2:hover::after {
+	opacity: 1;
+}
+.wed_red .wed_heart_img_1::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(179, 63, 68, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_red .wed_heart_img_2::after {
+	transition:0.6s; width: 446px; height: 397px; display: block; position: absolute; z-index: 0; content: ""; opacity: 0; background-color: rgba(179, 63, 68, 0.9); -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_red .wed_heart_img_1:hover::after {
+	opacity: 1;
+}
+.wed_red .wed_heart_img_2:hover::after {
+	opacity: 1;
+}
+.wed_heart_img_1 {
+	background-position: center; margin: 30px 0px 0px; transition:0.6s; left: 0px; width: 446px; height: 461px; position: absolute; background-size: cover; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_heart_img_2 {
+	background-position: center; margin: 30px 0px 0px; transition:0.6s; width: 446px; height: 461px; right: 0px; position: absolute; background-size: cover; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.married_txt {
+	padding-top: 30px; padding-bottom: 60px;
+}
+.wed_name_right {
+	transition:0.6s; left: 84%; top: 50%; color: rgb(0, 0, 0); position: absolute; z-index: 2; opacity: 0; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_name_left {
+	transition:0.6s; top: 50%; right: 86%; color: rgb(0, 0, 0); position: absolute; z-index: 2; opacity: 0; -webkit-transition: all .6s; -o-transition: all .6s;
+}
+.wed_name_right span {
+	left: 34px; position: absolute;
+}
+.wed_name_left span {
+	right: -21px; position: absolute;
+}
+.wed_img_1:hover .wed_name_left {
+	opacity: 1;
+}
+.wed_img_2:hover .wed_name_right {
+	opacity: 1;
+}
+.wed_heart_img_1:hover .wed_name_left {
+	opacity: 1;
+}
+.wed_heart_img_2:hover .wed_name_right {
+	opacity: 1;
+}
+.wed_wrapper {
+	position: relative;
+}
+.wed_wrapper_frame {
+	position: relative;
+}
+.wed_wrapper_frame {
+	margin-bottom: 365px;
+}
+.wed_wrapper:hover .btn_popup {
+	opacity: 1;
+}
+.wed_wrapper_frame:hover .btn_popup {
+	opacity: 1;
+}
+.wed_testimonials_img img {
+	border-radius: 50%; transition:1s; width: 200px; height: 200px; margin-top: 10px; margin-bottom: 30px; -webkit-transition: all 1s; -o-transition: all 1s; object-fit: cover;
+}
+.wed_testimonials_img:hover img {
+	box-shadow: 0px 0px 3px 8px #5a11bf; transform: rotate(5deg);
+}
+.wed_best_wedding .wed_news_title {
+	margin-top: 30px;
+}
+.wed_agency .wed_top {
+	background: rgba(0, 0, 0, 0.2); padding: 14px 15px; transition:0.3s; width: 50px; height: 50px; right: 0px; bottom: 0px; position: fixed; z-index: 10; opacity: 0; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.wed_agency.wed_second_step .wed_top {
+	bottom: 40px; opacity: 1;
+}
+.wed_agency .wed_page_title h3 {
+	margin: 40px 10px 10px 0px;
+}
+.wed_agency .wed_team_block {
+	padding: 0px 30px 40px 40px; position: relative; z-index: 1;
+}
+.wed_agency .wed_services_block {
+	padding: 23px 33px 60px 30px; position: relative; z-index: 1;
+}
+.wed_agency .wed_post_journal_img {
+	margin-bottom: 30px;
+}
+.wed_agency .widget h6 {
+	margin-top: 0px;
+}
+.wed_agency .wed_team_block h3 {
+	margin-top: 5px;
+}
+.wed_gradient_sl .wed_slider::after {
+	top: 0px; width: 600px; height: 100%; right: 0px; display: block; position: absolute; z-index: 0; content: "";
+}
+.wed_gradient_sl .wed_slider::before {
+	left: 0px; top: 0px; width: 600px; height: 100%; display: block; position: absolute; z-index: 1; content: "";
+}
+.wed_partners_block {
+	padding: 30px; border: 3px solid rgb(228, 212, 251); border-image: none;
+}
+.wed_agency_full .wed_partners_agency .wed_icon_box {
+	margin-right: -3px; margin-bottom: -3px;
+}
+.wed_agency_full .wed_partners_agency .wed_anim_box {
+	margin-right: -3px; margin-bottom: -3px;
+}

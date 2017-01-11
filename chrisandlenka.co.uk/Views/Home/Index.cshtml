@@ -1,0 +1,133 @@
+﻿<!-- Page -->
+<div class="wed_page" id="wed_page">
+
+    @Html.Partial("_header")
+
+    <!-- Slider -->
+    <div id="home" class="wed_slider wed_image_bck wed_fixed wed_wht_txt" data-stellar-background-ratio="0.2" data-image="/images/young_couple/greybg.jpg">
+
+        <!-- over -->
+        <div class="wed_over" data-color="#000" data-opacity="0.1" data-blend="multiply"></div>
+
+        <div class="container">
+
+            <!-- Slider Texts -->
+            <div class="wed_slide_txt wed_slide_right text-center" data-0="opacity:1;" data--400-bottom="opacity:0;">
+                <img src="/images/save_right.png" height="550" alt="">
+            </div>
+            <!-- Slider Texts End -->
+
+        </div>
+        <!-- container end -->
+
+    </div>
+    <!-- Slider End -->
+
+    <!-- Content -->
+    <section id="wed_content" class="wed_content">
+
+        <!-- section -->
+        <section class="wed_section_inner wed_image_bck wed_fixed wed_wht_txt" data-stellar-background-ratio="0.2" data-image="/images/young_couple/her_2.jpg">
+            <!-- OVER -->
+            <div class="wed_over" data-color="#000" data-opacity="0.1"></div>
+            <div class="container">
+                <div class="row wed_auto_height wed_middle_titles ">
+
+                    <!-- animation -->
+                    <div data-animation="animation_blocks" data-bottom="@@class:noactive" data--100-bottom="@@class:active">
+
+                        <div class="col-md-5 text-left wed_small_arrow">
+                            <h2>Lenka Strakova</h2>
+                            <h4>The Bride</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, vel. Odio, ex ut veritatis
+                                reprehenderit in facilis nobis! Ratione eos sint eligendi exercitationem consequatur,
+                                distinctio molestias minima, assumenda nulla autem!
+                            </p>
+                            <p><img src="/images/laracroft_sign.png" height="80" alt=""></p>
+                        </div>
+                        <!-- col end -->
+
+                    </div>
+                    <!-- Animation End -->
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+        </section>
+        <!-- section end -->
+        <!-- section -->
+        <section class="wed_section_inner wed_image_bck wed_fixed wed_wht_txt" data-stellar-background-ratio="0.2" data-image="/images/young_couple/him.jpg">
+
+            <!-- OVER -->
+            <div class="wed_over" data-color="#000" data-opacity="0.1"></div>
+
+            <div class="container">
+                <div class="row wed_auto_height wed_middle_titles">
+
+                    <!-- animation -->
+                    <div data-animation="animation_blocks" data-bottom="@@class:noactive" data--100-bottom="@@class:active">
+
+                        <div class="col-md-5 col-md-offset-7 text-left wed_groom wed_small_arrow">
+                            <h2>Chris Wallace</h2>
+                            <h4>The Groom</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, vel. Odio, ex ut veritatis
+                                reprehenderit in facilis nobis! Ratione eos sint eligendi exercitationem consequatur,
+                                distinctio molestias minima, assumenda nulla autem !
+                            </p>
+                            <p><img src="/images/Robert_Mugabe_Signature_wh.png" height="80" alt=""></p>
+
+                        </div>
+                        <!-- col end -->
+                    </div>
+                    <!-- Animation End -->
+
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+
+        </section>
+        <!-- section end -->
+        <!-- BORDER -->        
+        @Html.Partial("_story")
+        <!-- BORDER END -->
+        <!-- White border -->
+        <div class="wed_white_inner_border">
+            <!-- section -->
+            <section class="wed_section_inner wed_image_bck wed_wht_txt wed_fixed" data-stellar-background-ratio="0.2" data-image="/images/young_couple/inpool.jpg">
+                <!-- Over -->
+                <div class="wed_over" data-color="rgb(151, 124, 245)" data-opacity="0.7"></div>
+                <div class="wed_over" data-color="rgb(151, 124, 245)" data-opacity="0.9" data-blend="screen"></div>
+
+                <div class="container">
+                    <div class="row wed_auto_height wed_middle_titles">
+                        <div class="col-md-12 wed_image_bck wed_fixed text-center">
+                            <h2>Don't miss it!</h2>
+                        </div>
+                        <!-- col end -->
+                    </div>
+                    <!-- row end -->
+                    <span class="wed_countdown" data-year="2017" data-month="08" data-day="26"></span>
+                </div>
+                <!-- container end -->
+
+            </section>
+            <!-- section end -->
+        </div>
+        <!-- White border end-->
+        @*@Html.Partial("_giftRegistry")*@
+        
+        @Html.Partial("_gallery")
+        
+        @*@Html.Partial("_giftRegistry")*@
+        
+        @Html.Partial("_whereandWhen")
+        
+        @*@Html.Partial("_weddingJournal")*@
+
+        @Html.Partial("_rsvp")
+    </section>
+    <!-- content end -->
+</div>

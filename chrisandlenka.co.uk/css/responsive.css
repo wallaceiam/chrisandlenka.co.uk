@@ -1,0 +1,900 @@
+@media all and (max-width:1430px)
+{
+.wed_agency .wed_fl_2 {
+	left: 0%; top: 300px; transform: scale(0.4);
+}
+.wed_agency .wed_fl_14 {
+	left: 0%; top: 300px; transform: scale(0.6);
+}
+.wed_agency .wed_fl_18 {
+	right: 2%; transform: scale(0.4);
+}
+.wed_agency .wed_fl_7 {
+	transform: scale(0.6);
+}
+}
+@media all and (max-width:1200px)
+{
+.wed_bd:hover .wed_second_border {
+	top: 0px; right: 13px;
+}
+.wed_bd:hover .wed_second_border_right {
+	left: 13px; top: 0px;
+}
+.wed_second_border {
+	width: 93%;
+}
+.wed_second_border_right {
+	width: 93%;
+}
+.wed_img_1 {
+	margin-left: -30px;
+}
+.wed_img_2 {
+	margin-right: -30px;
+}
+.wed_agency .wed_fl_20 {
+	right: 0%;
+}
+.wed_agency .wed_fl_5 {
+	left: -3%;
+}
+}
+@media all and (max-width:1100px)
+{
+.wed_simple_block {
+	padding: 56px 45px 46px;
+}
+h2.wed_without_after {
+	margin-top: 30px; margin-bottom: 50px;
+}
+.wed_portfolio_poloroid {
+	margin: 80px auto 200px; width: 600px; height: 900px; position: relative;
+}
+.wed_portfolio_poloroid.wed_news_poloroid {
+	margin: 80px auto 200px; width: 600px; height: 900px; position: relative;
+}
+.wed_agency .wed_fl_6 {
+	transform: scale(0.7);
+}
+.wed_agency .wed_fl_8 {
+	transform: scale(0.7);
+}
+img.wed_img_height {
+	min-width: 400px;
+}
+.wed_name_left {
+	display: none;
+}
+.wed_name_right {
+	display: none;
+}
+}
+@media all and (max-width:1024px)
+{
+h3 {
+	font: 400 42px/48px Bree Serif, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_fixed {
+	background-attachment: scroll !important;
+}
+.tablet .wed_fixed {
+	background-attachment: scroll !important;
+}
+}
+@media all and (max-width:1000px)
+{
+.mobile .wed_iphone {
+	display: none;
+}
+.wed_top_menu {
+	display: none;
+}
+.wed_header_address {
+	display: none;
+}
+.wed_browsers {
+	display: none;
+}
+.wed_logo_und {
+	display: none;
+}
+.mobile.landscape .wed_slide_desq {
+	display: none;
+}
+.mobile.landscape .wed_scroll_down {
+	display: none;
+}
+.wed_first_step .wed_header_lang ul {
+	display: none;
+}
+.wed_section_outter {
+	text-align: center;
+}
+.wed_section_inner {
+	text-align: center;
+}
+.wed_section_innerpage {
+	text-align: center;
+}
+.wed_icon_box i {
+	position: relative;
+}
+.wed_icon_box_content {
+	padding: 0px;
+}
+.wed_icon_box h4::after {
+	margin-right: auto; margin-left: auto;
+}
+.text-left .wed_icon_box h4::after {
+	margin-right: auto; margin-left: auto;
+}
+.text-right .wed_icon_box h4::after {
+	margin-right: auto; margin-left: auto;
+}
+.wed_header_lang {
+	right: 15px;
+}
+.wed_slide_title {
+	font: 900 40px/normal Lato, Arial; width: 100%; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_title::after {
+	margin: 20px auto;
+}
+.wed_slide_desq {
+	font: 400 18px/normal Lato, Arial; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_txt {
+	padding: 0px 10px; left: 0px; top: 50%; width: 100%; transform: translateY(-50%);
+}
+.wed_slide_txt.wed_slide_center_middle {
+	padding: 0px 10px; left: 0px; top: 50%; width: 100%; transform: translateY(-50%);
+}
+.wed_slide_txt.wed_slide_center_top {
+	padding: 0px 10px; left: 0px; top: 50%; width: 100%; transform: translateY(-50%);
+}
+.wed_slide_txt.wed_slide_center_bottom {
+	padding: 0px 10px; left: 0px; top: 50%; width: 100%; transform: translateY(-50%);
+}
+.mobile.landscape .wed_slide_txt {
+	padding: 0px 25px;
+}
+.wed_great_titles h2::after {
+	margin: 20px auto;
+}
+h2::after {
+	margin: 20px auto;
+}
+.wed_section_inner .container {
+	padding-top: 96px; padding-bottom: 96px;
+}
+.wed_section_outter .container {
+	padding-top: 26px; padding-bottom: 26px !important;
+}
+.wed_section_innerpage .container {
+	padding-top: 24px; padding-bottom: 12px;
+}
+.wed_section_innerpage .container-fluid {
+	padding-top: 24px; padding-bottom: 12px;
+}
+.wed_row_padding {
+	padding-bottom: 10px;
+}
+.text-left {
+	text-align: center;
+}
+.text-right {
+	text-align: center;
+}
+header nav {
+	background: rgba(255, 255, 255, 0.7); height: 52px;
+}
+.wed_around_bl {
+	margin-bottom: 30px;
+}
+:last-child.wed_around_bl {
+	margin-bottom: 30px;
+}
+:last-child.wed_icon_box {
+	margin-bottom: 30px;
+}
+.wed_icon_box {
+	margin-bottom: 30px;
+}
+.text-center .wed_icon_box .wed_icon_box_content {
+	padding-left: 0px;
+}
+header nav.wed_transp_nav {
+	background: none;
+}
+.wed_second_step .wed_top_menu li.current::before {
+	left: 65px; top: 16%; width: 100px; height: 9px; background-image: url("../images/arrow_wht.png");
+}
+.wed_first_step header nav.wed_transp_nav {
+	background: rgba(255, 255, 255, 0.9);
+}
+.wed_logo {
+	top: 17px; z-index: 3;
+}
+.tablet.portrait .wed_logo {
+	top: 17px; z-index: 3;
+}
+.wed_header_tech {
+	padding: 0px; height: 26px;
+}
+.wed_first_step .wed_header_tech {
+	height: 0px;
+}
+.wed_header_lang .wed_parent ul {
+	padding: 1px 0px 0px;
+}
+.wed_portfolio_item {
+	width: 100%;
+}
+.container-fluid .wed_portfolio_item {
+	width: 100%;
+}
+.wed_port_titles {
+	text-align: left;
+}
+.wed_slider_copyright {
+	left: 10px; bottom: 20px;
+}
+.wed_top {
+	width: 40px; height: 40px; right: 20px; bottom: 20px;
+}
+.wed_middle_titles h2 {
+	font: 900 64px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_wht_txt .wed_small_arrow h2::after {
+	margin-right: auto; margin-left: auto;
+}
+.wed_portfolio_footer_grey::after {
+	display: none;
+}
+.wed_portfolio_footer_white::after {
+	display: none;
+}
+.wed_team_slider .owl-prev {
+	left: 20px;
+}
+.wed_team_slider .owl-next {
+	right: 20px;
+}
+.wed_auto_height [data-image].wed_image_bck {
+	min-height: 400px;
+}
+.wed_simple_block {
+	padding: 56px 15px 46px;
+}
+.wed_simple_block h2::after {
+	margin-right: auto; margin-left: auto;
+}
+h2::after {
+	margin-right: auto; margin-left: auto;
+}
+.wed_news_block {
+	text-align: center; margin-bottom: 40px;
+}
+.wed_news_img {
+	height: auto;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+form {
+	margin-bottom: 20px;
+}
+.wed_icon_boxes {
+	margin-top: 0px;
+}
+:last-child.wed_icon_box {
+	margin-bottom: 0px;
+}
+:last-child.wed_anim_box {
+	margin-bottom: 0px;
+}
+footer {
+	text-align: center;
+}
+footer h4::after {
+	margin-right: auto; margin-left: auto;
+}
+.breadcrumbs {
+	text-align: center;
+}
+.wed_page_title_great {
+	padding-top: 95px;
+}
+.wed_top_menu {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; padding-top: 50px; display: block; position: absolute;
+}
+.wed_top_menu_cont::after {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 52px; right: 0px; display: block; position: fixed; content: "";
+}
+.wed_top_menu_cont {
+	background: rgba(0, 0, 0, 0.95); left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: auto; display: none; position: fixed;
+}
+.wed_header_search_cont input {
+	margin-bottom: 0px;
+}
+.wed_header_search_cont form {
+	margin-bottom: 0px;
+}
+.wed_header_search_cont {
+	width: 100%;
+}
+.wed_first_step .wed_transp_nav .wed_top_menu a:hover {
+	color: rgb(255, 255, 255);
+}
+.wed_first_step header nav.wed_transp_nav ul a {
+	color: rgb(255, 255, 255);
+}
+.wed_top_menu > li > a {
+	padding: 13px 25px; height: 52px; color: rgb(255, 255, 255) !important;
+}
+.wed_top_menu > li > a::before {
+	display: none !important;
+}
+.tablet.portrait .wed_top_menu > li > a {
+	padding: 13px 25px; height: 52px; color: rgb(255, 255, 255);
+}
+.wed_parent ul {
+	background: none; width: 100%; white-space: normal; position: relative;
+}
+.wed_parent ul.mega-menu {
+	background: none; width: 100%; white-space: normal; position: relative;
+}
+.wed_parent ul {
+	background: none; width: 100%; white-space: normal; position: relative;
+}
+.wed_parent ul.mega-menu {
+	background: none; width: 100%; white-space: normal; position: relative;
+}
+.wed_transp_nav .wed_top_menu li:hover > a::before {
+	display: none;
+}
+.wed_parent ul .mega-menu-column {
+	width: 100%; margin-bottom: 20px;
+}
+header nav ul.wed_top_menu li {
+	height: auto; float: none;
+}
+.wed_top_menu_mobile_link {
+	padding: 15px; top: 0px; right: 0px; font-size: 18px; display: none; position: absolute; z-index: 3; cursor: pointer;
+}
+.wed_top_menu_mobile_link {
+	right: 0px; display: block;
+}
+.active .wed_top_menu_mobile_link {
+	right: 0px; display: block;
+}
+.wed_header_search {
+	display: none;
+}
+.wed_header_search span {
+	padding: 15px; color: rgb(255, 255, 255); font-size: 18px;
+}
+header nav.active .wed_top_menu_mobile_link {
+	color: rgb(255, 255, 255);
+}
+header nav.active .wed_logo {
+	color: rgb(255, 255, 255);
+}
+.wed_port_title {
+	font: 400 18px/24px Lato, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.wed_port_subtitle {
+	font: 400 14px/22px Lato, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.mobile-text-left {
+	text-align: left;
+}
+.mobile-text-right {
+	text-align: right;
+}
+.wed_mobile_menu {
+	display: none;
+}
+.wed_mobile_menu_hor_padding {
+	left: 0px; top: 0px; right: 0px; opacity: 1; pointer-events: auto;
+}
+.wed_mobile_menu_hor_padding.active {
+	left: 0px; top: 0px; right: 0px; opacity: 1; pointer-events: auto;
+}
+.wed_first_step header nav.wed_mobile_menu_hor_padding {
+	left: 0px; top: 0px; right: 0px; opacity: 1; pointer-events: auto;
+}
+.tablet .wed_auto_height .wed_slider_copyright {
+	left: 20px;
+}
+.wed_auto_height .wed_slider_copyright {
+	left: 20px;
+}
+.wed_slider_copyright.wed_slider_copyright_right {
+	left: auto; right: 20px;
+}
+.wed_slider_copyright_right {
+	left: auto; right: 20px;
+}
+.wed_slide_txt {
+	left: 0px; top: 50%; text-align: center; bottom: auto; transform: translateY(-50%);
+}
+.wed_team_slider_single .wed_news_block {
+	width: 100%;
+}
+.reply {
+	text-align: left; padding-left: 20px;
+}
+.add-to-box {
+	text-align: center;
+}
+.add-to-cart {
+	margin-right: auto; margin-left: auto;
+}
+.wed_header_login .btn {
+	padding: 5px 15px;
+}
+.wed_header_login {
+	padding: 12px 0px; margin-right: 40px; position: relative; z-index: 3;
+}
+.wed_story_row {
+	margin-bottom: 0px;
+}
+.wed_second_border_right {
+	border: 4px solid rgb(236, 224, 212); border-image: none; left: 31px; top: -16px; width: 93%; height: 98%; position: absolute; z-index: 1;
+}
+.wed_second_border {
+	border: 4px solid rgb(236, 224, 212); border-image: none; left: 31px; top: -16px; width: 93%; height: 98%; position: absolute; z-index: 1;
+}
+.wed_portfolio_item_cont.wed_story_cont {
+	margin-bottom: 40px;
+}
+.text-center p {
+	margin-bottom: 40px;
+}
+.wed_bd:hover .wed_second_border {
+	left: 13px; top: 0px; height: 91%;
+}
+.wed_bd:hover .wed_second_border_right {
+	left: 13px; top: 0px; height: 91%;
+}
+.countdown-section {
+	padding: 40px 50px 20px; width: 100%;
+}
+.wed_countdown .countdown-amount {
+	font-size: 84px;
+}
+.wed_couple_header.wed_white_couple {
+	left: 19px; top: 8px; height: 30px;
+}
+.wed_first_step .wed_couple_header.wed_kissing_couple {
+	top: 8px; height: 30px;
+}
+.wed_margtop {
+	margin-top: 30px;
+}
+.wed_heart_img_1 {
+	width: 430px; height: 417px; position: relative;
+}
+.wed_heart_img_2 {
+	width: 430px; height: 417px; position: relative;
+}
+.wed_heart_img_1::before {
+	height: 421px; bottom: 0px;
+}
+.wed_heart_img_2::before {
+	height: 421px; bottom: 0px;
+}
+.wed_event_hours p {
+	padding: 0px;
+}
+}
+@media all and (max-width:992px)
+{
+.tablet.portrait .wed_logo_und {
+	display: none;
+}
+.wed_wrapper_frame {
+	margin-bottom: 0px;
+}
+.wed_header_lang {
+	right: 15px;
+}
+.tablet.portrait .wed_browsers {
+	display: none;
+}
+.tablet .wed_great_titles h2 {
+	font: 900 56px/normal Hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.tablet.portrait .wed_second_step .wed_logo {
+	top: 17px;
+}
+.tablet.portrait .wed_logo {
+	top: 17px;
+}
+.tablet.portrait header nav {
+	height: 52px;
+}
+.tablet.portrait .form-control {
+	margin-bottom: 10px;
+}
+.text-center .wed_iphone_pink {
+	width: 185px; height: 540px;
+}
+.text-center .wed_iphone_gold {
+	width: 185px; height: 540px;
+}
+.wed_simple_block {
+	padding: 26px 45px 46px; text-align: center;
+}
+.wed_mate_border::before {
+	top: -269px;
+}
+.wed_story_txt {
+	margin-top: 20px;
+}
+.wed_story_txt p {
+	margin-bottom: 60px;
+}
+.wed_second_border_right {
+	width: 96%;
+}
+.wed_second_border {
+	width: 96%;
+}
+.wed_story_row {
+	padding: 14px 0px;
+}
+img.wed_img_height {
+	object-position: 0;
+}
+.wed_portfolio_slide_item img {
+	height: 300px !important;
+}
+.wed_vid_bg .wed_wht_txt {
+	color: rgb(0, 0, 0);
+}
+.wed_wht_txt a {
+	color: rgb(0, 0, 0);
+}
+.wed_wht_txt a i {
+	color: rgb(0, 0, 0);
+}
+.wed_wht_txt .wed_icon_box h4 {
+	color: rgb(0, 0, 0);
+}
+.wed_vid_bg .wed_wht_txt h2::after {
+	width: 414px; height: 26px; background-image: url("../images/arrows_bottom_400.png");
+}
+.wed_vid_bg h2.wed_without_after img.wed_small_img {
+	display: none;
+}
+.wed_vid_bg .wed_slide_txt h4 {
+	color: rgb(255, 255, 255);
+}
+.wed_vid_bg .wed_slide_txt h3 {
+	color: rgb(255, 255, 255);
+}
+.wed_img_1 {
+	display: none;
+}
+.wed_img_2 {
+	display: none;
+}
+.wed_slider_txt_animation .owl-item.active .wed_shop_btn {
+	margin-bottom: 40px;
+}
+.wed_slider_txt_animation .owl-item h3 {
+	transform: translate3d(-40px, 0px, 0px);
+}
+.wed_slide_right {
+	top: 50%;
+}
+.wed_slide_center_bottom img {
+	height: 350px;
+}
+.wed_slide_left_bottom_txt_left {
+	padding: 0px 20px; top: 20%; width: 100%;
+}
+.wed_slide_right_bottom_txt_right {
+	padding: 0px 20px; top: 20%; width: 100%;
+}
+.wed_top_menu_mobile_link {
+	padding: 15px 39px;
+}
+.wed_agency .wed_flowers {
+	display: none;
+}
+}
+@media all and (max-width:850px)
+{
+.wed_post_journal_img img {
+	max-height: 500px;
+}
+.wed_scroll_down {
+	display: none;
+}
+.wed_music_container {
+	display: none;
+}
+.wed_water_border::after {
+	display: none;
+}
+.wed_portfolio_poloroid {
+	margin: 50px auto 170px; width: 550px; height: 900px; position: relative;
+}
+.wed_story_txt {
+	margin-top: -10px;
+}
+.wed_story_txt p {
+	margin-bottom: 30px;
+}
+.wed_second_border_right {
+	display: none;
+}
+.wed_second_border {
+	display: none;
+}
+.wed_heart_img_1::before {
+	left: -5px;
+}
+.wed_heart_img_2::before {
+	left: -5px;
+}
+.wed_slider_ornament {
+	width: 90%;
+}
+}
+@media all and (max-height:850px)
+{
+.wed_scroll_down {
+	display: none;
+}
+}
+@media all and (max-width:782px)
+{
+.wed_couple_header.wed_white_couple {
+	left: 26px;
+}
+.wed_first_step .wed_couple_header.wed_kissing_couple {
+	left: 26px;
+}
+img.wed_img_height {
+	object-position: 0;
+}
+h2.wed_hensa_slider {
+	font: 300 70px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_flowers {
+	display: none;
+}
+.wed_agency_full .wed_partners_agency .wed_icon_box {
+	margin-right: -1px;
+}
+.wed_agency_full .wed_partners_agency .wed_anim_box {
+	margin-right: -1px;
+}
+.wed_gradient_sl .wed_slider::after {
+	display: none;
+}
+.wed_gradient_sl .wed_slider::before {
+	display: none;
+}
+}
+@media all and (max-width:650px)
+{
+.wed_agency h3 {
+	font: 400 22px/20px Bree Serif, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_slide_txt.wed_slide_right_middle img {
+	height: 250px;
+}
+.wed_great_titles h2 {
+	font: 900 64px/normal hensa, Arial; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+.wed_great_titles h2::after {
+	width: 250px; height: 17px; background-image: url("../images/arrows_bottom_250.png");
+}
+h2::after {
+	width: 250px; height: 17px; background-image: url("../images/arrows_bottom_250.png");
+}
+.wed_wht_txt h2::after {
+	width: 250px; height: 16px; background-image: url("../images/arrows_wht_bottom_250.png");
+}
+.wed_vid_bg .wed_wht_txt h2::after {
+	width: 250px; height: 16px; background-image: url("../images/arrows_bottom_250.png");
+}
+.wed_portfolio_poloroid {
+	margin: 50px auto 150px; width: 400px; height: 600px; position: relative;
+}
+.wed_portfolio_poloroid :nth-child(n).wed_portfolio_item_poloroid {
+	left: -6%; top: 0%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(2n).wed_portfolio_item_poloroid {
+	left: 33%; top: 37%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(3n).wed_portfolio_item_poloroid {
+	left: -10%; top: 50%; transform: rotate(40deg) scale(0.7); -webkit-transform: rotate(40deg) scale(0.7, 0.7); -moz-transform: rotate(40deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(4n).wed_portfolio_item_poloroid {
+	left: -10%; top: 0%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(5n).wed_portfolio_item_poloroid {
+	left: 12%; top: 50%; z-index: 3; transform: rotate(-20deg) scale(0.8); -webkit-transform: rotate(-20deg) scale(0.8, 0.8); -moz-transform: rotate(-20deg) scale(0.8, 0.8);
+}
+.wed_portfolio_poloroid :nth-child(6n).wed_portfolio_item_poloroid {
+	left: 40%; top: 70%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(7n).wed_portfolio_item_poloroid {
+	left: 15%; top: 0%; transform: rotate(10deg) scale(0.7); -webkit-transform: rotate(10deg) scale(0.7, 0.7); -moz-transform: rotate(10deg) scale(0.7, 0.7);
+}
+.wed_gifts_img img {
+	transition:0.6s; width: 80%;
+}
+#leafContainer {
+	display: none;
+}
+.wed_heart_img_1:hover::after {
+	opacity: 0;
+}
+.wed_heart_img_2:hover::after {
+	opacity: 0;
+}
+h2.wed_agency_hensa_slider {
+	font-size: 90px;
+}
+.wed_slide_txt img {
+	height: 200px;
+}
+}
+@media all and (max-width:568px)
+{
+h1.wed_h1_title {
+	font: 900 54px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_top_menu > li > a {
+	padding: 13px 16px;
+}
+.wed_slide_center_bottom img {
+	height: 300px;
+}
+.wed_heart_img_1 {
+	width: auto; height: 418px; position: relative;
+}
+.wed_heart_img_2 {
+	width: auto; height: 418px; position: relative;
+}
+.wed_heart_img_1::before {
+	display: none;
+}
+.wed_heart_img_2::before {
+	display: none;
+}
+h2.wed_hensa_slider {
+	font: 300 60px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+}
+@media all and (max-width:480px)
+{
+.filter-button-group a::after {
+	display: none;
+}
+.wed_iphone {
+	display: none;
+}
+.wed_top_menu > li > a {
+	padding: 13px 16px;
+}
+.wed_mate_border::before {
+	top: -235px; height: 282px;
+}
+.wed_portfolio_item_cont.wed_story_cont {
+	margin-bottom: 40px;
+}
+.wed_portfolio_poloroid {
+	margin: 0px auto 50px; left: 10px; width: 300px; height: 600px; position: relative;
+}
+.wed_portfolio_poloroid :nth-child(n).wed_portfolio_item_poloroid {
+	left: -6%; top: 0%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(2n).wed_portfolio_item_poloroid {
+	left: 16%; top: 32%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(3n).wed_portfolio_item_poloroid {
+	left: -10%; top: 50%; transform: rotate(40deg) scale(0.7); -webkit-transform: rotate(40deg) scale(0.7, 0.7); -moz-transform: rotate(40deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(4n).wed_portfolio_item_poloroid {
+	left: -10%; top: 0%; transform: rotate(-30deg) scale(0.7); -webkit-transform: rotate(-30deg) scale(0.7, 0.7); -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(5n).wed_portfolio_item_poloroid {
+	left: 12%; top: 50%; z-index: 3; transform: rotate(-20deg) scale(0.8); -webkit-transform: rotate(-20deg) scale(0.8, 0.8); -moz-transform: rotate(-20deg) scale(0.8, 0.8);
+}
+.wed_portfolio_poloroid :nth-child(6n).wed_portfolio_item_poloroid {
+	left: 19%; top: 67%; transform: rotate(30deg) scale(0.7); -webkit-transform: rotate(30deg) scale(0.7, 0.7); -moz-transform: rotate(30deg) scale(0.7, 0.7);
+}
+.wed_portfolio_poloroid :nth-child(7n).wed_portfolio_item_poloroid {
+	left: 15%; top: 0%; transform: rotate(10deg) scale(0.7); -webkit-transform: rotate(10deg) scale(0.7, 0.7); -moz-transform: rotate(10deg) scale(0.7, 0.7);
+}
+.wed_post_journal_img img {
+	max-height: 300px;
+}
+h2.wed_hensa_slider {
+	font: 300 50px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_red .wed_heart_img_1:hover::after {
+	opacity: 0;
+}
+.wed_red .wed_heart_img_2:hover::after {
+	opacity: 0;
+}
+.wed_blue .wed_heart_img_1:hover::after {
+	opacity: 0;
+}
+.wed_blue .wed_heart_img_2:hover::after {
+	opacity: 0;
+}
+h2.wed_agency_hensa_slider {
+	font-size: 60px;
+}
+}
+@media all and (max-width:425px)
+{
+h2.wed_without_after {
+	font-size: 46px;
+}
+.wed_thin_titles h2 {
+	font-size: 46px;
+}
+.wed_slide_left_bottom_txt_left {
+	padding: 0px 20px; top: 14%; width: 100%;
+}
+.wed_slide_right_bottom_txt_right {
+	padding: 0px 20px; top: 14%; width: 100%;
+}
+.wed_agency .wed_slider_txt_animation p {
+	line-height: 15px; font-size: 12px; margin-bottom: 10px;
+}
+.wed_agency .wed_slider_txt_animation h3 {
+	font: 400 20px/18px Bree Serif, Arial; margin-bottom: 0px; font-size-adjust: none; font-stretch: normal;
+}
+}
+@media all and (max-width:405px)
+{
+img.wed_img_height {
+	min-width: 0px;
+}
+.wed_portfolio_item_cont.wed_story_cont {
+	height: 300px;
+}
+h3 {
+	font-size: 36px;
+}
+.wed_slide_txt.wed_slide_right img {
+	height: 350px;
+}
+.wed_portfolio_poloroid {
+	margin: 0px auto; left: 10px; width: 260px; height: 600px; position: relative;
+}
+h2.wed_hensa_slider {
+	font: 300 40px/normal hensa, Arial; font-size-adjust: none; font-stretch: normal;
+}
+.wed_flowers {
+	display: none;
+}
+h3 {
+	font: 400 26px/10px Bree Serif, Arial; font-size-adjust: none; font-stretch: normal;
+}
+}
+@media all and (max-width:332px)
+{
+.wed_post_journal_img img {
+	max-height: 200px;
+}
+.wed_pad_txt {
+	padding: 10px 40px 0px;
+}
+.wed_agency p {
+	font-size: 16px; margin-bottom: 17px;
+}
+}

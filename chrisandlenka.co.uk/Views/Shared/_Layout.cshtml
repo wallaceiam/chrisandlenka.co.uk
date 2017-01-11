@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenka &amp; Chris'' Wedding</title>
+
+    <!-- Library CSS -->
+    <link href="/css/wedding_library.css" rel="stylesheet">
+
+    <!-- Icons CSS -->
+    <link href="/fonts/themify-icons.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/css/wedding_style.css" rel="stylesheet">
+    <link href="/css/min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="/css/responsive.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+    <style>
+        .wed_map {
+            height: 450px;
+        }
+        .flag {
+            width: 24px;
+            vertical-align: top;
+            margin-top: -3px;
+        }
+    </style>
+</head>
+
+<body class="wed_firefly_only">
+
+    <!-- Music Bottom Container -->
+    <div class="wed_music_content">
+        <div class="wed_music_container">
+            <i class="ti ti-music"></i>
+        </div>
+    </div>
+    <!-- Music Bottom Container End -->
+    <!-- Soundcloud -->
+    <div class="wed_iframe">
+        <!-- over -->
+        <div class="wed_over wed_music_over" data-color="#000" data-opacity="0.5"></div>
+        <!--
+            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/102137206&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        -->
+    </div>
+
+
+    <!-- Preloader -->
+    <div class="wed_page_loader">
+        <div class="wed_story_content">
+            <div class="wed_heart_container_row_4">
+                <img class="wed_fourth_heart_1" src="/images/small_people/heart_1.png" alt="">
+                <img class="wed_fourth_heart_2" src="/images/small_people/heart_2.png" alt="">
+                <img class="wed_fourth_heart_3" src="/images/small_people/heart_3.png" alt="">
+            </div>
+            <div class="wed_story_small_img">
+                <img src="/images/small_people/small_couple.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!-- Preloader End-->
+    <!-- Firefly -->
+    <div class="wed_firefly">
+        <div class="jqueryFireFly" data-total="80" data-minPixel="4" data-maxPixel="9"></div>
+    </div>
+
+    @RenderBody()
+
+    <!-- Page End -->
+    <!-- JQuery -->
+    <script src="~/js/jquery-1.12.4.min.js"></script>
+
+    <!-- Library JS -->
+    <script src="~/js/wedding_min_library.js"></script>
+
+    <script src="~/js/jquery.countdown.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="~/js/wedding_script.js"></script>
+</body>
+
+</html>
