@@ -1,0 +1,34 @@
+﻿.gallery-2 h1 {
+    word-wrap: break-word;
+    cursor: default !important;
+}
+
+.gallery-2 h6 {
+    cursor: default !important;
+}
+
+.flag {
+    margin-top: -9px !important;
+}
+
+/*.ceremony {
+    background-image: url('/images/ceremony.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}*/
+
+.registry-1 h1 {
+    margin-bottom: 30px;
+}
+
+.field-error {
+    border: 1px solid #d60000 !important;
+}
+
+.rsvp-2 p:last-of-type {
+  margin-bottom: 30px !important;
+}
+
+.rsvp-2 .form-wrapper {
+    width: 550px;
+}

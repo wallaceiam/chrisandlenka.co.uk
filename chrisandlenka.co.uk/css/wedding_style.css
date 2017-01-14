@@ -299,7 +299,7 @@ p.wed_wht_txt {
 	margin-right: auto; margin-left: auto; max-width: 500px;
 }
 .form-control {
-	padding: 10px 20px; border-radius: 0px; border: 2px solid rgb(182, 133, 255); border-image: none; height: 50px; margin-bottom: 30px; box-shadow: none;
+	padding: 10px 20px; border-radius: 0px; border: 2px solid #8D363D; border-image: none; height: 50px; margin-bottom: 30px; box-shadow: none;
 }
 .wed_floral .form-control {
 	border: 2px solid rgb(33, 211, 229); border-image: none;
@@ -344,10 +344,10 @@ textarea.form-control {
 	background: rgba(110, 88, 48, 1);
 }
 .btn_new {
-	background: rgba(179, 129, 247, 1); padding: 15px; border-radius: 0px; border: 0px currentColor; transition:0.3s; border-image: none; color: rgb(255, 255, 255); position: relative; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+	background: #9BA672; padding: 15px; border-radius: 0px; border: 0px currentColor; transition:0.3s; border-image: none; color: rgb(255, 255, 255); position: relative; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
 }
 .btn_new::before {
-	background: rgba(100, 3, 232, 1); left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -2; content: ""; opacity: 0;
+	background: #D98289; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -2; content: ""; opacity: 0;
 }
 .btn_new::after {
 	background-position: center; transition:1s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: ""; opacity: 0; background-image: url("../images/coun_heart.png"); background-repeat: no-repeat; -webkit-transition: all 1s; -o-transition: all 1s;
@@ -371,16 +371,16 @@ textarea.form-control {
 	animation:pulse2 1.5s infinite both; opacity: 1;
 }
 .btn {
-	background: rgba(179, 129, 247, 1); padding: 15px; border-radius: 0px; border: 0px currentColor; transition:1.5s; border-image: none; color: rgb(255, 255, 255); z-index: 2; -webkit-transition: all 1.5s; -o-transition: all 1.5s;
+	background: #9BA672; padding: 15px; border-radius: 0px; border: 0px currentColor; transition:1.5s; border-image: none; color: rgb(255, 255, 255); z-index: 2; -webkit-transition: all 1.5s; -o-transition: all 1.5s;
 }
 .btn:hover {
-	background: rgba(100, 3, 232, 1); transition:0.5s; color: rgb(255, 255, 255);
+	background: #D98289; transition:0.5s; color: rgb(255, 255, 255);
 }
 .wed_wht_txt .btn {
-	background: rgba(179, 129, 247, 1); color: rgb(255, 255, 255);
+	background: #9BA672; color: rgb(255, 255, 255);
 }
 .wed_wht_txt .btn:hover {
-	background: rgba(100, 3, 232, 1); transition:0.5s;
+	background: #D98289; transition:0.5s;
 }
 .wed_btn_margbot {
 	margin-bottom: 30px;
@@ -1595,7 +1595,7 @@ h2.wed_without_after {
 	width: 100%; height: 400px; z-index: 99;
 }
 .wed_story_content {
-	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: rgb(228, 212, 251);
+	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: #D9CCC5;
 }
 .wed_blue .wed_story_content {
 	padding: 29px 25px; border-radius: 59px; left: 50%; top: 50%; width: 120px; position: absolute; transform: translateY(-50%) translateX(-50%); background-color: rgb(188, 223, 255);
@@ -1691,13 +1691,13 @@ img.wed_img_height {
 	width: 100%; margin-top: 30px;
 }
 .wed_portfolio_item_cont.wed_story_cont {
-	border: 4px solid rgb(228, 212, 251); border-image: none; width: 100%; height: 400px; overflow: hidden;
+	border: 4px solid #D9CCC5; border-image: none; width: 100%; height: 400px; overflow: hidden;
 }
 .wed_second_border {
-	border: 4px solid rgb(228, 212, 251); transition:0.7s; border-image: none; top: -23px; width: 94%; height: 100%; right: 38px; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
+	border: 4px solid #D9CCC5; transition:0.7s; border-image: none; top: -23px; width: 94%; height: 100%; right: 38px; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
 }
 .wed_second_border_right {
-	border: 4px solid rgb(228, 212, 251); transition:0.7s; border-image: none; left: 38px; top: -23px; width: 94%; height: 100%; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
+	border: 4px solid #D9CCC5; transition:0.7s; border-image: none; left: 38px; top: -23px; width: 94%; height: 100%; position: absolute; z-index: 1; pointer-events: none; -webkit-transition: all .7s; -o-transition: all .7s;
 }
 .wed_vid_bg .wed_second_border {
 	border: 4px solid rgb(255, 255, 255); border-image: none;
@@ -1730,7 +1730,7 @@ img.wed_img_height {
 	padding: 72px 0px; position: relative;
 }
 .wed_vertical_line {
-	margin: auto; left: 0px; top: 0px; width: 1px; height: 100%; right: 0px; bottom: 0px; border-left-color: rgb(228, 212, 251); border-left-width: 1px; border-left-style: dotted; position: absolute; z-index: -1;
+	margin: auto; left: 0px; top: 0px; width: 1px; height: 100%; right: 0px; bottom: 0px; border-left-color: #D9CCC5; border-left-width: 1px; border-left-style: dotted; position: absolute; z-index: -1;
 }
 .wed_floral .wed_vertical_line {
 	border-left-color: rgb(213, 251, 255); border-left-width: 1px; border-left-style: dotted;
@@ -1751,10 +1751,10 @@ img.wed_img_height {
 	background-color: rgb(255, 255, 255);
 }
 .wed_vertical_line.wed_line_top::before {
-	border-radius: 50%; top: -9px; width: 9px; height: 9px; right: -4px; position: absolute; content: ""; background-color: rgb(228, 212, 251);
+	border-radius: 50%; top: -9px; width: 9px; height: 9px; right: -4px; position: absolute; content: ""; background-color: #D9CCC5;
 }
 .wed_vertical_line.wed_line_bottom::after {
-	border-radius: 50%; width: 9px; height: 9px; right: -4px; bottom: -9px; position: absolute; content: ""; background-color: rgb(228, 212, 251);
+	border-radius: 50%; width: 9px; height: 9px; right: -4px; bottom: -9px; position: absolute; content: ""; background-color: #D9CCC5;
 }
 .countdown-row {
 	text-align: center; display: block;
@@ -2228,7 +2228,7 @@ img.wed_img_height {
 	border: 4px solid rgb(255, 255, 255); border-image: none;
 }
 .wed_news_block img {
-	border: 4px solid rgb(228, 212, 251); transition:0.3s; border-image: none; width: 100%; height: 100%; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+	border: 4px solid #D9CCC5; transition:0.3s; border-image: none; width: 100%; height: 100%; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
 }
 .wed_news_block:hover img {
 	transform: scale(1.1);
@@ -2567,7 +2567,7 @@ footer a {
 	text-align: center; opacity: 1; transform: translateY(-50%);
 }
 .wed_portfolio_item_cont::after {
-	background: rgba(228, 212, 251, 0.9); transition:0.3s; top: 0px; width: 100%; height: 100%; display: block; position: absolute; content: ""; opacity: 0; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
+	background: #D9CBC4; transition:0.3s; top: 0px; width: 100%; height: 100%; display: block; position: absolute; content: ""; opacity: 0; -webkit-transition: all 0.3s; -o-transition: all 0.3s;
 }
 .wed_floral .wed_portfolio_item_cont::after {
 	background: rgba(198, 229, 232, 0.9);
@@ -3281,7 +3281,7 @@ img.wed_fullwidth {
 	left: 0px; top: 0px; width: 600px; height: 100%; display: block; position: absolute; z-index: 1; content: "";
 }
 .wed_partners_block {
-	padding: 30px; border: 3px solid rgb(228, 212, 251); border-image: none;
+	padding: 30px; border: 3px solid #D9CCC5; border-image: none;
 }
 .wed_agency_full .wed_partners_agency .wed_icon_box {
 	margin-right: -3px; margin-bottom: -3px;

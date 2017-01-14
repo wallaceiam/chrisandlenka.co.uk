@@ -1,0 +1,66 @@
+﻿<section class="rsvp rsvp-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>@Strings.RsvpTitle</h1>
+                <p>
+                    @Strings.RsvpDetails1<br />
+                    @Strings.RsvpDetails2
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="form-wrapper">
+                    <form class="form-email">
+                        <div class="form-section">
+                            <div class="radio-group">
+                                <div class="radio-holder btn checked">
+                                    <span>@Strings.RsvpCantWait</span>
+                                    <input type="radio" name="rsvp" value="attending" checked="checked">
+                                </div>
+                                <div class="radio-holder btn">
+                                    <span>@Strings.RsvpCantCome</span>
+                                    <input type="radio" name="rsvp" value="not-attending">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section">
+                            <input type="text" name="email" class="validate-required validate-email" placeholder="@Strings.RsvpEmail" autocomplete="off">
+                            <input type="text" name="name" class="validate-required" placeholder="@Strings.RsvpName" autocomplete="off">
+
+                        </div>
+                        <div class="form-section">
+                            <h6>@Strings.RsvpMealPreference</h6>
+                            <div class="radio-group">
+                                <div class="radio-holder btn checked">
+                                    <span>@Strings.RsvpMealStandard</span>
+                                    <input type="radio" name="meal" value="stardard" checked="checked">
+                                </div>
+                                <div class="radio-holder btn">
+                                    <span>@Strings.RsvpMealVeg</span>
+                                    <input type="radio" name="meal" value="veg">
+                                </div>
+                                <div class="radio-holder btn">
+                                    <span>@Strings.RsvpMealDR</span>
+                                    <input type="radio" name="meal" value="dietary requirements">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section">
+                            <input type="text" name="song" class="validate-required" placeholder="@Strings.RsvpSongRequest" autocomplete="off">
+                        </div>
+                        <input type="submit" value="@Strings.RsvpSubmitRsvp">
+                        <div class="form-error">
+                            <span>@Strings.RsvpFormError</span>
+                        </div>
+                        <div class="form-success">
+                            <span>@Strings.RsvpFormSuccess</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,33 @@
+Client ID: c35f72b90dd04f2c94e523458d81a5ec
+
+https://api.instagram.com/oauth/authorize/?client_id=c35f72b90dd04f2c94e523458d81a5ec&redirect_uri=http://chrisandlenka.co.uk/insta/&response_type=code
+
+http://chrisandlenka.co.uk/?code=91e1bcb0a3d84c8cb4d74976bf446f57
+
+91e1bcb0a3d84c8cb4d74976bf446f57
+
+ f3b6f2043a874b3eb1304bd12bfe732c
+
+curl -F 'client_id=CLIENT_ID' \
+    -F 'client_secret=CLIENT_SECRET' \
+    -F 'grant_type=authorization_code' \
+    -F 'redirect_uri=AUTHORIZATION_REDIRECT_URI' \
+    -F 'code=CODE' \
+    https://api.instagram.com/oauth/access_token
+
+curl -F 'client_id=c35f72b90dd04f2c94e523458d81a5ec&client_secret=f98cbb4399f049b897670bb2040c059b' -F 'grant_type=authorization_code&redirect_uri=http://chrisandlenka.co.uk&code=91e1bcb0a3d84c8cb4d74976bf446f57' https://api.instagram.com/oauth/access_token
+
+
+{
+"user": {
+"profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13561639_618520148307224_1673796355_a.jpg",
+"username": "wallace1am",
+"bio": "",
+"website": "",
+"id": "1613621692",
+"full_name": "Chris Wallace"
+},
+"access_token": "1613621692.c35f72b.61cb841a9ef44407a70267f2457f6958"
+}
+
+1613621692.c35f72b.61cb841a9ef44407a70267f2457f6958

@@ -1,0 +1,115 @@
+﻿@*<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+    </html>*@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/content/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/content/flexslider.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/content/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/content/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700%7CLibre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+    <div class="nav-container">
+
+
+
+        <nav class="nav nav-1 transparent light">
+            <a href="~/" class="logo">
+                <span>Lenka &amp; Chris</span>
+            </a>
+            <ul class="menu">
+                <li><a href="#home" class="inner-link" target="default">@Strings.MenuHome</a></li>
+                <li><a href="#story" class="inner-link" target="default">@Strings.MenuOurStory</a></li>
+                <li><a href="#wedding" class="inner-link" target="default">@Strings.MenuWedding</a></li>
+                <li><a href="#accomm" class="inner-link" target="default">@Strings.MenuAccomm</a></li>
+                <li><a href="#rsvp" class="inner-link" target="default">@Strings.MenuRsvp</a></li>
+                <li><a href="#registry" class="inner-link" target="default">@Strings.MenuRegistry</a></li>
+                <li><a href="#gallery" class="inner-link" target="default">@Strings.MenuGallery</a></li>
+                <li><a href="@Url.Action("SetCulture", "Home", new { culture = Strings.OtherCulture }, null)"><img src="@Strings.OtherFlagImageUrl" class="flag" /></a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="main-container">
+
+        @RenderBody()
+
+        <footer class="footer footer-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h6>© Copyright @DateTime.Today.Year Chris &amp; Lenka - All Rights Reserved</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="~/scripts/jquery-3.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="~/scripts/smooth-scroll.min.js"></script>
+    <script src="~/scripts/placeholders.min.js"></script>
+    <script src="~/scripts/flexslider.min.js"></script>
+    <script src="~/scripts/spectragram.min.js"></script>
+    <script src="~/scripts/scripts.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
+

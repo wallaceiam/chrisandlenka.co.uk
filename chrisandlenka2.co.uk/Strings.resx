@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccommStErminsDetails" xml:space="preserve">
+    <value>Mention our names when making your reservation to recieve the group booking discount.</value>
+  </data>
+  <data name="AccommTitle" xml:space="preserve">
+    <value>Where to Stay?</value>
+  </data>
+  <data name="GalleryShareTheDay" xml:space="preserve">
+    <value>Share the day on Instagram</value>
+  </data>
+  <data name="HomeDateAndPlace" xml:space="preserve">
+    <value>August 26th, 2017 - London, United Kingdom</value>
+  </data>
+  <data name="MenuAccomm" xml:space="preserve">
+    <value>accommodation</value>
+  </data>
+  <data name="MenuGallery" xml:space="preserve">
+    <value>gallery</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>home</value>
+  </data>
+  <data name="MenuOurStory" xml:space="preserve">
+    <value>our story</value>
+  </data>
+  <data name="MenuRegistry" xml:space="preserve">
+    <value>registry</value>
+  </data>
+  <data name="MenuRsvp" xml:space="preserve">
+    <value>rsvp</value>
+  </data>
+  <data name="MenuWedding" xml:space="preserve">
+    <value>wedding</value>
+  </data>
+  <data name="OtherCulture" xml:space="preserve">
+    <value>sk</value>
+  </data>
+  <data name="OtherFlagImageUrl" xml:space="preserve">
+    <value>/images/flags/slovakia.png</value>
+  </data>
+  <data name="RegistryDetails" xml:space="preserve">
+    <value>RegistryDetails</value>
+  </data>
+  <data name="RegistryTitle" xml:space="preserve">
+    <value>Give the gift of presents</value>
+  </data>
+  <data name="RsvpCantCome" xml:space="preserve">
+    <value>Can't Come</value>
+  </data>
+  <data name="RsvpCantWait" xml:space="preserve">
+    <value>Can't Wait</value>
+  </data>
+  <data name="RsvpDetails1" xml:space="preserve">
+    <value>Please let us know if you can make it by</value>
+  </data>
+  <data name="RsvpDetails2" xml:space="preserve">
+    <value>July 10th at the latest, preesh!</value>
+  </data>
+  <data name="RsvpEmail" xml:space="preserve">
+    <value>Your E-Mail</value>
+  </data>
+  <data name="RsvpFormError" xml:space="preserve">
+    <value>Please fill out all fields</value>
+  </data>
+  <data name="RsvpFormSuccess" xml:space="preserve">
+    <value>Thanks for your RSVP!</value>
+  </data>
+  <data name="RsvpMealDR" xml:space="preserve">
+    <value>Gf / Df / etc</value>
+  </data>
+  <data name="RsvpMealPreference" xml:space="preserve">
+    <value>Meal Preference</value>
+  </data>
+  <data name="RsvpMealStandard" xml:space="preserve">
+    <value>Meat</value>
+  </data>
+  <data name="RsvpMealVeg" xml:space="preserve">
+    <value>Veg</value>
+  </data>
+  <data name="RsvpName" xml:space="preserve">
+    <value>Your Name / Your Guest(s) Names</value>
+  </data>
+  <data name="RsvpSongRequest" xml:space="preserve">
+    <value>Song Requests?</value>
+  </data>
+  <data name="RsvpSubmitRsvp" xml:space="preserve">
+    <value>Submit RSVP</value>
+  </data>
+  <data name="RsvpTitle" xml:space="preserve">
+    <value>Say you'll be there</value>
+  </data>
+  <data name="SaveTheDateDetails" xml:space="preserve">
+    <value>Saturday August 26th - Bucks &amp; Hens details to follow.</value>
+  </data>
+  <data name="SaveTheDateTitle" xml:space="preserve">
+    <value>SAVE THE DATE</value>
+  </data>
+  <data name="StoryAboutHer" xml:space="preserve">
+    <value>I love you for your beauty, your intelligence, your kindness… and for the way you always know how to make me feel so special. So on top of all the other vows that I will make to you on our wedding day, I also vow to always appreciate how lucky I am.</value>
+  </data>
+  <data name="StoryAboutHim" xml:space="preserve">
+    <value>You have been my best friend, mentor, playmate, confidant, and my greatest challenge. But most importantly, you are the love of my life and you make me happier than I could ever imagine and more loved than I ever thought possible.</value>
+  </data>
+  <data name="StoryDetails" xml:space="preserve">
+    <value>A little about the bride and groom.</value>
+  </data>
+  <data name="StoryTitle" xml:space="preserve">
+    <value>Join Lenka &amp; Chris on the 26th of August, 2017 to celebrate their union.</value>
+  </data>
+  <data name="WeddingCeremony" xml:space="preserve">
+    <value>Ceremony</value>
+  </data>
+  <data name="WeddingCeremonyAddress1" xml:space="preserve">
+    <value>2 Caxton St, Westminster</value>
+  </data>
+  <data name="WeddingCeremonyAddress2" xml:space="preserve">
+    <value>London SW1H 0QW</value>
+  </data>
+  <data name="WeddingCeremonyLocation" xml:space="preserve">
+    <value>The Cloisters Suite, St. Ermin's Hotel</value>
+  </data>
+  <data name="WeddingCeremonyTime" xml:space="preserve">
+    <value>2:45pm - 3:45pm</value>
+  </data>
+  <data name="WeddingDetails" xml:space="preserve">
+    <value>I guess you could call this a typical "boy meets girl in bar" story but with a twist!  Boy buys girl a drink, girl gives boy phone number. Two months and several thousand kilometers later and said boy and girl are head over heels for each other. Fast forward to today and we're settling down in our first home ready to tie the knot.</value>
+  </data>
+  <data name="WeddingReception" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="WeddingReceptionAddress1" xml:space="preserve">
+    <value>2 Caxton St, Westminster</value>
+  </data>
+  <data name="WeddingReceptionAddress2" xml:space="preserve">
+    <value>London SW1H 0QW</value>
+  </data>
+  <data name="WeddingReceptionLocation" xml:space="preserve">
+    <value>Crystal Ballroom, St. Ermin's Hotel</value>
+  </data>
+  <data name="WeddingReceptionTime" xml:space="preserve">
+    <value>4:00pm - Late</value>
+  </data>
+</root>
