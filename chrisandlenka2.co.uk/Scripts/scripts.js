@@ -9,6 +9,15 @@
         speed: 800
     });
 
+
+    //$('p.subnav a').click(function (event) {
+    //    event.preventDefault();
+    //    var link = this;
+    //    $.smoothScroll({
+    //        scrollTarget: link.hash
+    //    });
+    //});
+
     // Add scrolled class to nav
 
     $(window).scroll(function () {
