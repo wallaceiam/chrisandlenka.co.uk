@@ -166,6 +166,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\flexslider.min.css" />
     <Content Include="Content\Theme.css" />
+    <Content Include="Content\timeline.css">
+      <DependentUpon>timeline.less</DependentUpon>
+    </Content>
+    <Content Include="Content\timeline.min.css">
+      <DependentUpon>timeline.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -187,6 +193,20 @@
     <Content Include="Images\recemption.jpg" />
     <Content Include="Images\tall1.jpg" />
     <Content Include="Images\tall2.jpg" />
+    <Content Include="Images\timeline\bubblie.png" />
+    <Content Include="Images\timeline\buffet.png" />
+    <Content Include="Images\timeline\cake.png" />
+    <Content Include="Images\timeline\canape.png" />
+    <Content Include="Images\timeline\couple.png" />
+    <Content Include="Images\timeline\cutlery.png" />
+    <Content Include="Images\timeline\engagement-ring.png" />
+    <Content Include="Images\timeline\food.jpg" />
+    <Content Include="Images\timeline\music.jpg" />
+    <Content Include="Images\timeline\musical-notes.png" />
+    <Content Include="Images\timeline\preview.png" />
+    <Content Include="Images\timeline\rings.png" />
+    <Content Include="Images\timeline\stemwares.png" />
+    <Content Include="Images\timeline\wedding-cake.png" />
     <Content Include="Images\victoria-station-hotel.jpg" />
     <Content Include="Images\wedding-shop.jpg" />
     <Content Include="Scripts\bootstrap.js" />
@@ -200,6 +220,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\timeline.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Properties\PublishProfiles\FTP.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />

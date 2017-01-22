@@ -29,6 +29,16 @@
   margin-bottom: 30px !important;
 }
 
-.rsvp-2 .form-wrapper {
-    width: 550px;
+.registry-1 img {
+    max-height: initial !important;
+    max-width: 100%;
 }
+
+.rsvp-2 .form-wrapper {
+    width: 100%;
+}
+
+section.fullscreen .container {
+    top: 55%;
+}
+

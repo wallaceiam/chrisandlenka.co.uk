@@ -178,7 +178,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to RegistryDetails.
+        ///   Looks up a localized string similar to We understand that many of you have to travel, take time off  and generally have extra expenses in order to celebrate our wedding day with us. However, if you are still considering to get us something as a wedding gift, we would welcome any contributions towards our honeymoon fund to create new memories and unforgettable adventures..
         /// </summary>
         public static string RegistryDetails {
             get {
@@ -223,7 +223,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to July 10th at the latest, preesh!.
+        ///   Looks up a localized string similar to 1st May 2017 at the latest!.
         /// </summary>
         public static string RsvpDetails2 {
             get {
