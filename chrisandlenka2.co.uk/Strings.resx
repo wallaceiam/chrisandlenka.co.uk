@@ -117,17 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccommAirBnBDetails" xml:space="preserve">
+    <value>Stay like a local and if cost is a concern, maybe other guest would split on a larger place.</value>
+  </data>
+  <data name="AccommBookingDetails" xml:space="preserve">
+    <value>London has hundreds if not thousands of hotels to chose from, shop around as there are often some pretty good deals.</value>
+  </data>
+  <data name="AccommGrangeDetails" xml:space="preserve">
+    <value>Less than 10mins walk from St. Ermin's, The Grange Wellington Hotel offers some competitively priced rooms</value>
+  </data>
+  <data name="AccommParkPlazaDetails" xml:space="preserve">
+    <value>Conveniently located near St. Ermins' Hotel and if you don't mind splashing out a bit more.</value>
+  </data>
   <data name="AccommStErminsDetails" xml:space="preserve">
-    <value>Mention our names when making your reservation to recieve the group booking discount.</value>
+    <value>Mention our names when making your reservation to receive the group booking discount.</value>
   </data>
   <data name="AccommTitle" xml:space="preserve">
     <value>Where to Stay?</value>
+  </data>
+  <data name="AccommZHotelDetails" xml:space="preserve">
+    <value>Also conveniently located near St. Ermin's Hotel. The Z Hotel has some reasonable rooms for a reasonable price..</value>
   </data>
   <data name="GalleryShareTheDay" xml:space="preserve">
     <value>Share the day on Instagram</value>
   </data>
   <data name="HomeDateAndPlace" xml:space="preserve">
-    <value>August 26th, 2017 - London, United Kingdom</value>
+    <value>Saturday August 26th, 2017 - London, United Kingdom</value>
   </data>
   <data name="MenuAccomm" xml:space="preserve">
     <value>accommodation</value>
@@ -156,11 +171,77 @@
   <data name="OtherFlagImageUrl" xml:space="preserve">
     <value>/images/flags/slovakia.png</value>
   </data>
+  <data name="OurStoryDetails" xml:space="preserve">
+    <value>A little story of our relationship</value>
+  </data>
+  <data name="OurStoryHowHeProposed" xml:space="preserve">
+    <value>How He Proposed</value>
+  </data>
+  <data name="OurStoryHowHeProposedDate" xml:space="preserve">
+    <value>September 17th, 2016</value>
+  </data>
+  <data name="OurStoryHowHeProposedDetails1" xml:space="preserve">
+    <value>Such a romantic proposal</value>
+  </data>
+  <data name="OurStoryHowHeProposedDetails2" xml:space="preserve">
+    <value>Chris took me for a "surprise" trip to Florence in Italy. He booked a fantastic hotel in the largest private gardens in Europe. One day after breakfast, we both decided to go to the gardens in order to take a few pictures for a nice memory…and then it happened with nervous and uncertain "Will you?". My first answer was "I hope you realise that this is a commitment for the rest of your life" leaving a little break to follow "Yes, I will marry you".</value>
+  </data>
+  <data name="OurStoryHowWeMet" xml:space="preserve">
+    <value>How We Met</value>
+  </data>
+  <data name="OurStoryHowWeMetDate" xml:space="preserve">
+    <value>May 14th, 2014</value>
+  </data>
+  <data name="OurStoryHowWeMetDetails1" xml:space="preserve">
+    <value>That Day Changed Everything</value>
+  </data>
+  <data name="OurStoryHowWeMetDetails2" xml:space="preserve">
+    <value>Considering the current worldwide trend that is promising to match you with "The One" through all the on-line and mobile phone apps, we met in the office to be said in a real life. Lenka was already working in the company before I joined. I came for an interview when I noticed a pretty blond in a red dress "mmm"...</value>
+  </data>
+  <data name="OurStoryNewChapter" xml:space="preserve">
+    <value>New Chapter Begins</value>
+  </data>
+  <data name="OurStoryNewChapterDate" xml:space="preserve">
+    <value>August 26th, 2017</value>
+  </data>
+  <data name="OurStoryNewChapterDetails1" xml:space="preserve">
+    <value>And here we are… planning our special day that opens a new chapter in our lives as Mr. &amp; Mrs. surrounded by the dearest and closest family and friends. We are extremely excited you can be there and celebrate this joyful &amp; emotional day with us.</value>
+  </data>
+  <data name="OurStoryNewChapterDetails2" xml:space="preserve">
+    <value>Thank You!</value>
+  </data>
+  <data name="OurStoryOurFirstDate" xml:space="preserve">
+    <value>Our First Date</value>
+  </data>
+  <data name="OurStoryOurFirstDateDate" xml:space="preserve">
+    <value>July 25th, 2014</value>
+  </data>
+  <data name="OurStoryOurFirstDateDetails1" xml:space="preserve">
+    <value>This was so adventurous</value>
+  </data>
+  <data name="OurStoryOurFirstDateDetails2" xml:space="preserve">
+    <value>Our first date "was" very romantic. Chris invited me for after work drinks where only Chris turned up. Suspicious? Surprise?! :) Anyways, we went to a local traditional neighbourhood boozer called "The Flying Horse" where the time flown during interesting conversations so that I missed the last tube that could get me home. Hence Chris suggested to give me a lift on his Vespa motorcycle with "L" (Learner) sign at the back taking me through the side narrow streets avoiding police officers. That is certainly quite a memory :)</value>
+  </data>
+  <data name="OurStoryOurFirstHoliday" xml:space="preserve">
+    <value>Our First Holiday</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDate" xml:space="preserve">
+    <value>December 3rd, 2014</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDetails1" xml:space="preserve">
+    <value>The sky lit up and danced</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDetails2" xml:space="preserve">
+    <value>Our first holiday was also a celebration of Lenka’s birthday. The rugged and absolutely beautiful scenery of Iceland was to be scratched off our bucket lists. From the warmth of the Blue Lagoon to the Aurora Borealis starting just as we arrive, in what can only be described as the middle of nowhere in the dead of night, as if it was almost a show just for the two of us to the freezing cold and trembling hands whilst trying to capture a picture of the Geysers and frozen waterfalls. It truly was a first of many unforgettable adventures.</value>
+  </data>
+  <data name="OurStoryTitle" xml:space="preserve">
+    <value>Our Story</value>
+  </data>
   <data name="RegistryDetails" xml:space="preserve">
-    <value>We understand that many of you have to travel, take time off  and generally have extra expenses in order to celebrate our wedding day with us. However, if you are still considering to get us something as a wedding gift, we would welcome any contributions towards our honeymoon fund to create new memories and unforgettable adventures.</value>
+    <value>We understand that many of you have to travel, take time off and generally have extra expenses in order to celebrate our wedding day with us. However, if you are still considering to get us something as a wedding gift, we would welcome any contributions towards our honeymoon fund to create new memories and unforgettable adventures.</value>
   </data>
   <data name="RegistryTitle" xml:space="preserve">
-    <value>Give the gift of presents</value>
+    <value>Gifts</value>
   </data>
   <data name="RsvpCantCome" xml:space="preserve">
     <value>Can't Come</value>
@@ -172,7 +253,7 @@
     <value>Please let us know if you can make it by</value>
   </data>
   <data name="RsvpDetails2" xml:space="preserve">
-    <value>1st May 2017 at the latest!</value>
+    <value>Monday May 1st, 2017 at the latest!</value>
   </data>
   <data name="RsvpEmail" xml:space="preserve">
     <value>Your E-Mail</value>
@@ -208,22 +289,43 @@
     <value>Say you'll be there</value>
   </data>
   <data name="SaveTheDateDetails" xml:space="preserve">
-    <value>Saturday August 26th - Bucks &amp; Hens details to follow.</value>
+    <value>Saturday August 26th, 2017 - Bucks &amp; Hens details to follow.</value>
   </data>
   <data name="SaveTheDateTitle" xml:space="preserve">
     <value>SAVE THE DATE</value>
   </data>
   <data name="StoryAboutHer" xml:space="preserve">
-    <value>I love you for your beauty, your intelligence, your kindness… and for the way you always know how to make me feel so special. So on top of all the other vows that I will make to you on our wedding day, I also vow to always appreciate how lucky I am.</value>
+    <value>The Beautiful Bride</value>
   </data>
   <data name="StoryAboutHim" xml:space="preserve">
-    <value>You have been my best friend, mentor, playmate, confidant, and my greatest challenge. But most importantly, you are the love of my life and you make me happier than I could ever imagine and more loved than I ever thought possible.</value>
+    <value>The Handsome Groom</value>
   </data>
   <data name="StoryDetails" xml:space="preserve">
     <value>A little about the bride and groom.</value>
   </data>
   <data name="StoryTitle" xml:space="preserve">
-    <value>Join Lenka &amp; Chris on the 26th of August, 2017 to celebrate their union.</value>
+    <value>Join Lenka &amp; Chris on Saturday the 26th of August, 2017 to celebrate their union.</value>
+  </data>
+  <data name="Timeline1" xml:space="preserve">
+    <value>The I Do's</value>
+  </data>
+  <data name="Timeline2" xml:space="preserve">
+    <value>Canapés &amp; Bubbly</value>
+  </data>
+  <data name="Timeline3" xml:space="preserve">
+    <value>The Feast &amp; Speeches</value>
+  </data>
+  <data name="Timeline4" xml:space="preserve">
+    <value>Cake Cutting</value>
+  </data>
+  <data name="Timeline5" xml:space="preserve">
+    <value>Dancing</value>
+  </data>
+  <data name="Timeline6" xml:space="preserve">
+    <value>Evening Buffet</value>
+  </data>
+  <data name="Timeline7" xml:space="preserve">
+    <value>Closing Time</value>
   </data>
   <data name="WeddingCeremony" xml:space="preserve">
     <value>Ceremony</value>
@@ -238,10 +340,13 @@
     <value>The Cloisters Suite, St. Ermin's Hotel</value>
   </data>
   <data name="WeddingCeremonyTime" xml:space="preserve">
-    <value>2:45pm - 3:45pm</value>
+    <value>14:45 - 13:45pm</value>
   </data>
   <data name="WeddingDetails" xml:space="preserve">
-    <value>I guess you could call this a typical "boy meets girl in bar" story but with a twist!  Boy buys girl a drink, girl gives boy phone number. Two months and several thousand kilometers later and said boy and girl are head over heels for each other. Fast forward to today and we're settling down in our first home ready to tie the knot.</value>
+    <value>Join Lenka &amp; Chris on the 26th of August, 2017 to celebrate their union.</value>
+  </data>
+  <data name="WeddingHotelDetails" xml:space="preserve">
+    <value>A little about the venue</value>
   </data>
   <data name="WeddingReception" xml:space="preserve">
     <value>Reception</value>
@@ -256,6 +361,21 @@
     <value>Crystal Ballroom, St. Ermin's Hotel</value>
   </data>
   <data name="WeddingReceptionTime" xml:space="preserve">
-    <value>4:00pm - Late</value>
+    <value>17:00 - Late</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails1" xml:space="preserve">
+    <value>In 1887, St. Ermin’s opened as luxurious apartments, and in 1899, the structure was converted into a luxury hotel, soon to be prized among London’s visitors and residents alike upon its opening in 1905. Exquisite theatre designer J.P. Briggs crafted the meeting and event spaces in an opulent Victorian fashion, and modern conveniences arose at St. Ermin’s, when telephones were placed within guestrooms rather than the more traditional use of bells. A notable spot for important public figures, St. Ermin’s has frequently seen visits from politicians, celebrities, and members of Parliament.</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails2" xml:space="preserve">
+    <value>In 1940 Winston Churchill, held a historic meeting at St. Ermin’s Hotel. He asked a group of remarkable people to join him in ‘Setting Europe Ablaze’ – this elite set, were to become the founding members of the SOE (Special Operations Executive). The unit carried out covert operations during WW2, from their headquarters – an entire floor of St. Ermin’s Hotel, whilst MI6 were stationed two floors above. SOE agents’ printed secret coded messages on pieces of silk, an original sample hangs in the Lobby, hunt it down and try to crack the code.  In the 1950's the spy Guy Burgess (part of the infamous Cambridge five) handed over secret papers to his Russian counterpart in the Caxton Bar.</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails3" xml:space="preserve">
+    <value>St. Ermin’s continues to play an important part in London’s history, as it is rumoured that a tunnel runs from underneath the grand staircase in the Lobby all the way to the houses of Westminster.</value>
+  </data>
+  <data name="WeddingTimelineDetails" xml:space="preserve">
+    <value>A little about what to expect on the day.</value>
+  </data>
+  <data name="WeddingTimelineTitle" xml:space="preserve">
+    <value>Timeline of Events</value>
   </data>
 </root>

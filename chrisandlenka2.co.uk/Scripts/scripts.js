@@ -149,19 +149,6 @@
         $(this).attr('name', convertToSlug(attrText));
     });
 
-    //// Instagram Feed
-
-    //jQuery.fn.spectragram.accessData = {
-    //    accessToken: '1613621692.c35f72b.61cb841a9ef44407a70267f2457f6958',
-    //    clientID: 'c35f72b90dd04f2c94e523458d81a5ec'
-    //};
-
-    //$('.instafeed').each(function () {
-    //    $(this).children('ul').spectragram('getRecentTagged', {
-    //        query: $(this).attr('data-user-name')
-    //    });
-    //});
-
     // Contact form code
 
     $('form.form-email').submit(function (e) {
@@ -347,6 +334,14 @@
         return error;
     }
 
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+
+    $(".maps").mouseleave(function () {
+        $('.maps iframe').css("pointer-events", "none");
+    });
+
 });
 
 //$(window).load(function () {
@@ -406,13 +401,3 @@ function parallaxBackground() {
         }
     });
 };
-//Google Tracking Code
-(function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-//ga('create', 'UA-52115242-5', 'mediumra.re');
-//ga('send', 'pageview');

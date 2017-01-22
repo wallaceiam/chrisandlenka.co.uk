@@ -61,7 +61,43 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mention our names when making your reservation to recieve the group booking discount..
+        ///   Looks up a localized string similar to Stay like a local and if cost is a concern, maybe other guest would split on a larger place..
+        /// </summary>
+        public static string AccommAirBnBDetails {
+            get {
+                return ResourceManager.GetString("AccommAirBnBDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to London has hundreds if not thousands of hotels to chose from, shop around as there are often some pretty good deals..
+        /// </summary>
+        public static string AccommBookingDetails {
+            get {
+                return ResourceManager.GetString("AccommBookingDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Less than 10mins walk from St. Ermin&apos;s, The Grange Wellington Hotel offers some competitively priced rooms.
+        /// </summary>
+        public static string AccommGrangeDetails {
+            get {
+                return ResourceManager.GetString("AccommGrangeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Conveniently located near St. Ermins&apos; Hotel and if you don&apos;t mind splashing out a bit more..
+        /// </summary>
+        public static string AccommParkPlazaDetails {
+            get {
+                return ResourceManager.GetString("AccommParkPlazaDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mention our names when making your reservation to receive the group booking discount..
         /// </summary>
         public static string AccommStErminsDetails {
             get {
@@ -79,6 +115,15 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Also conveniently located near St. Ermin&apos;s Hotel. The Z Hotel has some reasonable rooms for a reasonable price...
+        /// </summary>
+        public static string AccommZHotelDetails {
+            get {
+                return ResourceManager.GetString("AccommZHotelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Share the day on Instagram.
         /// </summary>
         public static string GalleryShareTheDay {
@@ -88,7 +133,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to August 26th, 2017 - London, United Kingdom.
+        ///   Looks up a localized string similar to Saturday August 26th, 2017 - London, United Kingdom.
         /// </summary>
         public static string HomeDateAndPlace {
             get {
@@ -178,7 +223,205 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We understand that many of you have to travel, take time off  and generally have extra expenses in order to celebrate our wedding day with us. However, if you are still considering to get us something as a wedding gift, we would welcome any contributions towards our honeymoon fund to create new memories and unforgettable adventures..
+        ///   Looks up a localized string similar to A little story of our relationship.
+        /// </summary>
+        public static string OurStoryDetails {
+            get {
+                return ResourceManager.GetString("OurStoryDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How He Proposed.
+        /// </summary>
+        public static string OurStoryHowHeProposed {
+            get {
+                return ResourceManager.GetString("OurStoryHowHeProposed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to September 17th, 2016.
+        /// </summary>
+        public static string OurStoryHowHeProposedDate {
+            get {
+                return ResourceManager.GetString("OurStoryHowHeProposedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Such a romantic proposal.
+        /// </summary>
+        public static string OurStoryHowHeProposedDetails1 {
+            get {
+                return ResourceManager.GetString("OurStoryHowHeProposedDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chris took me for a &quot;surprise&quot; trip to Florence in Italy. He booked a fantastic hotel in the largest private gardens in Europe. One day after breakfast, we both decided to go to the gardens in order to take a few pictures for a nice memory…and then it happened with nervous and uncertain &quot;Will you?&quot;. My first answer was &quot;I hope you realise that this is a commitment for the rest of your life&quot; leaving a little break to follow &quot;Yes, I will marry you&quot;..
+        /// </summary>
+        public static string OurStoryHowHeProposedDetails2 {
+            get {
+                return ResourceManager.GetString("OurStoryHowHeProposedDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How We Met.
+        /// </summary>
+        public static string OurStoryHowWeMet {
+            get {
+                return ResourceManager.GetString("OurStoryHowWeMet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to May 14th, 2014.
+        /// </summary>
+        public static string OurStoryHowWeMetDate {
+            get {
+                return ResourceManager.GetString("OurStoryHowWeMetDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to That Day Changed Everything.
+        /// </summary>
+        public static string OurStoryHowWeMetDetails1 {
+            get {
+                return ResourceManager.GetString("OurStoryHowWeMetDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Considering the current worldwide trend that is promising to match you with &quot;The One&quot; through all the on-line and mobile phone apps, we met in the office to be said in a real life. Lenka was already working in the company before I joined. I came for an interview when I noticed a pretty blond in a red dress &quot;mmm&quot;....
+        /// </summary>
+        public static string OurStoryHowWeMetDetails2 {
+            get {
+                return ResourceManager.GetString("OurStoryHowWeMetDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Chapter Begins.
+        /// </summary>
+        public static string OurStoryNewChapter {
+            get {
+                return ResourceManager.GetString("OurStoryNewChapter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to August 26th, 2017.
+        /// </summary>
+        public static string OurStoryNewChapterDate {
+            get {
+                return ResourceManager.GetString("OurStoryNewChapterDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to And here we are… planning our special day that opens a new chapter in our lives as Mr. &amp; Mrs. surrounded by the dearest and closest family and friends. We are extremely excited you can be there and celebrate this joyful &amp; emotional day with us..
+        /// </summary>
+        public static string OurStoryNewChapterDetails1 {
+            get {
+                return ResourceManager.GetString("OurStoryNewChapterDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank You!.
+        /// </summary>
+        public static string OurStoryNewChapterDetails2 {
+            get {
+                return ResourceManager.GetString("OurStoryNewChapterDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our First Date.
+        /// </summary>
+        public static string OurStoryOurFirstDate {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to July 25th, 2014.
+        /// </summary>
+        public static string OurStoryOurFirstDateDate {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstDateDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This was so adventurous.
+        /// </summary>
+        public static string OurStoryOurFirstDateDetails1 {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstDateDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our first date &quot;was&quot; very romantic. Chris invited me for after work drinks where only Chris turned up. Suspicious? Surprise?! :) Anyways, we went to a local traditional neighbourhood boozer called &quot;The Flying Horse&quot; where the time flown during interesting conversations so that I missed the last tube that could get me home. Hence Chris suggested to give me a lift on his Vespa motorcycle with &quot;L&quot; (Learner) sign at the back taking me through the side narrow streets avoiding police officers. That is certainly q [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string OurStoryOurFirstDateDetails2 {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstDateDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our First Holiday.
+        /// </summary>
+        public static string OurStoryOurFirstHoliday {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstHoliday", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to December 3rd, 2014.
+        /// </summary>
+        public static string OurStoryOurFirstHolidayDate {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstHolidayDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The sky lit up and danced.
+        /// </summary>
+        public static string OurStoryOurFirstHolidayDetails1 {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstHolidayDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our first holiday was also a celebration of Lenka’s birthday. The rugged and absolutely beautiful scenery of Iceland was to be scratched off our bucket lists. From the warmth of the Blue Lagoon to the Aurora Borealis starting just as we arrive, in what can only be described as the middle of nowhere in the dead of night, as if it was almost a show just for the two of us to the freezing cold and trembling hands whilst trying to capture a picture of the Geysers and frozen waterfalls. It truly was a first of ma [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string OurStoryOurFirstHolidayDetails2 {
+            get {
+                return ResourceManager.GetString("OurStoryOurFirstHolidayDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our Story.
+        /// </summary>
+        public static string OurStoryTitle {
+            get {
+                return ResourceManager.GetString("OurStoryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We understand that many of you have to travel, take time off and generally have extra expenses in order to celebrate our wedding day with us. However, if you are still considering to get us something as a wedding gift, we would welcome any contributions towards our honeymoon fund to create new memories and unforgettable adventures..
         /// </summary>
         public static string RegistryDetails {
             get {
@@ -187,7 +430,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Give the gift of presents.
+        ///   Looks up a localized string similar to Gifts.
         /// </summary>
         public static string RegistryTitle {
             get {
@@ -223,7 +466,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1st May 2017 at the latest!.
+        ///   Looks up a localized string similar to Monday May 1st, 2017 at the latest!.
         /// </summary>
         public static string RsvpDetails2 {
             get {
@@ -331,7 +574,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Saturday August 26th - Bucks &amp; Hens details to follow..
+        ///   Looks up a localized string similar to Saturday August 26th, 2017 - Bucks &amp; Hens details to follow..
         /// </summary>
         public static string SaveTheDateDetails {
             get {
@@ -349,7 +592,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I love you for your beauty, your intelligence, your kindness… and for the way you always know how to make me feel so special. So on top of all the other vows that I will make to you on our wedding day, I also vow to always appreciate how lucky I am..
+        ///   Looks up a localized string similar to The Beautiful Bride.
         /// </summary>
         public static string StoryAboutHer {
             get {
@@ -358,7 +601,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You have been my best friend, mentor, playmate, confidant, and my greatest challenge. But most importantly, you are the love of my life and you make me happier than I could ever imagine and more loved than I ever thought possible..
+        ///   Looks up a localized string similar to The Handsome Groom.
         /// </summary>
         public static string StoryAboutHim {
             get {
@@ -376,11 +619,74 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Join Lenka &amp; Chris on the 26th of August, 2017 to celebrate their union..
+        ///   Looks up a localized string similar to Join Lenka &amp; Chris on Saturday the 26th of August, 2017 to celebrate their union..
         /// </summary>
         public static string StoryTitle {
             get {
                 return ResourceManager.GetString("StoryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The I Do&apos;s.
+        /// </summary>
+        public static string Timeline1 {
+            get {
+                return ResourceManager.GetString("Timeline1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Canapés &amp; Bubbly.
+        /// </summary>
+        public static string Timeline2 {
+            get {
+                return ResourceManager.GetString("Timeline2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Feast &amp; Speeches.
+        /// </summary>
+        public static string Timeline3 {
+            get {
+                return ResourceManager.GetString("Timeline3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cake Cutting.
+        /// </summary>
+        public static string Timeline4 {
+            get {
+                return ResourceManager.GetString("Timeline4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dancing.
+        /// </summary>
+        public static string Timeline5 {
+            get {
+                return ResourceManager.GetString("Timeline5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Evening Buffet.
+        /// </summary>
+        public static string Timeline6 {
+            get {
+                return ResourceManager.GetString("Timeline6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Closing Time.
+        /// </summary>
+        public static string Timeline7 {
+            get {
+                return ResourceManager.GetString("Timeline7", resourceCulture);
             }
         }
         
@@ -421,7 +727,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2:45pm - 3:45pm.
+        ///   Looks up a localized string similar to 14:45 - 13:45pm.
         /// </summary>
         public static string WeddingCeremonyTime {
             get {
@@ -430,11 +736,20 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I guess you could call this a typical &quot;boy meets girl in bar&quot; story but with a twist!  Boy buys girl a drink, girl gives boy phone number. Two months and several thousand kilometers later and said boy and girl are head over heels for each other. Fast forward to today and we&apos;re settling down in our first home ready to tie the knot..
+        ///   Looks up a localized string similar to Join Lenka &amp; Chris on the 26th of August, 2017 to celebrate their union..
         /// </summary>
         public static string WeddingDetails {
             get {
                 return ResourceManager.GetString("WeddingDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A little about the venue.
+        /// </summary>
+        public static string WeddingHotelDetails {
+            get {
+                return ResourceManager.GetString("WeddingHotelDetails", resourceCulture);
             }
         }
         
@@ -475,11 +790,56 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 4:00pm - Late.
+        ///   Looks up a localized string similar to 17:00 - Late.
         /// </summary>
         public static string WeddingReceptionTime {
             get {
                 return ResourceManager.GetString("WeddingReceptionTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In 1887, St. Ermin’s opened as luxurious apartments, and in 1899, the structure was converted into a luxury hotel, soon to be prized among London’s visitors and residents alike upon its opening in 1905. Exquisite theatre designer J.P. Briggs crafted the meeting and event spaces in an opulent Victorian fashion, and modern conveniences arose at St. Ermin’s, when telephones were placed within guestrooms rather than the more traditional use of bells. A notable spot for important public figures, St. Ermin’s has  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string WeddingStErminsHotelDetails1 {
+            get {
+                return ResourceManager.GetString("WeddingStErminsHotelDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In 1940 Winston Churchill, held a historic meeting at St. Ermin’s Hotel. He asked a group of remarkable people to join him in ‘Setting Europe Ablaze’ – this elite set, were to become the founding members of the SOE (Special Operations Executive). The unit carried out covert operations during WW2, from their headquarters – an entire floor of St. Ermin’s Hotel, whilst MI6 were stationed two floors above. SOE agents’ printed secret coded messages on pieces of silk, an original sample hangs in the Lobby, hunt i [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string WeddingStErminsHotelDetails2 {
+            get {
+                return ResourceManager.GetString("WeddingStErminsHotelDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to St. Ermin’s continues to play an important part in London’s history, as it is rumoured that a tunnel runs from underneath the grand staircase in the Lobby all the way to the houses of Westminster..
+        /// </summary>
+        public static string WeddingStErminsHotelDetails3 {
+            get {
+                return ResourceManager.GetString("WeddingStErminsHotelDetails3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A little about what to expect on the day..
+        /// </summary>
+        public static string WeddingTimelineDetails {
+            get {
+                return ResourceManager.GetString("WeddingTimelineDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timeline of Events.
+        /// </summary>
+        public static string WeddingTimelineTitle {
+            get {
+                return ResourceManager.GetString("WeddingTimelineTitle", resourceCulture);
             }
         }
     }

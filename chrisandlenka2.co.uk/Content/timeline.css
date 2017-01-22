@@ -6,8 +6,10 @@
   position: relative;
 }
 .timeline:before {
-  top: 40px;
-  bottom: 0;
+  /*top: 40px;
+        bottom: 0;*/
+  top: 70px;
+  bottom: 70px;
   position: absolute;
   content: " ";
   width: 3px;

@@ -42,3 +42,35 @@ section.fullscreen .container {
     top: 55%;
 }
 
+.maps iframe{
+    pointer-events: none;
+}
+
+.section-separator {
+    background-color:#EFE0D3;
+    text-align: center;
+}
+
+.section-separator img {
+    left: auto;
+    right: auto;
+    margin: 15px auto 15px auto;
+}
+
+.details-3 h6 {
+  /*margin-bottom: 60px;*/
+  color: #EFE0D3;
+}
+
+.details-3 {
+    padding-bottom: 120px !important;
+}
+
+.radio-holder:hover, .radio-holder.checked {
+    color: #444 !important;
+}
+
+.rsvp form input[type="submit"] {
+    color: #444 !important;
+}
+

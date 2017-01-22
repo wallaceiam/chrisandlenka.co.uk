@@ -179,11 +179,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="google2632d1fcfb6ca748.html" />
     <Content Include="Images\airbnb.png" />
     <Content Include="Images\booking.png" />
     <Content Include="Images\ceremony.jpg" />
     <Content Include="Images\flags\slovakia.png" />
     <Content Include="Images\flags\united-kingdom.png" />
+    <Content Include="Images\flowers.png" />
+    <Content Include="Images\grange.jpg" />
     <Content Include="Images\guoman.bmp" />
     <Content Include="Images\hero1.jpg" />
     <Content Include="Images\hero2.jpg" />
@@ -191,8 +194,11 @@
     <Content Include="Images\hotel.jpg" />
     <Content Include="Images\park-plaza.jpg" />
     <Content Include="Images\recemption.jpg" />
+    <Content Include="Images\studio.png" />
     <Content Include="Images\tall1.jpg" />
     <Content Include="Images\tall2.jpg" />
+    <Content Include="Images\the-z-hotel-victoria.jpg" />
+    <Content Include="Images\timeline\bed.png" />
     <Content Include="Images\timeline\bubblie.png" />
     <Content Include="Images\timeline\buffet.png" />
     <Content Include="Images\timeline\cake.png" />
@@ -200,17 +206,25 @@
     <Content Include="Images\timeline\couple.png" />
     <Content Include="Images\timeline\cutlery.png" />
     <Content Include="Images\timeline\engagement-ring.png" />
+    <Content Include="Images\timeline\first_date.png" />
     <Content Include="Images\timeline\food.jpg" />
     <Content Include="Images\timeline\music.jpg" />
+    <Content Include="Images\timeline\music.png" />
     <Content Include="Images\timeline\musical-notes.png" />
+    <Content Include="Images\timeline\new_chapter.png" />
     <Content Include="Images\timeline\preview.png" />
     <Content Include="Images\timeline\rings.png" />
+    <Content Include="Images\timeline\start.png" />
     <Content Include="Images\timeline\stemwares.png" />
+    <Content Include="Images\timeline\toast.png" />
+    <Content Include="Images\timeline\travel.png" />
     <Content Include="Images\timeline\wedding-cake.png" />
+    <Content Include="Images\timeline\wedding.png" />
     <Content Include="Images\victoria-station-hotel.jpg" />
     <Content Include="Images\wedding-shop.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\flexslider.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -265,6 +279,7 @@
     <Content Include="Views\Home\_registry.cshtml" />
     <Content Include="Views\Home\_rsvp.cshtml" />
     <Content Include="Views\Home\_gallery.cshtml" />
+    <Content Include="Views\Home\_section_separator.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
