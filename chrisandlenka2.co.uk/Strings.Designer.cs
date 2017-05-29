@@ -97,7 +97,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mention our names when making your reservation to receive the group booking discount..
+        ///   Looks up a localized string similar to Absolutely stunning hotel and can&apos;t beat just going up to your room after the celebrations!.
         /// </summary>
         public static string AccommStErminsDetails {
             get {
@@ -367,7 +367,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our first date &quot;was&quot; very romantic. Chris invited me for after work drinks where only Chris turned up. Suspicious? Surprise?! :) Anyways, we went to a local traditional neighbourhood boozer called &quot;The Flying Horse&quot; where the time flown during interesting conversations so that I missed the last tube that could get me home. Hence Chris suggested to give me a lift on his Vespa motorcycle with &quot;L&quot; (Learner) sign at the back taking me through the side narrow streets avoiding police officers. That is certainly q [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Our first date was &quot;very romantic&quot;. Chris invited me for after work drinks where only Chris turned up. Suspicious? Surprise?! :) Anyways, we went to a local traditional neighbourhood boozer called &quot;The Flying Horse&quot; where the time flown during interesting conversations so that I missed the last tube that could get me home. Hence Chris suggested to give me a lift on his Vespa motorcycle with &quot;L&quot; (Learner) sign at the back taking me through the side narrow streets avoiding police officers. That is certainly q [rest of string was truncated]&quot;;.
         /// </summary>
         public static string OurStoryOurFirstDateDetails2 {
             get {
@@ -727,7 +727,7 @@ namespace chrisandlenka2.co.uk {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14:45 - 13:45pm.
+        ///   Looks up a localized string similar to 14:45 - 15:45.
         /// </summary>
         public static string WeddingCeremonyTime {
             get {

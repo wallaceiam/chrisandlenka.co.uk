@@ -117,13 +117,268 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccommAirBnBDetails" xml:space="preserve">
+    <value>AirBnB je pre tých, ktorí sa chcú ubytovať ako miestni, za nízke ceny. V ponuke sú aj veľké apartmány, ktoré si niektorí hostia môžu rozdeliť, ale aj menšie apartmány a garsónky (štúdiá) pre pár alebo jednotlivcov.</value>
+  </data>
+  <data name="AccommBookingDetails" xml:space="preserve">
+    <value>Londýn ponúka na výber stovky, ak nie tisíce hotelov a ubytovacích zariadení, ktoré často poskytujú výhodné ponuky. Stačí sa pozrieť cez Booking.com.</value>
+  </data>
+  <data name="AccommGrangeDetails" xml:space="preserve">
+    <value>Menej ako 10 minút pešo od hotela St. Ermin's sa nachádza Grange Wellington Hotel, ktorý ponúka slušné ubytovanie za adekvátne ceny.</value>
+  </data>
+  <data name="AccommParkPlazaDetails" xml:space="preserve">
+    <value>Park Plaza hotel je umiestnený v blízkosti hotela St. Ermin's a tiež kúsok od stanice Victoria, ak vám neprekáža cenovo vyššie ubytovanie.</value>
+  </data>
+  <data name="AccommStErminsDetails" xml:space="preserve">
+    <value>Prekrásny hotel, ktorý je miestom našej svadby, ponúka zaujímavé izby, avšak za vyššie ceny.</value>
+  </data>
+  <data name="AccommTitle" xml:space="preserve">
+    <value>Kde sa ubytovať?</value>
+  </data>
+  <data name="AccommZHotelDetails" xml:space="preserve">
+    <value>Z Hotel je výhodne umiestnený v blízkosti hotela St. Ermin's a tiež ponúka solídne izby za rozumné ceny. </value>
+  </data>
+  <data name="GalleryShareTheDay" xml:space="preserve">
+    <value>Zdieľaj náš deň na Instagrame</value>
+  </data>
+  <data name="HomeDateAndPlace" xml:space="preserve">
+    <value>Sobota 26. august 2017 - Londýn, Veľká Británia</value>
+  </data>
+  <data name="MenuAccomm" xml:space="preserve">
+    <value>ubytovanie</value>
+  </data>
+  <data name="MenuGallery" xml:space="preserve">
+    <value>galéria</value>
+  </data>
   <data name="MenuHome" xml:space="preserve">
-    <value>domov</value>
+    <value>úvod</value>
+  </data>
+  <data name="MenuOurStory" xml:space="preserve">
+    <value>náš Príbeh</value>
+  </data>
+  <data name="MenuRegistry" xml:space="preserve">
+    <value>svadobné dary</value>
+  </data>
+  <data name="MenuRsvp" xml:space="preserve">
+    <value>rsvp</value>
+  </data>
+  <data name="MenuWedding" xml:space="preserve">
+    <value>svadobný deň</value>
   </data>
   <data name="OtherCulture" xml:space="preserve">
     <value>en</value>
   </data>
   <data name="OtherFlagImageUrl" xml:space="preserve">
     <value>/images/flags/united-kingdom.png</value>
+  </data>
+  <data name="OurStoryDetails" xml:space="preserve">
+    <value>Krátky príbeh o našom vzťahu</value>
+  </data>
+  <data name="OurStoryHowHeProposed" xml:space="preserve">
+    <value>Ako ma požiadal o ruku</value>
+  </data>
+  <data name="OurStoryHowHeProposedDate" xml:space="preserve">
+    <value>17. september 2016</value>
+  </data>
+  <data name="OurStoryHowHeProposedDetails1" xml:space="preserve">
+    <value>Veľmi romantické zasnúbenie...</value>
+  </data>
+  <data name="OurStoryHowHeProposedDetails2" xml:space="preserve">
+    <value>Chris ma vzal na "prekvapko" výlet do mesta Florencie v Taliansku. Zarezervoval tam prekrásny hotel s najväčšími súkromnými záhradami v Európe. Jeden deň po raňajkách sme sa vybrali do tých krásnych záhrad nafotiť zopár spomienok a... vtedy sa to stalo. S nervóznym a neurčitým hlasom sa Chris spýtal: "Vezmeš si ma?". Moja prvá odpoveď bola (to by som nebola ja) „Dúfam, že si uvedomuješ, že toto je záväzok do konca tvojho života." Urobila som malú pauzu a potom nasledovalo "Áno, vezmem si ťa!".</value>
+  </data>
+  <data name="OurStoryHowWeMet" xml:space="preserve">
+    <value>Ako sme sa spoznali</value>
+  </data>
+  <data name="OurStoryHowWeMetDate" xml:space="preserve">
+    <value>14. máj 2014</value>
+  </data>
+  <data name="OurStoryHowWeMetDetails1" xml:space="preserve">
+    <value>Ten deň všetko zmenil...</value>
+  </data>
+  <data name="OurStoryHowWeMetDetails2" xml:space="preserve">
+    <value>Berúc do úvahy momentálny celosvetový trend, ktorý ti sľubuje, že nájdeš toho pravého/tú pravú cez všetky webové a virtuálne aplikácie, my sme sa stretli v práci. Ako by iní povedali, v reálnom svete. Lenka tam už pracovala predtým, ako som nastúpil. Prišiel som na pohovor, keď som spozoroval krásnu blondýnu v červených šatách "mmm"...</value>
+  </data>
+  <data name="OurStoryNewChapter" xml:space="preserve">
+    <value>Nová kapitola sa začína</value>
+  </data>
+  <data name="OurStoryNewChapterDate" xml:space="preserve">
+    <value>26. august 2017</value>
+  </data>
+  <data name="OurStoryNewChapterDetails1" xml:space="preserve">
+    <value>A teraz sme tu...plánujeme náš špeciálny deň, ktorý nám otvorí novú životnú kapitolu, do ktorej chceme vstúpiť ako Pán a Pani obklopení tými najbližšími a najdrahšími. Sme neskutočne šťastní, že ste si našli čas prísť s nami osláviť tento výnimočný deň plný emócií.</value>
+  </data>
+  <data name="OurStoryNewChapterDetails2" xml:space="preserve">
+    <value>Ďakujeme!</value>
+  </data>
+  <data name="OurStoryOurFirstDate" xml:space="preserve">
+    <value>Naše prvé rande</value>
+  </data>
+  <data name="OurStoryOurFirstDateDate" xml:space="preserve">
+    <value>25. júl 2014</value>
+  </data>
+  <data name="OurStoryOurFirstDateDetails1" xml:space="preserve">
+    <value>To bolo dobrodružstvo...</value>
+  </data>
+  <data name="OurStoryOurFirstDateDetails2" xml:space="preserve">
+    <value>Naše prvé rande bolo "veľmi romantické". Chris pozval mňa a zopár ďalších kolegov na pohárik po práci, ale objavil sa iba Chris. Podozrivé?! Prekvapujúce?!  Každopádne, išli sme do miestnej krčmy s názvom "The Flying Horse" (Lietajúci Kôň), kde čas letel ako voda pri zaujímavom rozhovore, až som zmeškala posledné metro domov (vtedy ešte nočné metro nebolo). Chris mi preto navrhol, že ma odvezie na jeho motorke s ceduľou "Začiatočník" šoférujúc cez bočné úzke uličky, aby sa vyhol policajtom. Toto je nezabudnuteľná spomienka ...</value>
+  </data>
+  <data name="OurStoryOurFirstHoliday" xml:space="preserve">
+    <value>Naša prvá dovolenka</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDate" xml:space="preserve">
+    <value>3. december 2014</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDetails1" xml:space="preserve">
+    <value>Obloha zasvietila a zatancovala...</value>
+  </data>
+  <data name="OurStoryOurFirstHolidayDetails2" xml:space="preserve">
+    <value>Naša prvá dovolenka bola zároveň oslava Lenkiných narodenín. Mrazivá a prekrásna scenéria zeleného Islandu mala byť ďalšia čiarka na zozname nových destinácií. Hneď pri príchode sme začali teplým prameňom Modrej Lagúny. Miesto, kde sme videli polárnu žiaru, môžeme opísať iba ako miesto, kam líšky chodia dávať dobrú noc. Akoby toto celé predstavenie maľovania nočnej oblohy bolo iba pre nás dvoch. Jeden zo záverečných bodov nášho výletu bola návšteva gejzírov a zmrznutých vodopádov, kde sa nám triasli ruky a klepotali zuby od mrazu a zimy pri pokusoch urobiť zopár fotiek. Táto dovolenka bola jedným z nezabudnuteľných dobrodružstiev.</value>
+  </data>
+  <data name="OurStoryTitle" xml:space="preserve">
+    <value>Náš Príbeh</value>
+  </data>
+  <data name="RegistryDetails" xml:space="preserve">
+    <value>Rozumieme, že mnohí z Vás musia cestovať, vziať si dni voľna a vo všeobecnosti máte extra výdavky, len aby ste s nami strávili a oslávili náš svadobný deň. Pokiaľ však stále uvažujete nad svadobným darom, my sa potešíme akémukoľvek finančnému príspevku na naše medové týždne, ktoré vytvoria pre nás nové zážitky a nezabudnuteľné dobrodružstvá. Môžete tak urobiť cez link 'The Wedding Shop'.</value>
+  </data>
+  <data name="RegistryTitle" xml:space="preserve">
+    <value>Svadobné Dary</value>
+  </data>
+  <data name="RsvpCantCome" xml:space="preserve">
+    <value>Nemôžem sa zúčastniť</value>
+  </data>
+  <data name="RsvpCantWait" xml:space="preserve">
+    <value>Teším sa a prídem</value>
+  </data>
+  <data name="RsvpDetails1" xml:space="preserve">
+    <value>Prosíme, aby ste potvrdili Vašu účasť
+</value>
+  </data>
+  <data name="RsvpDetails2" xml:space="preserve">
+    <value>najneskôr do pondelka 1. mája 2017!</value>
+  </data>
+  <data name="RsvpEmail" xml:space="preserve">
+    <value>Váša emailová adresa</value>
+  </data>
+  <data name="RsvpFormError" xml:space="preserve">
+    <value>Prosím vyplňte všetky položky</value>
+  </data>
+  <data name="RsvpFormSuccess" xml:space="preserve">
+    <value>Ďakujeme za odpoveď!</value>
+  </data>
+  <data name="RsvpMealDR" xml:space="preserve">
+    <value>Potravinová intolerancia/alergia</value>
+  </data>
+  <data name="RsvpMealPreference" xml:space="preserve">
+    <value>Uprednostňujem  jedlo</value>
+  </data>
+  <data name="RsvpMealStandard" xml:space="preserve">
+    <value>Mäsité jedlo</value>
+  </data>
+  <data name="RsvpMealVeg" xml:space="preserve">
+    <value>Vegetariáske jedlo</value>
+  </data>
+  <data name="RsvpName" xml:space="preserve">
+    <value>Vaše meno / Meno Vášho spoločníka alebo spoločníčky</value>
+  </data>
+  <data name="RsvpSongRequest" xml:space="preserve">
+    <value>Pesničky na želanie?</value>
+  </data>
+  <data name="RsvpSubmitRsvp" xml:space="preserve">
+    <value>Potvrď RSVP</value>
+  </data>
+  <data name="RsvpTitle" xml:space="preserve">
+    <value>Povedz, že prídeš</value>
+  </data>
+  <data name="SaveTheDateDetails" xml:space="preserve">
+    <value>Sobota 26. augusta 2017</value>
+  </data>
+  <data name="SaveTheDateTitle" xml:space="preserve">
+    <value>Zakrúžkujte si dátum</value>
+  </data>
+  <data name="StoryAboutHer" xml:space="preserve">
+    <value>Prekrásna nevesta</value>
+  </data>
+  <data name="StoryAboutHim" xml:space="preserve">
+    <value>Pohľadný ženích</value>
+  </data>
+  <data name="StoryDetails" xml:space="preserve">
+    <value>Trocha o neveste a ženíchovi</value>
+  </data>
+  <data name="StoryTitle" xml:space="preserve">
+    <value>Príď osláviť uzavretie manželstva Lenky a Chrisa v sobotu 26. augusta 2017. 
+(Iba pre pozvaných)</value>
+  </data>
+  <data name="Timeline1" xml:space="preserve">
+    <value>Svadobný obrad</value>
+  </data>
+  <data name="Timeline2" xml:space="preserve">
+    <value>Kanapky &amp; Bublinky</value>
+  </data>
+  <data name="Timeline3" xml:space="preserve">
+    <value>Hostina a svadobné prejavy</value>
+  </data>
+  <data name="Timeline4" xml:space="preserve">
+    <value>Krájanie svadobnej torty</value>
+  </data>
+  <data name="Timeline5" xml:space="preserve">
+    <value>Tanečky</value>
+  </data>
+  <data name="Timeline6" xml:space="preserve">
+    <value>Večerný bufet</value>
+  </data>
+  <data name="Timeline7" xml:space="preserve">
+    <value>Koniec zábavy, ide sa spať…</value>
+  </data>
+  <data name="WeddingCeremony" xml:space="preserve">
+    <value>Svadobný Obrad</value>
+  </data>
+  <data name="WeddingCeremonyAddress1" xml:space="preserve">
+    <value>2 Caxton St, Westminster</value>
+  </data>
+  <data name="WeddingCeremonyAddress2" xml:space="preserve">
+    <value>Londýn SW1H 0QW</value>
+  </data>
+  <data name="WeddingCeremonyLocation" xml:space="preserve">
+    <value>The Cloisters Suite, St. Ermin's Hotel</value>
+  </data>
+  <data name="WeddingCeremonyTime" xml:space="preserve">
+    <value>14:45 - 15:45</value>
+  </data>
+  <data name="WeddingDetails" xml:space="preserve">
+    <value>"Príď osláviť uzavretie manželstva Lenky a Chrisa v sobotu 26. augusta 2017. 
+(Iba pre pozvaných)"</value>
+  </data>
+  <data name="WeddingHotelDetails" xml:space="preserve">
+    <value>Miesto konania</value>
+  </data>
+  <data name="WeddingReception" xml:space="preserve">
+    <value>Svadobná Hostina</value>
+  </data>
+  <data name="WeddingReceptionAddress1" xml:space="preserve">
+    <value>2 Caxton St, Westminster</value>
+  </data>
+  <data name="WeddingReceptionAddress2" xml:space="preserve">
+    <value>Londýn SW1H 0QW</value>
+  </data>
+  <data name="WeddingReceptionLocation" xml:space="preserve">
+    <value>Crystal Ballroom, St. Ermin's Hotel</value>
+  </data>
+  <data name="WeddingReceptionTime" xml:space="preserve">
+    <value>17:00 - 01:00</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails1" xml:space="preserve">
+    <value>V roku 1887 sa hotel St. Ermin's otvoril ako budova poskytujúca luxusné apartmány a v roku 1899 sa celá nehnuteľnosť prebudovala na luxusný hotel. Vynikajúci divadelný architekt J.P. Briggs navrhol konferenčné a schôdzkové miestnosti v zámožnom štýle vtedy viktoriánskej módy a tiež predtavil štýl moderného komfortu. Namiesto používania zvončekov sa telefóny zaviedli do každej hosťovskej izby, čo bol krok vpred. Hotel St. Ermin's sa stal vyhľadávaným miestom rôznymi dôležitými osobnosťami, ako vtedajšie celebrity, členovia parlamentu a iné politické osobnosti.</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails2" xml:space="preserve">
+    <value>Winston Churchill zorganizoval v hoteli St. Ermin's dôležité historické stretnutie v roku 1940. Požiadal skupinu pozoruhodných ľudí, aby sa pripojili k jeho nariadeniu 'Setting Europe Ablaze'. Táto elitná skupina sa tak mala stať zakladateľmi, 'SOE - Special Operations Executive', špeciálnej informačnej služby. Táto informačná jednotka plnila tajné operácie počas 2. svetovej vojny z ich hlavného veliteľstva, ktoré sa nachádzalo na jednom celom poschodí v hoteli St. Ermin's, kým britská tajná služba MI6 sídlila o dve poschodia vyššie. SOE agenti tlačili tajné zakódované správy na kúsky hodvábu. Jeden z originálnych kúskov sa nachádza vo vestibule hotela. Choď sa pozrieť a skús dešifrovať tajný kód. V 50-tych rokoch, špeciálny agent Guy Burgess (člen neslávne známej skupiny takzvanej 'Cambridge Five') odovzdal tajné papiere ruskému oponentovi v hotelovom bare Caxton.</value>
+  </data>
+  <data name="WeddingStErminsHotelDetails3" xml:space="preserve">
+    <value>Hotel St. Ermin’s naďalej zohráva významnú úlohu v histórii Londýna. Chýri sa, že pod hlavným hotelovým schodiskom sa nachádza tunel, ktorý vedie až do snemovne parlamentu.</value>
+  </data>
+  <data name="WeddingTimelineDetails" xml:space="preserve">
+    <value>Trošku o tom, čo vás čaká…</value>
+  </data>
+  <data name="WeddingTimelineTitle" xml:space="preserve">
+    <value>Program svadobného dňa</value>
   </data>
 </root>
